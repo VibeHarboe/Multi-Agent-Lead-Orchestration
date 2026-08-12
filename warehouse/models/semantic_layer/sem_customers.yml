@@ -1,0 +1,37 @@
+version: 2
+
+# Dimension-only semantic model. Other semantic models (subscriptions,
+# nps_surveys, ...) join to this via the shared `customer` entity, so their
+# metrics can be sliced by country / segment / plan_type even though those
+# columns live only on stg_customers. No measures: stg_customers has no event
+# date to use as an aggregation time dimension.
+
+semantic_models:
+  - name: customers
+    description: >
+      Customer dimension. Source of the shared cross-domain dimensions
+      (country, segment, plan_type, region). One row per customer across the
+      six markets DK, NO, SE, DE, NL, US.
+    model: ref('stg_customers')
+
+    entities:
+      - name: customer
+        type: primary
+        expr: customer_id
+      - name: partner
+        type: foreign
+        expr: partner_id
+
+    dimensions:
+      - name: country
+        type: categorical
+        description: "ISO-2 market code. One of DK, NO, SE, DE, NL, US."
+      - name: segment
+        type: categorical
+        description: "Customer size segment: SMB, MID, ENT."
+      - name: plan_type
+        type: categorical
+        description: "Subscription plan at signup: basic, premium, enterprise."
+      - name: region
+        type: categorical
+        description: "High-level geographic region derived from country."

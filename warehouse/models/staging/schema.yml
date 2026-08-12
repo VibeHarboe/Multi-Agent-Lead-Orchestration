@@ -1,0 +1,525 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: >
+      Staged customer records sourced from the raw customers seed.
+      Each row represents one unique customer across all six markets
+      (DK, NO, SE, DE, NL, US). Includes derived fields for tenure
+      and region grouping.
+    columns:
+      - name: customer_id
+        description: Primary key — unique identifier for each customer.
+        tests:
+          - unique
+          - not_null
+      - name: customer_name
+        description: Legal trading name of the customer.
+        tests:
+          - not_null
+      - name: country
+        description: ISO 2-letter country code for the customer's market.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['DK', 'NO', 'SE', 'DE', 'NL', 'US']
+      - name: segment
+        description: Customer size segment — SMB, MID, or ENT.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['SMB', 'MID', 'ENT']
+      - name: plan_type
+        description: Subscription plan at signup.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['basic', 'premium', 'enterprise']
+      - name: mrr
+        description: Monthly recurring revenue in local currency units.
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
+                strictly: true
+      - name: partner_id
+        description: Foreign key to the referring partner, if any.
+      - name: tenure_days
+        description: Number of days since the customer signed up.
+      - name: region
+        description: High-level geographic region derived from country.
+
+  - name: stg_subscriptions
+    description: >
+      Staged subscription records. Each row is one subscription lifecycle
+      event, including active subscriptions and historical churn events.
+    columns:
+      - name: subscription_id
+        description: Primary key.
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        description: Foreign key to stg_customers.
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_customers')
+                field: customer_id
+      - name: plan_type
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['basic', 'premium', 'enterprise']
+      - name: mrr
+        description: MRR at time of subscription.
+        tests:
+          - not_null
+      - name: is_active
+        description: True if subscription has no end or churn date.
+        tests:
+          - not_null
+      - name: is_churned
+        description: True if a churn_date is recorded.
+        tests:
+          - not_null
+      - name: churn_reason
+        description: >
+          Self-reported reason for cancellation. Null for active subs.
+          Valid values: price_too_high, competitor, not_using.
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['price_too_high', 'competitor', 'not_using']
+                quote: true
+              config:
+                where: "churn_reason is not null"
+
+  - name: stg_leads
+    description: >
+      Staged lead / service-request records. One row per inbound lead.
+      Tracks assignment and conversion timestamps used for SLA reporting
+      and supply-demand analysis.
+    columns:
+      - name: lead_id
+        description: Primary key.
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
+      - name: country
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['DK', 'NO', 'SE', 'DE', 'NL', 'US']
+      - name: lead_status
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['converted', 'pending', 'unassigned', 'lost']
+      - name: is_converted
+        tests:
+          - not_null
+      - name: hours_to_assign
+        description: Hours between lead creation and assignment. Null if unassigned.
+      - name: days_to_convert
+        description: Days between lead creation and conversion. Null if not converted.
+
+  - name: stg_invoices
+    description: >
+      Staged invoice records. Includes computed overdue flags and days_overdue
+      used across the debt collection KPI mart.
+    columns:
+      - name: invoice_id
+        description: Primary key.
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_customers')
+                field: customer_id
+      - name: amount
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
+                strictly: true
+      - name: status
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['paid', 'overdue', 'paid_late']
+      - name: days_overdue
+        description: Days past due date. 0 for on-time payments.
+      - name: is_currently_overdue
+        description: True if invoice is unpaid past due date today.
+
+  - name: stg_partners
+    description: >
+      Staged partner master data. Each row is one partner organisation
+      with contract terms and commission rates.
+    columns:
+      - name: partner_id
+        description: Primary key.
+        tests:
+          - unique
+          - not_null
+      - name: commission_rate
+        description: Decimal commission applied on MRR from referred customers.
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
+                max_value: 1
+                strictly: false
+      - name: status
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['active', 'inactive']
+
+  - name: stg_nps_surveys
+    description: >
+      Staged NPS and CSAT survey responses. Each row is one survey response
+      from one customer. Includes derived NPS category classification.
+    columns:
+      - name: survey_id
+        description: Primary key.
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
+      - name: nps_score
+        description: NPS score 0–10.
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
+                max_value: 10
+      - name: csat_score
+        description: CSAT score 1–5.
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 1
+                max_value: 5
+      - name: nps_category
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['promoter', 'passive', 'detractor']
+
+  - name: stg_upsell_events
+    description: >
+      Staged upsell and add-on events. Each row is one successful upsell
+      action — either a plan upgrade or add-on sale.
+    columns:
+      - name: upsell_id
+        description: Primary key.
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_customers')
+                field: customer_id
+      - name: upsell_type
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['plan_upgrade', 'add_on_sale', 'unknown']
+      - name: incremental_revenue
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
+                strictly: false
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # Rebuild 3 orchestration-extension tables
+  # ─────────────────────────────────────────────────────────────────────────
+
+  - name: stg_referring_partners
+    description: >
+      Ambassador / referring partners — accounting firms, tax advisors and
+      bookkeeping services that spot SMB inquiries in the wild and refer them
+      into the NordLedger Marketplace (the Billy-analog). One row per referring
+      partner organisation.
+    columns:
+      - name: referring_partner_id
+        description: Primary key — unique identifier for the referring partner.
+        tests:
+          - unique
+          - not_null
+      - name: country
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['DK', 'NO', 'SE', 'DE', 'NL', 'US']
+      - name: referring_partner_type
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['accounting_firm', 'tax_advisor', 'bookkeeping_service']
+      - name: monthly_fee_paid
+        description: Flat monthly retainer paid to the referring partner (0 for pay-per-lead only).
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
+                strictly: false
+      - name: status
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['active', 'inactive']
+
+  - name: stg_referral_leads
+    description: >
+      Inbound referrals — the event stream the LangGraph processes. Each row
+      is one referral inquiry sent by a referring partner. `customer_id` is
+      NULL for referrals that never converted (lost or still in pipeline)
+      and filled once a booking closes and the SMB becomes a customer.
+    columns:
+      - name: referral_lead_id
+        tests:
+          - unique
+          - not_null
+      - name: referring_partner_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_referring_partners')
+                field: referring_partner_id
+      - name: country
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['DK', 'NO', 'SE', 'DE', 'NL', 'US']
+      - name: referral_status
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['pending', 'matching', 'negotiating', 'booked', 'lost']
+      - name: urgency
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['low', 'medium', 'high']
+      - name: deal_size_estimate
+        description: Estimated SMB spend (annual, local currency).
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
+                strictly: false
+
+  - name: stg_partner_capacity
+    description: >
+      Live daily capacity snapshot per fulfillment partner. Read by the
+      Matching Agent via `partner_capacity_mcp.list_candidates` — the
+      hard cap here is enforced server-side, not left to the LLM.
+    columns:
+      - name: partner_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_partners')
+                field: partner_id
+      - name: snapshot_date
+        tests:
+          - not_null
+      - name: active_deals_count
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
+                strictly: false
+      - name: soft_cap
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 1
+                strictly: false
+      - name: hard_cap
+        tests:
+          - not_null
+
+  - name: stg_partner_specializations
+    description: >
+      The join dimension that lets the Matching Agent narrow candidates by
+      industry × service_type. Strength score (0–100) reflects historical
+      close-rate on that combination.
+    columns:
+      - name: partner_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_partners')
+                field: partner_id
+      - name: industry
+        tests:
+          - not_null
+      - name: service_type
+        tests:
+          - not_null
+      - name: strength_score
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
+                max_value: 100
+
+  - name: stg_deal_events
+    description: >
+      The audit spine — one row per LangGraph transition per referral.
+      Written live by the graph and `crm_mock_mcp` at runtime; seeded here
+      with the historical event stream for the initial simulation window.
+    columns:
+      - name: event_id
+        tests:
+          - unique
+          - not_null
+      - name: referral_lead_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_referral_leads')
+                field: referral_lead_id
+      - name: event_type
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['classified', 'matched', 'hold_capacity', 'outreach_sent',
+                         'reply_received', 'booked', 'lost', 'escalated_to_hitl',
+                         'resolved', 'note']
+      - name: agent_name
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['intake', 'matching', 'negotiation', 'monitor', 'hitl']
+
+  - name: stg_partner_engagement_daily
+    description: >
+      Rolling engagement rollup for fulfillment partners — the source data the
+      Monitor Agent's churn-risk score is computed on top of. `churn_risk_score`
+      is stored here as a nightly snapshot for the current build; a future
+      version could materialise it as a mart derived from the raw signals.
+    columns:
+      - name: partner_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_partners')
+                field: partner_id
+      - name: snapshot_date
+        tests:
+          - not_null
+      - name: churn_risk_score
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
+                max_value: 100
+
+  - name: stg_referring_partner_engagement_daily
+    description: >
+      Rolling engagement rollup for referring partners — symmetrical to the
+      fulfillment side. Catches "Billy is sending fewer/worse leads" as a
+      churn precursor on the ambassador side.
+    columns:
+      - name: referring_partner_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_referring_partners')
+                field: referring_partner_id
+      - name: snapshot_date
+        tests:
+          - not_null
+      - name: conversion_rate_pct
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
+                max_value: 100
+      - name: churn_risk_score
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
+                max_value: 100
+
+  - name: stg_partner_status_events
+    description: >
+      Audit trail for partner activate / deactivate events. Includes HITL-driven
+      reactivations from the manager console. Every status change is written
+      here as an immutable event.
+    columns:
+      - name: event_id
+        tests:
+          - unique
+          - not_null
+      - name: partner_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_partners')
+                field: partner_id
+      - name: prior_status
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['active', 'inactive']
+      - name: new_status
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['active', 'inactive']
+      - name: changed_by
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['system', 'manager', 'hitl']

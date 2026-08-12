@@ -1,0 +1,190 @@
+version: 2
+
+# Supply & Demand KPI metrics — the agent's query surface for lead volume,
+# assignment SLA and conversion. meta.level = operation (whiteboard taxonomy).
+
+metrics:
+  - name: total_leads
+    label: "Total Leads"
+    description: "Count of inbound leads in scope."
+    type: simple
+    type_params:
+      measure: total_leads
+    config:
+      meta:
+        level: operation
+        owner: "BI / Vibe"
+        source_mart: mart_supply_demand
+
+  - name: converted_leads
+    label: "Converted Leads"
+    description: "Count of leads that converted to a customer."
+    type: simple
+    type_params:
+      measure: converted_leads
+    config:
+      meta:
+        level: operation
+        owner: "BI / Vibe"
+        source_mart: mart_supply_demand
+
+  - name: unassigned_leads
+    label: "Unassigned Leads"
+    description: "Count of leads still unassigned — direct supply-gap signal."
+    type: simple
+    type_params:
+      measure: unassigned_leads
+    config:
+      meta:
+        level: operation
+        owner: "BI / Vibe"
+        source_mart: mart_supply_demand
+
+  - name: sla_breaches
+    label: "SLA Breaches"
+    description: "Count of leads assigned more than 24h after creation."
+    type: simple
+    type_params:
+      measure: sla_breaches
+    config:
+      meta:
+        level: operation
+        owner: "BI / Vibe"
+        source_mart: mart_supply_demand
+
+  - name: conversion_rate
+    label: "Lead Conversion Rate"
+    description: >
+      Percentage of leads that converted to a customer:
+      converted_leads / total_leads * 100.
+    type: derived
+    type_params:
+      expr: "converted / nullif(total, 0) * 100"
+      metrics:
+        - name: converted_leads
+          alias: converted
+        - name: total_leads
+          alias: total
+    config:
+      meta:
+        level: operation
+        owner: "BI / Vibe"
+        source_mart: mart_supply_demand
+        definition_version: "v1"
+
+  - name: assignment_rate
+    label: "Lead Assignment Rate"
+    description: >
+      Percentage of leads that were assigned to an advisor:
+      assigned_leads / total_leads * 100.
+    type: derived
+    type_params:
+      expr: "assigned / nullif(total, 0) * 100"
+      metrics:
+        - name: assigned_leads
+          alias: assigned
+        - name: total_leads
+          alias: total
+    config:
+      meta:
+        level: operation
+        owner: "BI / Vibe"
+        source_mart: mart_supply_demand
+        definition_version: "v1"
+
+  - name: sla_breach_rate
+    label: "SLA Breach Rate"
+    description: >
+      Percentage of assigned leads that breached the 24h assignment SLA:
+      sla_breaches / assigned_leads * 100. Ageras target: 0%.
+    type: derived
+    type_params:
+      expr: "breaches / nullif(assigned, 0) * 100"
+      metrics:
+        - name: sla_breaches
+          alias: breaches
+        - name: assigned_leads
+          alias: assigned
+    config:
+      meta:
+        level: operation
+        owner: "BI / Vibe"
+        target: "0%"
+        source_mart: mart_supply_demand
+        definition_version: "v1"
+
+  - name: assigned_leads
+    label: "Assigned Leads"
+    description: "Count of leads assigned to an advisor. Building block for rate metrics."
+    type: simple
+    type_params:
+      measure: assigned_leads
+    config:
+      meta:
+        level: operation
+        owner: "BI / Vibe"
+        source_mart: mart_supply_demand
+
+  - name: hours_to_assign_total
+    label: "Total Hours to Assign"
+    description: "Sum of hours-to-assign across assigned leads. Building block for avg_hours_to_assign."
+    type: simple
+    type_params:
+      measure: hours_to_assign_total
+    config:
+      meta:
+        level: operation
+        owner: "BI / Vibe"
+        source_mart: mart_supply_demand
+
+  - name: days_to_convert_total
+    label: "Total Days to Convert"
+    description: "Sum of days-to-convert across converted leads. Building block for avg_days_to_convert."
+    type: simple
+    type_params:
+      measure: days_to_convert_total
+    config:
+      meta:
+        level: operation
+        owner: "BI / Vibe"
+        source_mart: mart_supply_demand
+
+  - name: avg_hours_to_assign
+    label: "Average Hours to Assign"
+    description: >
+      Average hours between lead creation and assignment, assigned leads only:
+      hours_to_assign_total / assigned_leads.
+    type: derived
+    type_params:
+      expr: "hours_total / nullif(assigned, 0)"
+      metrics:
+        - name: hours_to_assign_total
+          alias: hours_total
+        - name: assigned_leads
+          alias: assigned
+    config:
+      meta:
+        level: operation
+        owner: "BI / Vibe"
+        source_mart: mart_supply_demand
+        definition_version: "v1"
+
+  - name: avg_days_to_convert
+    label: "Average Days to Convert"
+    description: >
+      Average days between lead creation and conversion, converted leads only:
+      days_to_convert_total / converted_leads.
+    type: derived
+    type_params:
+      expr: "days_total / nullif(converted, 0)"
+      metrics:
+        - name: days_to_convert_total
+          alias: days_total
+        - name: converted_leads
+          alias: converted
+    config:
+      meta:
+        level: operation
+        owner: "BI / Vibe"
+        source_mart: mart_supply_demand
+        definition_version: "v1"

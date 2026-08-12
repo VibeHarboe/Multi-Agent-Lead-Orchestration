@@ -1,0 +1,2 @@
+event_id,partner_id,prior_status,new_status,event_at,reason,changed_by
+SE00001,P018,active,inactive,2024-08-01,auto-deactivation after 90d capacity-underutilisation,system

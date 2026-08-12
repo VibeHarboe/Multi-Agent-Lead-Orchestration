@@ -1,0 +1,56 @@
+version: 2
+
+semantic_models:
+  - name: nps_surveys
+    description: >
+      One row per NPS/CSAT survey response. Joins to the customers semantic
+      model via the `customer` entity, so NPS and CSAT can be sliced by
+      country, segment and plan_type even though those columns live on
+      stg_customers.
+    model: ref('stg_nps_surveys')
+
+    defaults:
+      agg_time_dimension: surveyed_at
+
+    entities:
+      - name: survey
+        type: primary
+        expr: survey_id
+      - name: customer
+        type: foreign
+        expr: customer_id
+
+    dimensions:
+      - name: surveyed_at
+        type: time
+        expr: survey_date
+        type_params:
+          time_granularity: day
+      - name: nps_category
+        type: categorical
+        description: >
+          NPS classification: promoter (score >= 9), passive (7-8),
+          detractor (<= 6). Thresholds from dbt vars nps_high_score /
+          nps_low_score.
+
+    measures:
+      - name: survey_responses
+        description: "Count of survey responses."
+        agg: count
+        expr: survey_id
+      - name: promoters
+        description: "Count of responses categorised as promoter (NPS >= 9)."
+        agg: sum
+        expr: "case when nps_category = 'promoter' then 1 else 0 end"
+      - name: passives
+        description: "Count of responses categorised as passive (NPS 7-8)."
+        agg: sum
+        expr: "case when nps_category = 'passive' then 1 else 0 end"
+      - name: detractors
+        description: "Count of responses categorised as detractor (NPS <= 6)."
+        agg: sum
+        expr: "case when nps_category = 'detractor' then 1 else 0 end"
+      - name: satisfied_responses
+        description: "Count of responses rating satisfaction 4 or 5 of 5."
+        agg: sum
+        expr: "case when is_satisfied then 1 else 0 end"

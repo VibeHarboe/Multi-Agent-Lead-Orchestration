@@ -1,0 +1,19 @@
+partner_id,partner_name,country,partner_type,contract_start_date,monthly_fee,commission_rate,status
+P001,Nielsen Group,DK,advisory_firm,2018-04-05,20066,0.07,active
+P002,Mortensen Group,DK,bookkeeping_service,2017-01-03,11582,0.09,active
+P003,Holm Group,DK,audit_firm,2021-07-08,15359,0.13,active
+P004,Berg Partners,NO,bookkeeping_service,2019-05-05,11527,0.17,active
+P005,Andersen Group,NO,accounting_firm,2020-02-12,21885,0.1,active
+P006,Larsen Group,NO,bookkeeping_service,2021-02-13,9291,0.13,inactive
+P007,Holm Associates,SE,audit_firm,2017-01-22,11733,0.15,active
+P008,Lindqvist Partners,SE,accounting_firm,2020-05-15,18415,0.16,active
+P009,Svensson Associates,SE,advisory_firm,2018-11-09,19498,0.17,active
+P010,Weber Partners,DE,audit_firm,2018-08-13,12422,0.18,active
+P011,Schäfer Partners,DE,advisory_firm,2017-04-27,8525,0.16,active
+P012,Becker Associates,DE,accounting_firm,2018-10-23,13155,0.09,active
+P013,Meijer Firm,NL,bookkeeping_service,2018-05-05,12040,0.15,active
+P014,De Boer Associates,NL,bookkeeping_service,2021-07-12,11593,0.18,active
+P015,Hendriks Firm,NL,accounting_firm,2017-02-05,18280,0.08,active
+P016,Wilson Group,US,bookkeeping_service,2020-10-15,16669,0.09,active
+P017,Taylor Group,US,accounting_firm,2021-05-25,18501,0.1,inactive
+P018,Miller Firm,US,audit_firm,2020-01-24,19791,0.09,inactive

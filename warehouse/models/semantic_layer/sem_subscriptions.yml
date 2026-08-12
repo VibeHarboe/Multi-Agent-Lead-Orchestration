@@ -1,0 +1,76 @@
+version: 2
+
+semantic_models:
+  - name: subscriptions
+    description: >
+      One row per subscription lifecycle. Source for all churn metrics.
+      Slice churn metrics by country, plan_type or churn_reason for the
+      decision-useful views, or by customer__segment / customer__region via
+      the joined customers semantic model.
+    model: ref('stg_subscriptions')
+
+    defaults:
+      agg_time_dimension: started_at
+
+    entities:
+      - name: subscription
+        type: primary
+        expr: subscription_id
+      - name: customer
+        type: foreign
+        expr: customer_id
+
+    dimensions:
+      - name: started_at
+        type: time
+        expr: start_date
+        type_params:
+          time_granularity: day
+      - name: churned_at
+        type: time
+        expr: churn_date
+        type_params:
+          time_granularity: day
+        description: "Month a subscription churned. Null for active subscriptions."
+      - name: country
+        type: categorical
+      - name: plan_type
+        type: categorical
+      - name: churn_reason
+        type: categorical
+        description: >
+          Self-reported cancellation reason: price_too_high, competitor,
+          not_using. Null for active subscriptions.
+      - name: is_active
+        type: categorical
+      - name: is_churned
+        type: categorical
+
+    measures:
+      - name: subscriptions_count
+        description: "Count of subscription records."
+        agg: count
+        expr: subscription_id
+      - name: churned_subscriptions
+        description: "Count of subscriptions with a recorded churn_date."
+        agg: sum
+        expr: "case when is_churned then 1 else 0 end"
+      - name: active_subscriptions
+        description: "Count of currently active subscriptions (no churn_date, no end_date)."
+        agg: sum
+        expr: "case when is_active then 1 else 0 end"
+      - name: churned_mrr_amount
+        description: "Sum of MRR lost to churn."
+        agg: sum
+        expr: "case when is_churned then mrr else 0 end"
+      - name: active_mrr_amount
+        description: "Sum of MRR from active subscriptions."
+        agg: sum
+        expr: "case when is_active then mrr else 0 end"
+      - name: tenure_days_at_churn
+        description: >
+          Sum of days between start_date and churn_date, churned subs only.
+          Building block for avg_tenure_at_churn — pair with
+          churned_subscriptions to get the average.
+        agg: sum
+        expr: "case when is_churned then date_diff('day', start_date, churn_date) else null end"

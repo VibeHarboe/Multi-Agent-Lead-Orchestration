@@ -1,0 +1,83 @@
+version: 2
+
+semantic_models:
+  - name: invoices
+    description: >
+      One row per invoice. Source for the Debt Collection domain — outstanding
+      debt, DSO, overdue and recovery rates, aging buckets. Joins to the
+      customers semantic model via the `customer` entity for segment slicing.
+    model: ref('stg_invoices')
+
+    defaults:
+      agg_time_dimension: issued_at
+
+    entities:
+      - name: invoice
+        type: primary
+        expr: invoice_id
+      - name: customer
+        type: foreign
+        expr: customer_id
+
+    dimensions:
+      - name: issued_at
+        type: time
+        expr: issue_date
+        type_params:
+          time_granularity: day
+      - name: due_at
+        type: time
+        expr: due_date
+        type_params:
+          time_granularity: day
+      - name: paid_at
+        type: time
+        expr: paid_date
+        type_params:
+          time_granularity: day
+        description: "Date the invoice was paid. Null if still unpaid."
+      - name: country
+        type: categorical
+      - name: status
+        type: categorical
+        description: "Invoice status: paid, overdue, paid_late."
+      - name: aging_bucket
+        type: categorical
+        description: >
+          Overdue aging bucket for currently-overdue invoices: 1-30, 31-60,
+          61-90, 90+ days. 'current' for non-overdue invoices.
+        expr: "case when is_currently_overdue and days_overdue between 1 and 30 then '1-30 days' when is_currently_overdue and days_overdue between 31 and 60 then '31-60 days' when is_currently_overdue and days_overdue between 61 and 90 then '61-90 days' when is_currently_overdue and days_overdue > 90 then '90+ days' else 'current' end"
+
+    measures:
+      - name: total_invoices
+        description: "Count of invoices."
+        agg: count
+        expr: invoice_id
+      - name: total_invoiced_amount
+        description: "Sum of invoiced amounts."
+        agg: sum
+        expr: amount
+      - name: overdue_invoice_count
+        description: "Count of currently-overdue invoices."
+        agg: sum
+        expr: "case when is_currently_overdue then 1 else 0 end"
+      - name: overdue_amount
+        description: "Sum of amounts on currently-overdue invoices."
+        agg: sum
+        expr: "case when is_currently_overdue then amount else 0 end"
+      - name: paid_late_count
+        description: "Count of invoices that were eventually paid, but late."
+        agg: sum
+        expr: "case when status = 'paid_late' then 1 else 0 end"
+      - name: paid_late_amount
+        description: "Sum of amounts on invoices paid late."
+        agg: sum
+        expr: "case when status = 'paid_late' then amount else 0 end"
+      - name: paid_ontime_count
+        description: "Count of invoices paid on time."
+        agg: sum
+        expr: "case when status = 'paid' then 1 else 0 end"
+      - name: days_overdue_total
+        description: "Sum of days_overdue across currently-overdue invoices. Building block for avg_days_overdue."
+        agg: sum
+        expr: "case when is_currently_overdue then days_overdue else null end"

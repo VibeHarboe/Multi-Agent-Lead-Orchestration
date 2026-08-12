@@ -1,0 +1,2593 @@
+survey_id,customer_id,survey_date,nps_score,csat_score,country,comment
+SV00001,C00229,2023-01-28,9,4,DK,Fremragende service og hurtig respons
+SV00002,C00180,2023-01-11,9,5,DK,Fremragende service og hurtig respons
+SV00003,C00150,2023-01-21,9,4,DK,Fremragende service og hurtig respons
+SV00004,C00025,2023-01-16,9,4,DK,Fremragende service og hurtig respons
+SV00005,C00134,2023-01-11,8,3,DK,"God service, men kan forbedres"
+SV00006,C00033,2023-01-11,5,1,DK,Ikke tilfreds med serviceniveauet
+SV00007,C00125,2023-01-01,9,4,DK,Fremragende service og hurtig respons
+SV00008,C00243,2023-01-13,8,3,DK,"God service, men kan forbedres"
+SV00009,C00162,2023-01-18,10,4,DK,Fremragende service og hurtig respons
+SV00010,C00039,2023-01-07,5,1,DK,Ikke tilfreds med serviceniveauet
+SV00011,C00208,2023-01-09,8,3,DK,"God service, men kan forbedres"
+SV00012,C00008,2023-01-14,10,4,DK,Fremragende service og hurtig respons
+SV00013,C00203,2023-01-13,6,3,DK,Ikke tilfreds med serviceniveauet
+SV00014,C00063,2023-01-08,10,5,DK,Fremragende service og hurtig respons
+SV00015,C00286,2023-01-26,9,4,DK,Fremragende service og hurtig respons
+SV00016,C00155,2023-01-16,9,5,DK,Fremragende service og hurtig respons
+SV00017,C00151,2023-01-01,8,3,DK,"God service, men kan forbedres"
+SV00018,C00002,2023-01-15,7,4,DK,"God service, men kan forbedres"
+SV00019,C00066,2023-02-26,7,3,DK,"God service, men kan forbedres"
+SV00020,C00023,2023-02-06,9,5,DK,Fremragende service og hurtig respons
+SV00021,C00195,2023-02-09,8,3,DK,"God service, men kan forbedres"
+SV00022,C00215,2023-02-02,6,2,DK,Ikke tilfreds med serviceniveauet
+SV00023,C00244,2023-02-25,8,4,DK,"God service, men kan forbedres"
+SV00024,C00035,2023-02-09,9,4,DK,Fremragende service og hurtig respons
+SV00025,C00030,2023-02-21,7,4,DK,"God service, men kan forbedres"
+SV00026,C00131,2023-02-09,10,4,DK,Fremragende service og hurtig respons
+SV00027,C00111,2023-02-13,9,5,DK,Fremragende service og hurtig respons
+SV00028,C00126,2023-02-27,8,3,DK,"God service, men kan forbedres"
+SV00029,C00198,2023-02-23,10,4,DK,Fremragende service og hurtig respons
+SV00030,C00286,2023-02-19,10,4,DK,Fremragende service og hurtig respons
+SV00031,C00228,2023-02-23,10,5,DK,Fremragende service og hurtig respons
+SV00032,C00231,2023-02-11,5,2,DK,Ikke tilfreds med serviceniveauet
+SV00033,C00120,2023-02-07,10,4,DK,Fremragende service og hurtig respons
+SV00034,C00264,2023-02-01,10,5,DK,Fremragende service og hurtig respons
+SV00035,C00273,2023-02-16,4,2,DK,Ikke tilfreds med serviceniveauet
+SV00036,C00232,2023-02-28,9,5,DK,Fremragende service og hurtig respons
+SV00037,C00008,2023-03-08,2,2,DK,Ikke tilfreds med serviceniveauet
+SV00038,C00266,2023-03-28,7,4,DK,"God service, men kan forbedres"
+SV00039,C00197,2023-03-21,3,3,DK,Ikke tilfreds med serviceniveauet
+SV00040,C00099,2023-03-14,9,5,DK,Fremragende service og hurtig respons
+SV00041,C00212,2023-03-12,10,5,DK,Fremragende service og hurtig respons
+SV00042,C00031,2023-03-01,8,4,DK,"God service, men kan forbedres"
+SV00043,C00028,2023-03-26,9,4,DK,Fremragende service og hurtig respons
+SV00044,C00206,2023-03-03,10,4,DK,Fremragende service og hurtig respons
+SV00045,C00169,2023-03-06,9,5,DK,Fremragende service og hurtig respons
+SV00046,C00272,2023-03-27,10,4,DK,Fremragende service og hurtig respons
+SV00047,C00150,2023-03-01,6,1,DK,Ikke tilfreds med serviceniveauet
+SV00048,C00245,2023-03-12,8,3,DK,"God service, men kan forbedres"
+SV00049,C00200,2023-03-12,7,4,DK,"God service, men kan forbedres"
+SV00050,C00078,2023-03-12,9,5,DK,Fremragende service og hurtig respons
+SV00051,C00238,2023-03-26,10,4,DK,Fremragende service og hurtig respons
+SV00052,C00017,2023-03-25,10,5,DK,Fremragende service og hurtig respons
+SV00053,C00182,2023-03-27,10,5,DK,Fremragende service og hurtig respons
+SV00054,C00111,2023-03-25,8,4,DK,"God service, men kan forbedres"
+SV00055,C00078,2023-04-26,10,4,DK,Fremragende service og hurtig respons
+SV00056,C00325,2023-04-28,8,3,DK,"God service, men kan forbedres"
+SV00057,C00067,2023-04-09,8,4,DK,"God service, men kan forbedres"
+SV00058,C00217,2023-04-07,6,3,DK,Ikke tilfreds med serviceniveauet
+SV00059,C00075,2023-04-16,10,4,DK,Fremragende service og hurtig respons
+SV00060,C00144,2023-04-02,9,5,DK,Fremragende service og hurtig respons
+SV00061,C00044,2023-04-02,10,4,DK,Fremragende service og hurtig respons
+SV00062,C00173,2023-04-18,10,4,DK,Fremragende service og hurtig respons
+SV00063,C00154,2023-04-19,7,3,DK,"God service, men kan forbedres"
+SV00064,C00238,2023-04-05,8,4,DK,"God service, men kan forbedres"
+SV00065,C00038,2023-04-11,7,4,DK,"God service, men kan forbedres"
+SV00066,C00327,2023-04-23,1,3,DK,Ikke tilfreds med serviceniveauet
+SV00067,C00126,2023-04-28,10,5,DK,Fremragende service og hurtig respons
+SV00068,C00216,2023-04-11,9,5,DK,Fremragende service og hurtig respons
+SV00069,C00223,2023-04-03,10,4,DK,Fremragende service og hurtig respons
+SV00070,C00137,2023-04-24,9,4,DK,Fremragende service og hurtig respons
+SV00071,C00075,2023-04-02,4,2,DK,Ikke tilfreds med serviceniveauet
+SV00072,C00092,2023-04-01,10,4,DK,Fremragende service og hurtig respons
+SV00073,C00148,2023-05-22,9,4,DK,Fremragende service og hurtig respons
+SV00074,C00030,2023-05-04,9,5,DK,Fremragende service og hurtig respons
+SV00075,C00122,2023-05-26,10,4,DK,Fremragende service og hurtig respons
+SV00076,C00348,2023-05-07,6,3,DK,Ikke tilfreds med serviceniveauet
+SV00077,C00153,2023-05-08,7,4,DK,"God service, men kan forbedres"
+SV00078,C00114,2023-05-10,9,5,DK,Fremragende service og hurtig respons
+SV00079,C00344,2023-05-14,10,4,DK,Fremragende service og hurtig respons
+SV00080,C00047,2023-05-06,7,3,DK,"God service, men kan forbedres"
+SV00081,C00277,2023-05-08,3,3,DK,Ikke tilfreds med serviceniveauet
+SV00082,C00003,2023-05-02,9,4,DK,Fremragende service og hurtig respons
+SV00083,C00258,2023-05-19,1,2,DK,Ikke tilfreds med serviceniveauet
+SV00084,C00233,2023-05-24,8,4,DK,"God service, men kan forbedres"
+SV00085,C00118,2023-05-26,10,5,DK,Fremragende service og hurtig respons
+SV00086,C00228,2023-05-28,10,5,DK,Fremragende service og hurtig respons
+SV00087,C00178,2023-05-13,10,5,DK,Fremragende service og hurtig respons
+SV00088,C00094,2023-05-10,8,3,DK,"God service, men kan forbedres"
+SV00089,C00364,2023-05-09,9,5,DK,Fremragende service og hurtig respons
+SV00090,C00053,2023-05-09,7,4,DK,"God service, men kan forbedres"
+SV00091,C00192,2023-06-07,9,4,DK,Fremragende service og hurtig respons
+SV00092,C00352,2023-06-22,9,5,DK,Fremragende service og hurtig respons
+SV00093,C00377,2023-06-17,10,5,DK,Fremragende service og hurtig respons
+SV00094,C00019,2023-06-26,0,2,DK,Ikke tilfreds med serviceniveauet
+SV00095,C00001,2023-06-05,8,4,DK,"God service, men kan forbedres"
+SV00096,C00012,2023-06-14,9,5,DK,Fremragende service og hurtig respons
+SV00097,C00361,2023-06-13,8,4,DK,"God service, men kan forbedres"
+SV00098,C00147,2023-06-04,10,4,DK,Fremragende service og hurtig respons
+SV00099,C00078,2023-06-10,8,4,DK,"God service, men kan forbedres"
+SV00100,C00307,2023-06-04,8,4,DK,"God service, men kan forbedres"
+SV00101,C00340,2023-06-08,5,2,DK,Ikke tilfreds med serviceniveauet
+SV00102,C00114,2023-06-05,10,5,DK,Fremragende service og hurtig respons
+SV00103,C00042,2023-06-02,7,4,DK,"God service, men kan forbedres"
+SV00104,C00076,2023-06-14,10,5,DK,Fremragende service og hurtig respons
+SV00105,C00078,2023-06-12,9,4,DK,Fremragende service og hurtig respons
+SV00106,C00260,2023-06-08,5,2,DK,Ikke tilfreds med serviceniveauet
+SV00107,C00226,2023-06-20,9,5,DK,Fremragende service og hurtig respons
+SV00108,C00181,2023-06-25,9,4,DK,Fremragende service og hurtig respons
+SV00109,C00147,2023-07-11,10,5,DK,Fremragende service og hurtig respons
+SV00110,C00072,2023-07-14,10,5,DK,Fremragende service og hurtig respons
+SV00111,C00140,2023-07-08,7,3,DK,"God service, men kan forbedres"
+SV00112,C00165,2023-07-03,10,4,DK,Fremragende service og hurtig respons
+SV00113,C00251,2023-07-28,7,4,DK,"God service, men kan forbedres"
+SV00114,C00115,2023-07-18,8,4,DK,"God service, men kan forbedres"
+SV00115,C00256,2023-07-16,9,4,DK,Fremragende service og hurtig respons
+SV00116,C00289,2023-07-19,10,5,DK,Fremragende service og hurtig respons
+SV00117,C00061,2023-07-22,10,4,DK,Fremragende service og hurtig respons
+SV00118,C00241,2023-07-22,8,4,DK,"God service, men kan forbedres"
+SV00119,C00246,2023-07-02,9,5,DK,Fremragende service og hurtig respons
+SV00120,C00378,2023-07-05,8,3,DK,"God service, men kan forbedres"
+SV00121,C00007,2023-07-05,4,3,DK,Ikke tilfreds med serviceniveauet
+SV00122,C00174,2023-07-02,6,3,DK,Ikke tilfreds med serviceniveauet
+SV00123,C00262,2023-07-22,9,5,DK,Fremragende service og hurtig respons
+SV00124,C00121,2023-07-23,9,5,DK,Fremragende service og hurtig respons
+SV00125,C00347,2023-07-09,10,4,DK,Fremragende service og hurtig respons
+SV00126,C00054,2023-07-08,7,4,DK,"God service, men kan forbedres"
+SV00127,C00052,2023-08-21,7,3,DK,"God service, men kan forbedres"
+SV00128,C00349,2023-08-25,10,5,DK,Fremragende service og hurtig respons
+SV00129,C00198,2023-08-17,10,4,DK,Fremragende service og hurtig respons
+SV00130,C00202,2023-08-22,7,4,DK,"God service, men kan forbedres"
+SV00131,C00191,2023-08-17,4,1,DK,Ikke tilfreds med serviceniveauet
+SV00132,C00053,2023-08-12,5,2,DK,Ikke tilfreds med serviceniveauet
+SV00133,C00426,2023-08-23,10,5,DK,Fremragende service og hurtig respons
+SV00134,C00205,2023-08-14,10,4,DK,Fremragende service og hurtig respons
+SV00135,C00297,2023-08-14,10,4,DK,Fremragende service og hurtig respons
+SV00136,C00219,2023-08-08,10,4,DK,Fremragende service og hurtig respons
+SV00137,C00158,2023-08-09,10,4,DK,Fremragende service og hurtig respons
+SV00138,C00056,2023-08-19,2,2,DK,Ikke tilfreds med serviceniveauet
+SV00139,C00039,2023-08-23,10,4,DK,Fremragende service og hurtig respons
+SV00140,C00204,2023-08-08,7,4,DK,"God service, men kan forbedres"
+SV00141,C00134,2023-08-07,7,3,DK,"God service, men kan forbedres"
+SV00142,C00181,2023-08-12,7,3,DK,"God service, men kan forbedres"
+SV00143,C00302,2023-08-13,10,4,DK,Fremragende service og hurtig respons
+SV00144,C00329,2023-08-05,9,4,DK,Fremragende service og hurtig respons
+SV00145,C00323,2023-09-12,7,4,DK,"God service, men kan forbedres"
+SV00146,C00206,2023-09-02,10,4,DK,Fremragende service og hurtig respons
+SV00147,C00104,2023-09-19,6,1,DK,Ikke tilfreds med serviceniveauet
+SV00148,C00207,2023-09-25,10,4,DK,Fremragende service og hurtig respons
+SV00149,C00006,2023-09-09,9,4,DK,Fremragende service og hurtig respons
+SV00150,C00154,2023-09-04,9,5,DK,Fremragende service og hurtig respons
+SV00151,C00255,2023-09-13,9,4,DK,Fremragende service og hurtig respons
+SV00152,C00386,2023-09-13,9,4,DK,Fremragende service og hurtig respons
+SV00153,C00427,2023-09-20,0,3,DK,Ikke tilfreds med serviceniveauet
+SV00154,C00236,2023-09-17,8,3,DK,"God service, men kan forbedres"
+SV00155,C00346,2023-09-22,7,4,DK,"God service, men kan forbedres"
+SV00156,C00006,2023-09-12,9,5,DK,Fremragende service og hurtig respons
+SV00157,C00096,2023-09-14,9,4,DK,Fremragende service og hurtig respons
+SV00158,C00178,2023-09-01,10,4,DK,Fremragende service og hurtig respons
+SV00159,C00329,2023-09-14,8,3,DK,"God service, men kan forbedres"
+SV00160,C00221,2023-09-24,8,4,DK,"God service, men kan forbedres"
+SV00161,C00070,2023-09-12,10,5,DK,Fremragende service og hurtig respons
+SV00162,C00013,2023-09-25,8,3,DK,"God service, men kan forbedres"
+SV00163,C00336,2023-10-07,10,4,DK,Fremragende service og hurtig respons
+SV00164,C00423,2023-10-24,7,4,DK,"God service, men kan forbedres"
+SV00165,C00285,2023-10-14,9,4,DK,Fremragende service og hurtig respons
+SV00166,C00117,2023-10-17,9,4,DK,Fremragende service og hurtig respons
+SV00167,C00422,2023-10-27,7,4,DK,"God service, men kan forbedres"
+SV00168,C00071,2023-10-27,10,5,DK,Fremragende service og hurtig respons
+SV00169,C00089,2023-10-22,7,4,DK,"God service, men kan forbedres"
+SV00170,C00370,2023-10-21,5,1,DK,Ikke tilfreds med serviceniveauet
+SV00171,C00256,2023-10-04,9,4,DK,Fremragende service og hurtig respons
+SV00172,C00258,2023-10-25,7,4,DK,"God service, men kan forbedres"
+SV00173,C00322,2023-10-26,9,4,DK,Fremragende service og hurtig respons
+SV00174,C00212,2023-10-13,10,5,DK,Fremragende service og hurtig respons
+SV00175,C00254,2023-10-08,10,5,DK,Fremragende service og hurtig respons
+SV00176,C00337,2023-10-06,4,1,DK,Ikke tilfreds med serviceniveauet
+SV00177,C00430,2023-10-08,7,4,DK,"God service, men kan forbedres"
+SV00178,C00010,2023-10-11,10,5,DK,Fremragende service og hurtig respons
+SV00179,C00310,2023-10-07,9,5,DK,Fremragende service og hurtig respons
+SV00180,C00004,2023-10-02,9,5,DK,Fremragende service og hurtig respons
+SV00181,C00241,2023-11-23,10,5,DK,Fremragende service og hurtig respons
+SV00182,C00025,2023-11-27,9,5,DK,Fremragende service og hurtig respons
+SV00183,C00189,2023-11-27,9,4,DK,Fremragende service og hurtig respons
+SV00184,C00228,2023-11-13,10,4,DK,Fremragende service og hurtig respons
+SV00185,C00359,2023-11-26,7,3,DK,"God service, men kan forbedres"
+SV00186,C00073,2023-11-28,10,5,DK,Fremragende service og hurtig respons
+SV00187,C00245,2023-11-10,8,3,DK,"God service, men kan forbedres"
+SV00188,C00260,2023-11-12,9,4,DK,Fremragende service og hurtig respons
+SV00189,C00484,2023-11-17,1,1,DK,Ikke tilfreds med serviceniveauet
+SV00190,C00056,2023-11-23,9,5,DK,Fremragende service og hurtig respons
+SV00191,C00253,2023-11-09,8,4,DK,"God service, men kan forbedres"
+SV00192,C00122,2023-11-14,10,4,DK,Fremragende service og hurtig respons
+SV00193,C00422,2023-11-13,7,4,DK,"God service, men kan forbedres"
+SV00194,C00423,2023-11-12,10,5,DK,Fremragende service og hurtig respons
+SV00195,C00501,2023-11-12,9,4,DK,Fremragende service og hurtig respons
+SV00196,C00423,2023-11-05,10,4,DK,Fremragende service og hurtig respons
+SV00197,C00341,2023-11-19,5,2,DK,Ikke tilfreds med serviceniveauet
+SV00198,C00293,2023-11-09,7,3,DK,"God service, men kan forbedres"
+SV00199,C00003,2023-12-11,5,2,DK,Ikke tilfreds med serviceniveauet
+SV00200,C00384,2023-12-25,7,3,DK,"God service, men kan forbedres"
+SV00201,C00454,2023-12-20,10,5,DK,Fremragende service og hurtig respons
+SV00202,C00216,2023-12-17,9,4,DK,Fremragende service og hurtig respons
+SV00203,C00376,2023-12-19,10,4,DK,Fremragende service og hurtig respons
+SV00204,C00305,2023-12-26,9,4,DK,Fremragende service og hurtig respons
+SV00205,C00004,2023-12-03,7,4,DK,"God service, men kan forbedres"
+SV00206,C00352,2023-12-14,8,3,DK,"God service, men kan forbedres"
+SV00207,C00038,2023-12-22,7,4,DK,"God service, men kan forbedres"
+SV00208,C00443,2023-12-23,10,4,DK,Fremragende service og hurtig respons
+SV00209,C00007,2023-12-05,9,4,DK,Fremragende service og hurtig respons
+SV00210,C00089,2023-12-28,9,4,DK,Fremragende service og hurtig respons
+SV00211,C00391,2023-12-03,1,1,DK,Ikke tilfreds med serviceniveauet
+SV00212,C00500,2023-12-19,8,4,DK,"God service, men kan forbedres"
+SV00213,C00175,2023-12-14,1,2,DK,Ikke tilfreds med serviceniveauet
+SV00214,C00111,2023-12-01,9,5,DK,Fremragende service og hurtig respons
+SV00215,C00490,2023-12-10,10,4,DK,Fremragende service og hurtig respons
+SV00216,C00506,2023-12-13,10,5,DK,Fremragende service og hurtig respons
+SV00217,C00402,2024-01-07,7,3,DK,"God service, men kan forbedres"
+SV00218,C00268,2024-01-09,9,5,DK,Fremragende service og hurtig respons
+SV00219,C00055,2024-01-14,10,4,DK,Fremragende service og hurtig respons
+SV00220,C00114,2024-01-25,8,4,DK,"God service, men kan forbedres"
+SV00221,C00208,2024-01-02,9,5,DK,Fremragende service og hurtig respons
+SV00222,C00428,2024-01-04,7,3,DK,"God service, men kan forbedres"
+SV00223,C00318,2024-01-27,3,1,DK,Ikke tilfreds med serviceniveauet
+SV00224,C00036,2024-01-09,8,3,DK,"God service, men kan forbedres"
+SV00225,C00320,2024-01-19,8,3,DK,"God service, men kan forbedres"
+SV00226,C00390,2024-01-01,7,4,DK,"God service, men kan forbedres"
+SV00227,C00008,2024-01-04,10,5,DK,Fremragende service og hurtig respons
+SV00228,C00053,2024-01-02,9,4,DK,Fremragende service og hurtig respons
+SV00229,C00513,2024-01-02,10,4,DK,Fremragende service og hurtig respons
+SV00230,C00444,2024-01-11,2,2,DK,Ikke tilfreds med serviceniveauet
+SV00231,C00515,2024-01-25,9,5,DK,Fremragende service og hurtig respons
+SV00232,C00229,2024-01-10,1,2,DK,Ikke tilfreds med serviceniveauet
+SV00233,C00095,2024-01-27,9,5,DK,Fremragende service og hurtig respons
+SV00234,C00381,2024-01-07,9,5,DK,Fremragende service og hurtig respons
+SV00235,C00212,2024-02-04,7,3,DK,"God service, men kan forbedres"
+SV00236,C00308,2024-02-25,2,3,DK,Ikke tilfreds med serviceniveauet
+SV00237,C00164,2024-02-28,7,4,DK,"God service, men kan forbedres"
+SV00238,C00182,2024-02-22,10,4,DK,Fremragende service og hurtig respons
+SV00239,C00228,2024-02-11,8,3,DK,"God service, men kan forbedres"
+SV00240,C00555,2024-02-25,9,4,DK,Fremragende service og hurtig respons
+SV00241,C00438,2024-02-23,3,3,DK,Ikke tilfreds med serviceniveauet
+SV00242,C00041,2024-02-15,3,2,DK,Ikke tilfreds med serviceniveauet
+SV00243,C00531,2024-02-21,10,4,DK,Fremragende service og hurtig respons
+SV00244,C00218,2024-02-19,10,4,DK,Fremragende service og hurtig respons
+SV00245,C00208,2024-02-25,8,3,DK,"God service, men kan forbedres"
+SV00246,C00548,2024-02-19,10,4,DK,Fremragende service og hurtig respons
+SV00247,C00206,2024-02-15,10,5,DK,Fremragende service og hurtig respons
+SV00248,C00417,2024-02-01,9,4,DK,Fremragende service og hurtig respons
+SV00249,C00445,2024-02-08,9,4,DK,Fremragende service og hurtig respons
+SV00250,C00392,2024-02-23,9,4,DK,Fremragende service og hurtig respons
+SV00251,C00523,2024-02-25,10,4,DK,Fremragende service og hurtig respons
+SV00252,C00122,2024-02-06,7,4,DK,"God service, men kan forbedres"
+SV00253,C00592,2024-03-16,7,3,DK,"God service, men kan forbedres"
+SV00254,C00228,2024-03-18,9,4,DK,Fremragende service og hurtig respons
+SV00255,C00328,2024-03-02,7,4,DK,"God service, men kan forbedres"
+SV00256,C00024,2024-03-26,10,5,DK,Fremragende service og hurtig respons
+SV00257,C00195,2024-03-12,4,3,DK,Ikke tilfreds med serviceniveauet
+SV00258,C00426,2024-03-08,7,3,DK,"God service, men kan forbedres"
+SV00259,C00502,2024-03-01,10,5,DK,Fremragende service og hurtig respons
+SV00260,C00155,2024-03-17,10,4,DK,Fremragende service og hurtig respons
+SV00261,C00381,2024-03-09,10,4,DK,Fremragende service og hurtig respons
+SV00262,C00065,2024-03-11,10,5,DK,Fremragende service og hurtig respons
+SV00263,C00421,2024-03-07,3,2,DK,Ikke tilfreds med serviceniveauet
+SV00264,C00093,2024-03-16,8,4,DK,"God service, men kan forbedres"
+SV00265,C00233,2024-03-23,8,4,DK,"God service, men kan forbedres"
+SV00266,C00370,2024-03-15,10,4,DK,Fremragende service og hurtig respons
+SV00267,C00536,2024-03-15,10,5,DK,Fremragende service og hurtig respons
+SV00268,C00150,2024-03-18,1,2,DK,Ikke tilfreds med serviceniveauet
+SV00269,C00112,2024-03-24,10,4,DK,Fremragende service og hurtig respons
+SV00270,C00101,2024-03-27,10,4,DK,Fremragende service og hurtig respons
+SV00271,C00419,2024-04-21,10,4,DK,Fremragende service og hurtig respons
+SV00272,C00516,2024-04-25,9,4,DK,Fremragende service og hurtig respons
+SV00273,C00612,2024-04-24,7,3,DK,"God service, men kan forbedres"
+SV00274,C00338,2024-04-08,10,5,DK,Fremragende service og hurtig respons
+SV00275,C00504,2024-04-23,9,4,DK,Fremragende service og hurtig respons
+SV00276,C00253,2024-04-11,10,4,DK,Fremragende service og hurtig respons
+SV00277,C00357,2024-04-21,2,3,DK,Ikke tilfreds med serviceniveauet
+SV00278,C00203,2024-04-13,9,4,DK,Fremragende service og hurtig respons
+SV00279,C00308,2024-04-25,9,4,DK,Fremragende service og hurtig respons
+SV00280,C00285,2024-04-20,10,4,DK,Fremragende service og hurtig respons
+SV00281,C00057,2024-04-25,10,5,DK,Fremragende service og hurtig respons
+SV00282,C00339,2024-04-11,7,4,DK,"God service, men kan forbedres"
+SV00283,C00151,2024-04-24,3,3,DK,Ikke tilfreds med serviceniveauet
+SV00284,C00200,2024-04-13,9,4,DK,Fremragende service og hurtig respons
+SV00285,C00142,2024-04-26,7,4,DK,"God service, men kan forbedres"
+SV00286,C00124,2024-04-15,7,4,DK,"God service, men kan forbedres"
+SV00287,C00509,2024-04-22,8,3,DK,"God service, men kan forbedres"
+SV00288,C00245,2024-04-21,10,5,DK,Fremragende service og hurtig respons
+SV00289,C00625,2024-05-19,9,4,DK,Fremragende service og hurtig respons
+SV00290,C00104,2024-05-05,7,4,DK,"God service, men kan forbedres"
+SV00291,C00150,2024-05-25,9,4,DK,Fremragende service og hurtig respons
+SV00292,C00189,2024-05-17,7,4,DK,"God service, men kan forbedres"
+SV00293,C00093,2024-05-12,9,5,DK,Fremragende service og hurtig respons
+SV00294,C00336,2024-05-17,2,2,DK,Ikke tilfreds med serviceniveauet
+SV00295,C00554,2024-05-12,8,3,DK,"God service, men kan forbedres"
+SV00296,C00567,2024-05-20,1,2,DK,Ikke tilfreds med serviceniveauet
+SV00297,C00281,2024-05-17,9,4,DK,Fremragende service og hurtig respons
+SV00298,C00229,2024-05-25,9,4,DK,Fremragende service og hurtig respons
+SV00299,C00032,2024-05-12,8,3,DK,"God service, men kan forbedres"
+SV00300,C00460,2024-05-07,9,4,DK,Fremragende service og hurtig respons
+SV00301,C00316,2024-05-16,1,2,DK,Ikke tilfreds med serviceniveauet
+SV00302,C00457,2024-05-28,9,5,DK,Fremragende service og hurtig respons
+SV00303,C00453,2024-05-19,10,5,DK,Fremragende service og hurtig respons
+SV00304,C00150,2024-05-04,8,4,DK,"God service, men kan forbedres"
+SV00305,C00380,2024-05-03,9,4,DK,Fremragende service og hurtig respons
+SV00306,C00554,2024-05-02,10,4,DK,Fremragende service og hurtig respons
+SV00307,C00482,2024-06-06,10,5,DK,Fremragende service og hurtig respons
+SV00308,C00199,2024-06-22,7,4,DK,"God service, men kan forbedres"
+SV00309,C00255,2024-06-03,8,3,DK,"God service, men kan forbedres"
+SV00310,C00040,2024-06-01,10,5,DK,Fremragende service og hurtig respons
+SV00311,C00414,2024-06-04,3,1,DK,Ikke tilfreds med serviceniveauet
+SV00312,C00204,2024-06-05,9,4,DK,Fremragende service og hurtig respons
+SV00313,C00623,2024-06-23,10,5,DK,Fremragende service og hurtig respons
+SV00314,C00293,2024-06-02,10,5,DK,Fremragende service og hurtig respons
+SV00315,C00461,2024-06-19,9,4,DK,Fremragende service og hurtig respons
+SV00316,C00232,2024-06-26,9,5,DK,Fremragende service og hurtig respons
+SV00317,C00093,2024-06-28,9,4,DK,Fremragende service og hurtig respons
+SV00318,C00425,2024-06-02,7,4,DK,"God service, men kan forbedres"
+SV00319,C00179,2024-06-08,10,5,DK,Fremragende service og hurtig respons
+SV00320,C00358,2024-06-25,7,4,DK,"God service, men kan forbedres"
+SV00321,C00069,2024-06-27,10,5,DK,Fremragende service og hurtig respons
+SV00322,C00548,2024-06-10,6,1,DK,Ikke tilfreds med serviceniveauet
+SV00323,C00631,2024-06-21,2,2,DK,Ikke tilfreds med serviceniveauet
+SV00324,C00172,2024-06-28,8,3,DK,"God service, men kan forbedres"
+SV00325,C00302,2024-07-06,8,3,DK,"God service, men kan forbedres"
+SV00326,C00451,2024-07-14,7,3,DK,"God service, men kan forbedres"
+SV00327,C00509,2024-07-09,8,3,DK,"God service, men kan forbedres"
+SV00328,C00144,2024-07-27,9,5,DK,Fremragende service og hurtig respons
+SV00329,C00025,2024-07-10,10,4,DK,Fremragende service og hurtig respons
+SV00330,C00571,2024-07-14,10,5,DK,Fremragende service og hurtig respons
+SV00331,C00475,2024-07-18,8,4,DK,"God service, men kan forbedres"
+SV00332,C00073,2024-07-28,7,3,DK,"God service, men kan forbedres"
+SV00333,C00198,2024-07-14,10,4,DK,Fremragende service og hurtig respons
+SV00334,C00207,2024-07-22,10,4,DK,Fremragende service og hurtig respons
+SV00335,C00206,2024-07-25,4,3,DK,Ikke tilfreds med serviceniveauet
+SV00336,C00007,2024-07-12,10,5,DK,Fremragende service og hurtig respons
+SV00337,C00639,2024-07-15,9,4,DK,Fremragende service og hurtig respons
+SV00338,C00638,2024-07-01,10,4,DK,Fremragende service og hurtig respons
+SV00339,C00161,2024-07-17,10,4,DK,Fremragende service og hurtig respons
+SV00340,C00653,2024-07-08,9,5,DK,Fremragende service og hurtig respons
+SV00341,C00449,2024-07-24,9,5,DK,Fremragende service og hurtig respons
+SV00342,C00569,2024-07-15,0,2,DK,Ikke tilfreds med serviceniveauet
+SV00343,C00010,2024-08-10,7,3,DK,"God service, men kan forbedres"
+SV00344,C00514,2024-08-27,6,1,DK,Ikke tilfreds med serviceniveauet
+SV00345,C00682,2024-08-22,7,4,DK,"God service, men kan forbedres"
+SV00346,C00150,2024-08-06,7,4,DK,"God service, men kan forbedres"
+SV00347,C00570,2024-08-04,10,5,DK,Fremragende service og hurtig respons
+SV00348,C00426,2024-08-01,0,1,DK,Ikke tilfreds med serviceniveauet
+SV00349,C00333,2024-08-20,10,4,DK,Fremragende service og hurtig respons
+SV00350,C00500,2024-08-02,10,4,DK,Fremragende service og hurtig respons
+SV00351,C00285,2024-08-24,9,4,DK,Fremragende service og hurtig respons
+SV00352,C00608,2024-08-24,9,4,DK,Fremragende service og hurtig respons
+SV00353,C00248,2024-08-10,7,3,DK,"God service, men kan forbedres"
+SV00354,C00059,2024-08-27,9,5,DK,Fremragende service og hurtig respons
+SV00355,C00245,2024-08-24,9,5,DK,Fremragende service og hurtig respons
+SV00356,C00254,2024-08-20,3,1,DK,Ikke tilfreds med serviceniveauet
+SV00357,C00296,2024-08-18,7,4,DK,"God service, men kan forbedres"
+SV00358,C00639,2024-08-02,9,5,DK,Fremragende service og hurtig respons
+SV00359,C00205,2024-08-13,10,5,DK,Fremragende service og hurtig respons
+SV00360,C00586,2024-08-20,10,4,DK,Fremragende service og hurtig respons
+SV00361,C00344,2024-09-17,10,4,DK,Fremragende service og hurtig respons
+SV00362,C00674,2024-09-02,8,4,DK,"God service, men kan forbedres"
+SV00363,C00311,2024-09-04,10,4,DK,Fremragende service og hurtig respons
+SV00364,C00207,2024-09-04,4,1,DK,Ikke tilfreds med serviceniveauet
+SV00365,C00095,2024-09-15,8,3,DK,"God service, men kan forbedres"
+SV00366,C00260,2024-09-02,7,4,DK,"God service, men kan forbedres"
+SV00367,C00583,2024-09-10,10,5,DK,Fremragende service og hurtig respons
+SV00368,C00719,2024-09-23,9,4,DK,Fremragende service og hurtig respons
+SV00369,C00504,2024-09-03,10,4,DK,Fremragende service og hurtig respons
+SV00370,C00211,2024-09-09,9,4,DK,Fremragende service og hurtig respons
+SV00371,C00414,2024-09-23,2,2,DK,Ikke tilfreds med serviceniveauet
+SV00372,C00343,2024-09-17,8,4,DK,"God service, men kan forbedres"
+SV00373,C00501,2024-09-22,10,4,DK,Fremragende service og hurtig respons
+SV00374,C00406,2024-09-10,8,4,DK,"God service, men kan forbedres"
+SV00375,C00137,2024-09-13,9,5,DK,Fremragende service og hurtig respons
+SV00376,C00060,2024-09-08,10,5,DK,Fremragende service og hurtig respons
+SV00377,C00272,2024-09-25,10,5,DK,Fremragende service og hurtig respons
+SV00378,C00566,2024-09-04,7,3,DK,"God service, men kan forbedres"
+SV00379,C00365,2024-10-07,4,1,DK,Ikke tilfreds med serviceniveauet
+SV00380,C00149,2024-10-04,10,4,DK,Fremragende service og hurtig respons
+SV00381,C00444,2024-10-13,8,4,DK,"God service, men kan forbedres"
+SV00382,C00438,2024-10-12,9,5,DK,Fremragende service og hurtig respons
+SV00383,C00063,2024-10-18,2,3,DK,Ikke tilfreds med serviceniveauet
+SV00384,C00212,2024-10-07,9,5,DK,Fremragende service og hurtig respons
+SV00385,C00466,2024-10-13,8,3,DK,"God service, men kan forbedres"
+SV00386,C00667,2024-10-11,7,4,DK,"God service, men kan forbedres"
+SV00387,C00348,2024-10-18,9,4,DK,Fremragende service og hurtig respons
+SV00388,C00282,2024-10-08,10,5,DK,Fremragende service og hurtig respons
+SV00389,C00234,2024-10-06,4,3,DK,Ikke tilfreds med serviceniveauet
+SV00390,C00199,2024-10-25,7,3,DK,"God service, men kan forbedres"
+SV00391,C00609,2024-10-20,10,4,DK,Fremragende service og hurtig respons
+SV00392,C00040,2024-10-12,9,5,DK,Fremragende service og hurtig respons
+SV00393,C00182,2024-10-17,10,4,DK,Fremragende service og hurtig respons
+SV00394,C00287,2024-10-20,8,3,DK,"God service, men kan forbedres"
+SV00395,C00076,2024-10-23,9,4,DK,Fremragende service og hurtig respons
+SV00396,C00480,2024-10-09,10,5,DK,Fremragende service og hurtig respons
+SV00397,C00581,2024-11-12,8,4,DK,"God service, men kan forbedres"
+SV00398,C00636,2024-11-16,10,4,DK,Fremragende service og hurtig respons
+SV00399,C00673,2024-11-13,9,4,DK,Fremragende service og hurtig respons
+SV00400,C00245,2024-11-07,6,3,DK,Ikke tilfreds med serviceniveauet
+SV00401,C00214,2024-11-01,10,5,DK,Fremragende service og hurtig respons
+SV00402,C00547,2024-11-13,9,4,DK,Fremragende service og hurtig respons
+SV00403,C00124,2024-11-28,7,4,DK,"God service, men kan forbedres"
+SV00404,C00432,2024-11-23,10,5,DK,Fremragende service og hurtig respons
+SV00405,C00043,2024-11-20,10,4,DK,Fremragende service og hurtig respons
+SV00406,C00697,2024-11-16,9,4,DK,Fremragende service og hurtig respons
+SV00407,C00463,2024-11-17,5,3,DK,Ikke tilfreds med serviceniveauet
+SV00408,C00686,2024-11-22,10,4,DK,Fremragende service og hurtig respons
+SV00409,C00399,2024-11-24,8,3,DK,"God service, men kan forbedres"
+SV00410,C00229,2024-11-11,8,3,DK,"God service, men kan forbedres"
+SV00411,C00071,2024-11-14,9,5,DK,Fremragende service og hurtig respons
+SV00412,C00552,2024-11-04,9,5,DK,Fremragende service og hurtig respons
+SV00413,C00562,2024-11-28,8,4,DK,"God service, men kan forbedres"
+SV00414,C00127,2024-11-23,10,5,DK,Fremragende service og hurtig respons
+SV00415,C00037,2024-12-09,7,4,DK,"God service, men kan forbedres"
+SV00416,C00746,2024-12-21,10,4,DK,Fremragende service og hurtig respons
+SV00417,C00384,2024-12-23,10,5,DK,Fremragende service og hurtig respons
+SV00418,C00061,2024-12-07,10,4,DK,Fremragende service og hurtig respons
+SV00419,C00480,2024-12-23,10,4,DK,Fremragende service og hurtig respons
+SV00420,C00538,2024-12-14,9,4,DK,Fremragende service og hurtig respons
+SV00421,C00490,2024-12-11,10,5,DK,Fremragende service og hurtig respons
+SV00422,C00455,2024-12-01,10,4,DK,Fremragende service og hurtig respons
+SV00423,C00570,2024-12-25,8,4,DK,"God service, men kan forbedres"
+SV00424,C00762,2024-12-23,7,4,DK,"God service, men kan forbedres"
+SV00425,C00050,2024-12-10,7,3,DK,"God service, men kan forbedres"
+SV00426,C00447,2024-12-24,10,4,DK,Fremragende service og hurtig respons
+SV00427,C00147,2024-12-12,10,4,DK,Fremragende service og hurtig respons
+SV00428,C00733,2024-12-08,9,4,DK,Fremragende service og hurtig respons
+SV00429,C00447,2024-12-14,2,1,DK,Ikke tilfreds med serviceniveauet
+SV00430,C00597,2024-12-25,8,3,DK,"God service, men kan forbedres"
+SV00431,C00750,2024-12-14,9,4,DK,Fremragende service og hurtig respons
+SV00432,C00340,2024-12-18,4,3,DK,Ikke tilfreds med serviceniveauet
+SV00433,C00967,2023-01-26,10,5,NO,Veldig fornøyd med tjenesten
+SV00434,C00982,2023-01-09,3,3,NO,Skuffet over responstiden
+SV00435,C01037,2023-01-17,10,4,NO,Veldig fornøyd med tjenesten
+SV00436,C00887,2023-01-03,7,4,NO,Grei tjeneste totalt sett
+SV00437,C00834,2023-01-19,9,5,NO,Veldig fornøyd med tjenesten
+SV00438,C01030,2023-01-26,10,5,NO,Veldig fornøyd med tjenesten
+SV00439,C01006,2023-01-04,10,4,NO,Veldig fornøyd med tjenesten
+SV00440,C00933,2023-01-01,9,5,NO,Veldig fornøyd med tjenesten
+SV00441,C00826,2023-01-08,9,5,NO,Veldig fornøyd med tjenesten
+SV00442,C00836,2023-01-06,8,4,NO,Grei tjeneste totalt sett
+SV00443,C00885,2023-01-02,8,3,NO,Grei tjeneste totalt sett
+SV00444,C01056,2023-01-04,8,4,NO,Grei tjeneste totalt sett
+SV00445,C01043,2023-01-15,2,1,NO,Skuffet over responstiden
+SV00446,C00853,2023-01-25,9,5,NO,Veldig fornøyd med tjenesten
+SV00447,C00857,2023-01-05,8,4,NO,Grei tjeneste totalt sett
+SV00448,C00963,2023-01-15,8,3,NO,Grei tjeneste totalt sett
+SV00449,C00889,2023-01-01,10,5,NO,Veldig fornøyd med tjenesten
+SV00450,C00807,2023-01-23,10,4,NO,Veldig fornøyd med tjenesten
+SV00451,C00959,2023-02-13,9,4,NO,Veldig fornøyd med tjenesten
+SV00452,C00938,2023-02-17,8,4,NO,Grei tjeneste totalt sett
+SV00453,C01008,2023-02-16,1,2,NO,Skuffet over responstiden
+SV00454,C01029,2023-02-02,10,5,NO,Veldig fornøyd med tjenesten
+SV00455,C00897,2023-02-17,9,4,NO,Veldig fornøyd med tjenesten
+SV00456,C00846,2023-02-14,9,5,NO,Veldig fornøyd med tjenesten
+SV00457,C00900,2023-02-11,10,4,NO,Veldig fornøyd med tjenesten
+SV00458,C00913,2023-02-13,7,3,NO,Grei tjeneste totalt sett
+SV00459,C00837,2023-02-01,10,4,NO,Veldig fornøyd med tjenesten
+SV00460,C00834,2023-02-28,9,4,NO,Veldig fornøyd med tjenesten
+SV00461,C01031,2023-02-27,8,4,NO,Grei tjeneste totalt sett
+SV00462,C00943,2023-02-14,8,4,NO,Grei tjeneste totalt sett
+SV00463,C00920,2023-02-21,7,4,NO,Grei tjeneste totalt sett
+SV00464,C00932,2023-02-24,5,1,NO,Skuffet over responstiden
+SV00465,C01081,2023-02-06,9,5,NO,Veldig fornøyd med tjenesten
+SV00466,C00921,2023-02-09,9,5,NO,Veldig fornøyd med tjenesten
+SV00467,C00815,2023-02-23,7,4,NO,Grei tjeneste totalt sett
+SV00468,C01068,2023-02-15,9,5,NO,Veldig fornøyd med tjenesten
+SV00469,C00993,2023-03-11,10,4,NO,Veldig fornøyd med tjenesten
+SV00470,C00812,2023-03-04,2,1,NO,Skuffet over responstiden
+SV00471,C00982,2023-03-15,9,5,NO,Veldig fornøyd med tjenesten
+SV00472,C00872,2023-03-16,9,5,NO,Veldig fornøyd med tjenesten
+SV00473,C01099,2023-03-20,8,3,NO,Grei tjeneste totalt sett
+SV00474,C00933,2023-03-13,10,5,NO,Veldig fornøyd med tjenesten
+SV00475,C00966,2023-03-03,9,4,NO,Veldig fornøyd med tjenesten
+SV00476,C00968,2023-03-22,8,3,NO,Grei tjeneste totalt sett
+SV00477,C00994,2023-03-18,10,4,NO,Veldig fornøyd med tjenesten
+SV00478,C00807,2023-03-08,2,2,NO,Skuffet over responstiden
+SV00479,C00965,2023-03-02,8,3,NO,Grei tjeneste totalt sett
+SV00480,C00982,2023-03-22,10,4,NO,Veldig fornøyd med tjenesten
+SV00481,C00986,2023-03-03,10,5,NO,Veldig fornøyd med tjenesten
+SV00482,C01075,2023-03-03,7,4,NO,Grei tjeneste totalt sett
+SV00483,C00823,2023-03-09,10,4,NO,Veldig fornøyd med tjenesten
+SV00484,C00899,2023-03-27,9,5,NO,Veldig fornøyd med tjenesten
+SV00485,C01074,2023-03-09,8,4,NO,Grei tjeneste totalt sett
+SV00486,C01122,2023-03-21,9,4,NO,Veldig fornøyd med tjenesten
+SV00487,C01125,2023-04-26,7,3,NO,Grei tjeneste totalt sett
+SV00488,C00801,2023-04-26,10,5,NO,Veldig fornøyd med tjenesten
+SV00489,C00855,2023-04-24,9,4,NO,Veldig fornøyd med tjenesten
+SV00490,C01100,2023-04-09,9,4,NO,Veldig fornøyd med tjenesten
+SV00491,C01106,2023-04-24,8,3,NO,Grei tjeneste totalt sett
+SV00492,C01061,2023-04-18,10,4,NO,Veldig fornøyd med tjenesten
+SV00493,C01033,2023-04-20,10,4,NO,Veldig fornøyd med tjenesten
+SV00494,C01068,2023-04-25,6,2,NO,Skuffet over responstiden
+SV00495,C01006,2023-04-22,9,4,NO,Veldig fornøyd med tjenesten
+SV00496,C01080,2023-04-17,7,4,NO,Grei tjeneste totalt sett
+SV00497,C00794,2023-04-08,0,3,NO,Skuffet over responstiden
+SV00498,C01055,2023-04-17,9,5,NO,Veldig fornøyd med tjenesten
+SV00499,C01123,2023-04-18,9,5,NO,Veldig fornøyd med tjenesten
+SV00500,C00927,2023-04-17,9,4,NO,Veldig fornøyd med tjenesten
+SV00501,C00939,2023-04-01,7,3,NO,Grei tjeneste totalt sett
+SV00502,C00811,2023-04-23,9,5,NO,Veldig fornøyd med tjenesten
+SV00503,C00947,2023-04-18,9,4,NO,Veldig fornøyd med tjenesten
+SV00504,C01107,2023-04-13,7,4,NO,Grei tjeneste totalt sett
+SV00505,C00940,2023-05-14,10,5,NO,Veldig fornøyd med tjenesten
+SV00506,C01126,2023-05-05,9,4,NO,Veldig fornøyd med tjenesten
+SV00507,C01010,2023-05-24,10,4,NO,Veldig fornøyd med tjenesten
+SV00508,C01019,2023-05-25,7,3,NO,Grei tjeneste totalt sett
+SV00509,C01115,2023-05-27,6,2,NO,Skuffet over responstiden
+SV00510,C01086,2023-05-17,10,5,NO,Veldig fornøyd med tjenesten
+SV00511,C00803,2023-05-03,7,4,NO,Grei tjeneste totalt sett
+SV00512,C00906,2023-05-28,9,4,NO,Veldig fornøyd med tjenesten
+SV00513,C01023,2023-05-08,9,5,NO,Veldig fornøyd med tjenesten
+SV00514,C01056,2023-05-12,10,5,NO,Veldig fornøyd med tjenesten
+SV00515,C01008,2023-05-23,6,1,NO,Skuffet over responstiden
+SV00516,C01053,2023-05-13,8,4,NO,Grei tjeneste totalt sett
+SV00517,C00797,2023-05-21,9,4,NO,Veldig fornøyd med tjenesten
+SV00518,C00956,2023-05-10,8,3,NO,Grei tjeneste totalt sett
+SV00519,C01136,2023-05-08,8,4,NO,Grei tjeneste totalt sett
+SV00520,C00977,2023-05-04,10,5,NO,Veldig fornøyd med tjenesten
+SV00521,C01091,2023-05-02,10,4,NO,Veldig fornøyd med tjenesten
+SV00522,C00852,2023-05-11,7,3,NO,Grei tjeneste totalt sett
+SV00523,C00838,2023-06-09,10,5,NO,Veldig fornøyd med tjenesten
+SV00524,C01044,2023-06-17,9,5,NO,Veldig fornøyd med tjenesten
+SV00525,C00808,2023-06-07,9,5,NO,Veldig fornøyd med tjenesten
+SV00526,C00930,2023-06-17,7,4,NO,Grei tjeneste totalt sett
+SV00527,C00874,2023-06-21,6,2,NO,Skuffet over responstiden
+SV00528,C01081,2023-06-22,8,4,NO,Grei tjeneste totalt sett
+SV00529,C00794,2023-06-18,9,4,NO,Veldig fornøyd med tjenesten
+SV00530,C00970,2023-06-14,10,5,NO,Veldig fornøyd med tjenesten
+SV00531,C00984,2023-06-20,9,4,NO,Veldig fornøyd med tjenesten
+SV00532,C01019,2023-06-22,8,3,NO,Grei tjeneste totalt sett
+SV00533,C00915,2023-06-14,9,4,NO,Veldig fornøyd med tjenesten
+SV00534,C00892,2023-06-14,9,4,NO,Veldig fornøyd med tjenesten
+SV00535,C00922,2023-06-16,10,4,NO,Veldig fornøyd med tjenesten
+SV00536,C01120,2023-06-04,4,1,NO,Skuffet over responstiden
+SV00537,C01116,2023-06-24,8,4,NO,Grei tjeneste totalt sett
+SV00538,C00868,2023-06-16,9,4,NO,Veldig fornøyd med tjenesten
+SV00539,C01016,2023-06-17,7,3,NO,Grei tjeneste totalt sett
+SV00540,C01011,2023-06-16,9,4,NO,Veldig fornøyd med tjenesten
+SV00541,C00812,2023-07-23,9,4,NO,Veldig fornøyd med tjenesten
+SV00542,C00915,2023-07-24,9,4,NO,Veldig fornøyd med tjenesten
+SV00543,C01131,2023-07-24,7,4,NO,Grei tjeneste totalt sett
+SV00544,C01096,2023-07-24,10,5,NO,Veldig fornøyd med tjenesten
+SV00545,C01004,2023-07-21,0,2,NO,Skuffet over responstiden
+SV00546,C01025,2023-07-21,8,4,NO,Grei tjeneste totalt sett
+SV00547,C01155,2023-07-16,9,4,NO,Veldig fornøyd med tjenesten
+SV00548,C00942,2023-07-04,9,4,NO,Veldig fornøyd med tjenesten
+SV00549,C00912,2023-07-01,7,4,NO,Grei tjeneste totalt sett
+SV00550,C00998,2023-07-24,10,4,NO,Veldig fornøyd med tjenesten
+SV00551,C01025,2023-07-01,7,4,NO,Grei tjeneste totalt sett
+SV00552,C01172,2023-07-23,3,3,NO,Skuffet over responstiden
+SV00553,C01182,2023-07-12,9,4,NO,Veldig fornøyd med tjenesten
+SV00554,C00963,2023-07-10,7,3,NO,Grei tjeneste totalt sett
+SV00555,C00868,2023-07-07,9,4,NO,Veldig fornøyd med tjenesten
+SV00556,C01181,2023-07-09,9,5,NO,Veldig fornøyd med tjenesten
+SV00557,C01186,2023-07-16,3,2,NO,Skuffet over responstiden
+SV00558,C00908,2023-07-06,10,5,NO,Veldig fornøyd med tjenesten
+SV00559,C01074,2023-08-08,10,4,NO,Veldig fornøyd med tjenesten
+SV00560,C01059,2023-08-08,10,5,NO,Veldig fornøyd med tjenesten
+SV00561,C01208,2023-08-27,10,4,NO,Veldig fornøyd med tjenesten
+SV00562,C01032,2023-08-26,9,5,NO,Veldig fornøyd med tjenesten
+SV00563,C01131,2023-08-11,9,5,NO,Veldig fornøyd med tjenesten
+SV00564,C01172,2023-08-17,8,4,NO,Grei tjeneste totalt sett
+SV00565,C01083,2023-08-16,9,5,NO,Veldig fornøyd med tjenesten
+SV00566,C01067,2023-08-23,7,3,NO,Grei tjeneste totalt sett
+SV00567,C01137,2023-08-11,9,4,NO,Veldig fornøyd med tjenesten
+SV00568,C00968,2023-08-21,7,3,NO,Grei tjeneste totalt sett
+SV00569,C01008,2023-08-10,3,1,NO,Skuffet over responstiden
+SV00570,C01002,2023-08-23,10,5,NO,Veldig fornøyd med tjenesten
+SV00571,C01021,2023-08-24,3,3,NO,Skuffet over responstiden
+SV00572,C00903,2023-08-17,7,4,NO,Grei tjeneste totalt sett
+SV00573,C00919,2023-08-23,8,3,NO,Grei tjeneste totalt sett
+SV00574,C01199,2023-08-28,10,5,NO,Veldig fornøyd med tjenesten
+SV00575,C01149,2023-08-21,10,4,NO,Veldig fornøyd med tjenesten
+SV00576,C01095,2023-08-03,0,3,NO,Skuffet over responstiden
+SV00577,C01247,2023-09-22,9,5,NO,Veldig fornøyd med tjenesten
+SV00578,C01187,2023-09-27,10,5,NO,Veldig fornøyd med tjenesten
+SV00579,C01134,2023-09-19,4,2,NO,Skuffet over responstiden
+SV00580,C01068,2023-09-15,9,5,NO,Veldig fornøyd med tjenesten
+SV00581,C00796,2023-09-21,7,3,NO,Grei tjeneste totalt sett
+SV00582,C01204,2023-09-02,9,4,NO,Veldig fornøyd med tjenesten
+SV00583,C00922,2023-09-01,0,3,NO,Skuffet over responstiden
+SV00584,C01098,2023-09-06,8,4,NO,Grei tjeneste totalt sett
+SV00585,C00959,2023-09-02,10,4,NO,Veldig fornøyd med tjenesten
+SV00586,C00951,2023-09-03,10,5,NO,Veldig fornøyd med tjenesten
+SV00587,C00908,2023-09-19,10,4,NO,Veldig fornøyd med tjenesten
+SV00588,C01028,2023-09-28,9,5,NO,Veldig fornøyd med tjenesten
+SV00589,C00809,2023-09-04,7,3,NO,Grei tjeneste totalt sett
+SV00590,C01055,2023-09-23,8,4,NO,Grei tjeneste totalt sett
+SV00591,C00938,2023-09-23,3,1,NO,Skuffet over responstiden
+SV00592,C01227,2023-09-06,9,5,NO,Veldig fornøyd med tjenesten
+SV00593,C01004,2023-09-22,10,5,NO,Veldig fornøyd med tjenesten
+SV00594,C01210,2023-09-12,7,4,NO,Grei tjeneste totalt sett
+SV00595,C00983,2023-10-08,10,5,NO,Veldig fornøyd med tjenesten
+SV00596,C01048,2023-10-22,8,4,NO,Grei tjeneste totalt sett
+SV00597,C01265,2023-10-15,9,5,NO,Veldig fornøyd med tjenesten
+SV00598,C01193,2023-10-24,9,5,NO,Veldig fornøyd med tjenesten
+SV00599,C00951,2023-10-27,8,4,NO,Grei tjeneste totalt sett
+SV00600,C00802,2023-10-02,9,4,NO,Veldig fornøyd med tjenesten
+SV00601,C00913,2023-10-10,8,3,NO,Grei tjeneste totalt sett
+SV00602,C00828,2023-10-01,3,2,NO,Skuffet over responstiden
+SV00603,C01204,2023-10-21,7,3,NO,Grei tjeneste totalt sett
+SV00604,C01050,2023-10-14,9,4,NO,Veldig fornøyd med tjenesten
+SV00605,C00998,2023-10-27,10,5,NO,Veldig fornøyd med tjenesten
+SV00606,C01217,2023-10-23,8,4,NO,Grei tjeneste totalt sett
+SV00607,C00876,2023-10-22,10,5,NO,Veldig fornøyd med tjenesten
+SV00608,C00845,2023-10-26,7,4,NO,Grei tjeneste totalt sett
+SV00609,C01178,2023-10-25,9,5,NO,Veldig fornøyd med tjenesten
+SV00610,C01004,2023-10-08,10,5,NO,Veldig fornøyd med tjenesten
+SV00611,C01197,2023-10-17,5,1,NO,Skuffet over responstiden
+SV00612,C00866,2023-10-24,9,4,NO,Veldig fornøyd med tjenesten
+SV00613,C01054,2023-11-24,0,3,NO,Skuffet over responstiden
+SV00614,C01208,2023-11-06,9,5,NO,Veldig fornøyd med tjenesten
+SV00615,C01283,2023-11-15,8,4,NO,Grei tjeneste totalt sett
+SV00616,C00893,2023-11-24,10,4,NO,Veldig fornøyd med tjenesten
+SV00617,C00928,2023-11-22,10,4,NO,Veldig fornøyd med tjenesten
+SV00618,C01140,2023-11-20,7,4,NO,Grei tjeneste totalt sett
+SV00619,C00888,2023-11-08,9,5,NO,Veldig fornøyd med tjenesten
+SV00620,C00998,2023-11-28,10,5,NO,Veldig fornøyd med tjenesten
+SV00621,C00921,2023-11-23,8,4,NO,Grei tjeneste totalt sett
+SV00622,C00816,2023-11-19,9,5,NO,Veldig fornøyd med tjenesten
+SV00623,C01234,2023-11-21,10,5,NO,Veldig fornøyd med tjenesten
+SV00624,C00826,2023-11-13,7,3,NO,Grei tjeneste totalt sett
+SV00625,C01009,2023-11-21,10,4,NO,Veldig fornøyd med tjenesten
+SV00626,C00981,2023-11-05,9,4,NO,Veldig fornøyd med tjenesten
+SV00627,C00940,2023-11-22,7,4,NO,Grei tjeneste totalt sett
+SV00628,C01032,2023-11-02,3,3,NO,Skuffet over responstiden
+SV00629,C01222,2023-11-28,5,3,NO,Skuffet over responstiden
+SV00630,C01218,2023-11-21,9,5,NO,Veldig fornøyd med tjenesten
+SV00631,C00850,2023-12-15,10,5,NO,Veldig fornøyd med tjenesten
+SV00632,C00815,2023-12-11,10,5,NO,Veldig fornøyd med tjenesten
+SV00633,C01178,2023-12-16,7,3,NO,Grei tjeneste totalt sett
+SV00634,C01092,2023-12-20,7,4,NO,Grei tjeneste totalt sett
+SV00635,C00793,2023-12-23,9,5,NO,Veldig fornøyd med tjenesten
+SV00636,C00907,2023-12-02,9,4,NO,Veldig fornøyd med tjenesten
+SV00637,C00913,2023-12-25,9,4,NO,Veldig fornøyd med tjenesten
+SV00638,C01009,2023-12-13,4,3,NO,Skuffet over responstiden
+SV00639,C00801,2023-12-16,8,4,NO,Grei tjeneste totalt sett
+SV00640,C01253,2023-12-06,7,3,NO,Grei tjeneste totalt sett
+SV00641,C01145,2023-12-25,10,4,NO,Veldig fornøyd med tjenesten
+SV00642,C00930,2023-12-16,8,3,NO,Grei tjeneste totalt sett
+SV00643,C00972,2023-12-24,9,5,NO,Veldig fornøyd med tjenesten
+SV00644,C01162,2023-12-23,10,4,NO,Veldig fornøyd med tjenesten
+SV00645,C01287,2023-12-26,3,1,NO,Skuffet over responstiden
+SV00646,C00954,2023-12-14,10,5,NO,Veldig fornøyd med tjenesten
+SV00647,C00986,2023-12-05,9,5,NO,Veldig fornøyd med tjenesten
+SV00648,C01138,2023-12-05,10,5,NO,Veldig fornøyd med tjenesten
+SV00649,C01146,2024-01-04,8,3,NO,Grei tjeneste totalt sett
+SV00650,C01294,2024-01-26,10,5,NO,Veldig fornøyd med tjenesten
+SV00651,C01318,2024-01-06,8,4,NO,Grei tjeneste totalt sett
+SV00652,C01145,2024-01-09,10,5,NO,Veldig fornøyd med tjenesten
+SV00653,C00952,2024-01-11,9,5,NO,Veldig fornøyd med tjenesten
+SV00654,C00796,2024-01-17,9,4,NO,Veldig fornøyd med tjenesten
+SV00655,C00849,2024-01-04,4,2,NO,Skuffet over responstiden
+SV00656,C01102,2024-01-17,7,4,NO,Grei tjeneste totalt sett
+SV00657,C00825,2024-01-13,10,5,NO,Veldig fornøyd med tjenesten
+SV00658,C00923,2024-01-24,5,2,NO,Skuffet over responstiden
+SV00659,C01330,2024-01-21,9,5,NO,Veldig fornøyd med tjenesten
+SV00660,C01212,2024-01-01,7,3,NO,Grei tjeneste totalt sett
+SV00661,C01045,2024-01-16,10,5,NO,Veldig fornøyd med tjenesten
+SV00662,C00999,2024-01-16,3,1,NO,Skuffet over responstiden
+SV00663,C00991,2024-01-15,8,4,NO,Grei tjeneste totalt sett
+SV00664,C01205,2024-01-27,10,5,NO,Veldig fornøyd med tjenesten
+SV00665,C01031,2024-01-25,10,4,NO,Veldig fornøyd med tjenesten
+SV00666,C01250,2024-01-08,8,4,NO,Grei tjeneste totalt sett
+SV00667,C01318,2024-02-16,8,3,NO,Grei tjeneste totalt sett
+SV00668,C00856,2024-02-08,2,2,NO,Skuffet over responstiden
+SV00669,C01085,2024-02-11,9,4,NO,Veldig fornøyd med tjenesten
+SV00670,C01044,2024-02-01,10,4,NO,Veldig fornøyd med tjenesten
+SV00671,C00835,2024-02-16,7,4,NO,Grei tjeneste totalt sett
+SV00672,C00961,2024-02-20,10,5,NO,Veldig fornøyd med tjenesten
+SV00673,C01164,2024-02-20,9,5,NO,Veldig fornøyd med tjenesten
+SV00674,C01024,2024-02-19,10,5,NO,Veldig fornøyd med tjenesten
+SV00675,C01327,2024-02-14,10,4,NO,Veldig fornøyd med tjenesten
+SV00676,C00916,2024-02-25,5,2,NO,Skuffet over responstiden
+SV00677,C01098,2024-02-20,7,4,NO,Grei tjeneste totalt sett
+SV00678,C01195,2024-02-16,5,1,NO,Skuffet over responstiden
+SV00679,C01240,2024-02-14,10,4,NO,Veldig fornøyd med tjenesten
+SV00680,C01086,2024-02-21,10,5,NO,Veldig fornøyd med tjenesten
+SV00681,C01273,2024-02-17,8,4,NO,Grei tjeneste totalt sett
+SV00682,C01324,2024-02-04,9,4,NO,Veldig fornøyd med tjenesten
+SV00683,C01199,2024-02-09,10,5,NO,Veldig fornøyd med tjenesten
+SV00684,C01103,2024-02-03,8,3,NO,Grei tjeneste totalt sett
+SV00685,C01345,2024-03-13,9,4,NO,Veldig fornøyd med tjenesten
+SV00686,C01182,2024-03-25,10,5,NO,Veldig fornøyd med tjenesten
+SV00687,C00983,2024-03-16,9,4,NO,Veldig fornøyd med tjenesten
+SV00688,C00824,2024-03-27,4,1,NO,Skuffet over responstiden
+SV00689,C00807,2024-03-02,2,3,NO,Skuffet over responstiden
+SV00690,C00911,2024-03-11,2,2,NO,Skuffet over responstiden
+SV00691,C01119,2024-03-15,7,4,NO,Grei tjeneste totalt sett
+SV00692,C00820,2024-03-18,10,5,NO,Veldig fornøyd med tjenesten
+SV00693,C01068,2024-03-11,9,4,NO,Veldig fornøyd med tjenesten
+SV00694,C01223,2024-03-10,9,5,NO,Veldig fornøyd med tjenesten
+SV00695,C00927,2024-03-05,8,3,NO,Grei tjeneste totalt sett
+SV00696,C00853,2024-03-07,9,4,NO,Veldig fornøyd med tjenesten
+SV00697,C01049,2024-03-25,10,5,NO,Veldig fornøyd med tjenesten
+SV00698,C01180,2024-03-07,8,3,NO,Grei tjeneste totalt sett
+SV00699,C01343,2024-03-20,10,5,NO,Veldig fornøyd med tjenesten
+SV00700,C01301,2024-03-01,8,3,NO,Grei tjeneste totalt sett
+SV00701,C00809,2024-03-06,9,5,NO,Veldig fornøyd med tjenesten
+SV00702,C01141,2024-03-17,8,4,NO,Grei tjeneste totalt sett
+SV00703,C01306,2024-04-14,0,3,NO,Skuffet over responstiden
+SV00704,C01140,2024-04-22,10,5,NO,Veldig fornøyd med tjenesten
+SV00705,C01092,2024-04-01,6,1,NO,Skuffet over responstiden
+SV00706,C01238,2024-04-09,8,3,NO,Grei tjeneste totalt sett
+SV00707,C00954,2024-04-23,9,5,NO,Veldig fornøyd med tjenesten
+SV00708,C00811,2024-04-20,7,3,NO,Grei tjeneste totalt sett
+SV00709,C00942,2024-04-15,9,4,NO,Veldig fornøyd med tjenesten
+SV00710,C01244,2024-04-13,10,4,NO,Veldig fornøyd med tjenesten
+SV00711,C01085,2024-04-17,7,4,NO,Grei tjeneste totalt sett
+SV00712,C01129,2024-04-13,9,4,NO,Veldig fornøyd med tjenesten
+SV00713,C01146,2024-04-20,10,4,NO,Veldig fornøyd med tjenesten
+SV00714,C00871,2024-04-14,8,3,NO,Grei tjeneste totalt sett
+SV00715,C01003,2024-04-15,10,5,NO,Veldig fornøyd med tjenesten
+SV00716,C01061,2024-04-19,10,4,NO,Veldig fornøyd med tjenesten
+SV00717,C01402,2024-04-26,10,4,NO,Veldig fornøyd med tjenesten
+SV00718,C01309,2024-04-26,8,3,NO,Grei tjeneste totalt sett
+SV00719,C01302,2024-04-22,10,4,NO,Veldig fornøyd med tjenesten
+SV00720,C01344,2024-04-11,8,3,NO,Grei tjeneste totalt sett
+SV00721,C00843,2024-05-12,7,3,NO,Grei tjeneste totalt sett
+SV00722,C00975,2024-05-14,8,4,NO,Grei tjeneste totalt sett
+SV00723,C01116,2024-05-03,9,4,NO,Veldig fornøyd med tjenesten
+SV00724,C00834,2024-05-13,9,5,NO,Veldig fornøyd med tjenesten
+SV00725,C01322,2024-05-27,7,4,NO,Grei tjeneste totalt sett
+SV00726,C01367,2024-05-11,9,5,NO,Veldig fornøyd med tjenesten
+SV00727,C01083,2024-05-27,7,3,NO,Grei tjeneste totalt sett
+SV00728,C00867,2024-05-24,9,5,NO,Veldig fornøyd med tjenesten
+SV00729,C01281,2024-05-08,10,4,NO,Veldig fornøyd med tjenesten
+SV00730,C00987,2024-05-08,7,4,NO,Grei tjeneste totalt sett
+SV00731,C01329,2024-05-19,9,5,NO,Veldig fornøyd med tjenesten
+SV00732,C01371,2024-05-07,9,5,NO,Veldig fornøyd med tjenesten
+SV00733,C01340,2024-05-09,9,5,NO,Veldig fornøyd med tjenesten
+SV00734,C00951,2024-05-04,10,5,NO,Veldig fornøyd med tjenesten
+SV00735,C01143,2024-05-07,10,5,NO,Veldig fornøyd med tjenesten
+SV00736,C01203,2024-05-22,3,1,NO,Skuffet over responstiden
+SV00737,C01165,2024-05-16,10,5,NO,Veldig fornøyd med tjenesten
+SV00738,C01039,2024-05-19,2,2,NO,Skuffet over responstiden
+SV00739,C01431,2024-06-23,9,4,NO,Veldig fornøyd med tjenesten
+SV00740,C01328,2024-06-18,10,5,NO,Veldig fornøyd med tjenesten
+SV00741,C01126,2024-06-15,7,3,NO,Grei tjeneste totalt sett
+SV00742,C01269,2024-06-16,8,4,NO,Grei tjeneste totalt sett
+SV00743,C01331,2024-06-21,9,4,NO,Veldig fornøyd med tjenesten
+SV00744,C00911,2024-06-01,7,4,NO,Grei tjeneste totalt sett
+SV00745,C01185,2024-06-01,10,4,NO,Veldig fornøyd med tjenesten
+SV00746,C01370,2024-06-02,10,5,NO,Veldig fornøyd med tjenesten
+SV00747,C01176,2024-06-08,7,4,NO,Grei tjeneste totalt sett
+SV00748,C00916,2024-06-01,9,5,NO,Veldig fornøyd med tjenesten
+SV00749,C01181,2024-06-03,8,4,NO,Grei tjeneste totalt sett
+SV00750,C01079,2024-06-14,0,1,NO,Skuffet over responstiden
+SV00751,C01155,2024-06-01,10,5,NO,Veldig fornøyd med tjenesten
+SV00752,C01122,2024-06-02,9,4,NO,Veldig fornøyd med tjenesten
+SV00753,C01353,2024-06-11,8,3,NO,Grei tjeneste totalt sett
+SV00754,C01437,2024-06-19,9,4,NO,Veldig fornøyd med tjenesten
+SV00755,C01373,2024-06-16,9,5,NO,Veldig fornøyd med tjenesten
+SV00756,C01178,2024-06-20,5,1,NO,Skuffet over responstiden
+SV00757,C00934,2024-07-13,10,5,NO,Veldig fornøyd med tjenesten
+SV00758,C01161,2024-07-28,7,4,NO,Grei tjeneste totalt sett
+SV00759,C00832,2024-07-11,9,5,NO,Veldig fornøyd med tjenesten
+SV00760,C01153,2024-07-17,9,4,NO,Veldig fornøyd med tjenesten
+SV00761,C01075,2024-07-03,8,3,NO,Grei tjeneste totalt sett
+SV00762,C01418,2024-07-09,5,3,NO,Skuffet over responstiden
+SV00763,C01056,2024-07-21,8,4,NO,Grei tjeneste totalt sett
+SV00764,C00821,2024-07-22,9,4,NO,Veldig fornøyd med tjenesten
+SV00765,C01390,2024-07-09,10,4,NO,Veldig fornøyd med tjenesten
+SV00766,C01344,2024-07-23,9,5,NO,Veldig fornøyd med tjenesten
+SV00767,C01448,2024-07-28,8,4,NO,Grei tjeneste totalt sett
+SV00768,C00883,2024-07-06,6,2,NO,Skuffet over responstiden
+SV00769,C00909,2024-07-10,9,5,NO,Veldig fornøyd med tjenesten
+SV00770,C01368,2024-07-24,8,3,NO,Grei tjeneste totalt sett
+SV00771,C00869,2024-07-19,10,4,NO,Veldig fornøyd med tjenesten
+SV00772,C01402,2024-07-16,6,1,NO,Skuffet over responstiden
+SV00773,C01196,2024-07-17,9,5,NO,Veldig fornøyd med tjenesten
+SV00774,C00808,2024-07-18,9,4,NO,Veldig fornøyd med tjenesten
+SV00775,C01241,2024-08-13,9,5,NO,Veldig fornøyd med tjenesten
+SV00776,C01153,2024-08-08,7,3,NO,Grei tjeneste totalt sett
+SV00777,C00922,2024-08-08,8,3,NO,Grei tjeneste totalt sett
+SV00778,C01190,2024-08-15,10,5,NO,Veldig fornøyd med tjenesten
+SV00779,C01394,2024-08-06,6,1,NO,Skuffet over responstiden
+SV00780,C01291,2024-08-12,10,5,NO,Veldig fornøyd med tjenesten
+SV00781,C01364,2024-08-09,10,4,NO,Veldig fornøyd med tjenesten
+SV00782,C01259,2024-08-02,10,4,NO,Veldig fornøyd med tjenesten
+SV00783,C01143,2024-08-08,9,4,NO,Veldig fornøyd med tjenesten
+SV00784,C01215,2024-08-25,8,3,NO,Grei tjeneste totalt sett
+SV00785,C01181,2024-08-02,10,4,NO,Veldig fornøyd med tjenesten
+SV00786,C01044,2024-08-27,9,5,NO,Veldig fornøyd med tjenesten
+SV00787,C01129,2024-08-15,0,2,NO,Skuffet over responstiden
+SV00788,C00894,2024-08-02,10,5,NO,Veldig fornøyd med tjenesten
+SV00789,C01065,2024-08-12,7,4,NO,Grei tjeneste totalt sett
+SV00790,C01469,2024-08-10,2,3,NO,Skuffet over responstiden
+SV00791,C01407,2024-08-17,9,5,NO,Veldig fornøyd med tjenesten
+SV00792,C00898,2024-08-10,8,4,NO,Grei tjeneste totalt sett
+SV00793,C00953,2024-09-20,3,2,NO,Skuffet over responstiden
+SV00794,C01482,2024-09-10,1,2,NO,Skuffet over responstiden
+SV00795,C01091,2024-09-14,7,4,NO,Grei tjeneste totalt sett
+SV00796,C01254,2024-09-22,9,5,NO,Veldig fornøyd med tjenesten
+SV00797,C00948,2024-09-09,10,4,NO,Veldig fornøyd med tjenesten
+SV00798,C01149,2024-09-14,7,3,NO,Grei tjeneste totalt sett
+SV00799,C01141,2024-09-07,8,3,NO,Grei tjeneste totalt sett
+SV00800,C00898,2024-09-12,10,5,NO,Veldig fornøyd med tjenesten
+SV00801,C01237,2024-09-18,9,4,NO,Veldig fornøyd med tjenesten
+SV00802,C01012,2024-09-24,7,3,NO,Grei tjeneste totalt sett
+SV00803,C01518,2024-09-18,8,3,NO,Grei tjeneste totalt sett
+SV00804,C00793,2024-09-12,10,4,NO,Veldig fornøyd med tjenesten
+SV00805,C00926,2024-09-19,10,5,NO,Veldig fornøyd med tjenesten
+SV00806,C01277,2024-09-28,10,4,NO,Veldig fornøyd med tjenesten
+SV00807,C01198,2024-09-11,9,5,NO,Veldig fornøyd med tjenesten
+SV00808,C01474,2024-09-18,7,4,NO,Grei tjeneste totalt sett
+SV00809,C01241,2024-09-17,9,4,NO,Veldig fornøyd med tjenesten
+SV00810,C00952,2024-09-06,10,4,NO,Veldig fornøyd med tjenesten
+SV00811,C00957,2024-10-15,1,1,NO,Skuffet over responstiden
+SV00812,C01233,2024-10-14,9,5,NO,Veldig fornøyd med tjenesten
+SV00813,C01100,2024-10-24,10,5,NO,Veldig fornøyd med tjenesten
+SV00814,C01403,2024-10-14,8,3,NO,Grei tjeneste totalt sett
+SV00815,C01348,2024-10-21,8,4,NO,Grei tjeneste totalt sett
+SV00816,C01406,2024-10-15,10,5,NO,Veldig fornøyd med tjenesten
+SV00817,C01076,2024-10-22,9,5,NO,Veldig fornøyd med tjenesten
+SV00818,C00996,2024-10-20,7,3,NO,Grei tjeneste totalt sett
+SV00819,C01443,2024-10-14,10,5,NO,Veldig fornøyd med tjenesten
+SV00820,C01223,2024-10-16,9,5,NO,Veldig fornøyd med tjenesten
+SV00821,C01496,2024-10-17,8,3,NO,Grei tjeneste totalt sett
+SV00822,C01459,2024-10-11,7,4,NO,Grei tjeneste totalt sett
+SV00823,C00983,2024-10-14,10,4,NO,Veldig fornøyd med tjenesten
+SV00824,C01192,2024-10-02,1,1,NO,Skuffet over responstiden
+SV00825,C01001,2024-10-04,5,3,NO,Skuffet over responstiden
+SV00826,C01248,2024-10-28,9,5,NO,Veldig fornøyd med tjenesten
+SV00827,C01039,2024-10-20,9,5,NO,Veldig fornøyd med tjenesten
+SV00828,C01353,2024-10-10,9,4,NO,Veldig fornøyd med tjenesten
+SV00829,C00915,2024-11-14,7,3,NO,Grei tjeneste totalt sett
+SV00830,C00991,2024-11-28,9,5,NO,Veldig fornøyd med tjenesten
+SV00831,C01064,2024-11-03,7,4,NO,Grei tjeneste totalt sett
+SV00832,C01349,2024-11-25,9,5,NO,Veldig fornøyd med tjenesten
+SV00833,C01047,2024-11-04,10,5,NO,Veldig fornøyd med tjenesten
+SV00834,C01370,2024-11-09,7,4,NO,Grei tjeneste totalt sett
+SV00835,C01488,2024-11-26,9,4,NO,Veldig fornøyd med tjenesten
+SV00836,C00807,2024-11-13,6,2,NO,Skuffet over responstiden
+SV00837,C01024,2024-11-17,10,4,NO,Veldig fornøyd med tjenesten
+SV00838,C00845,2024-11-23,10,5,NO,Veldig fornøyd med tjenesten
+SV00839,C00939,2024-11-10,8,3,NO,Grei tjeneste totalt sett
+SV00840,C01115,2024-11-14,7,3,NO,Grei tjeneste totalt sett
+SV00841,C00933,2024-11-28,10,4,NO,Veldig fornøyd med tjenesten
+SV00842,C01344,2024-11-11,0,3,NO,Skuffet over responstiden
+SV00843,C01447,2024-11-23,9,5,NO,Veldig fornøyd med tjenesten
+SV00844,C00842,2024-11-04,7,4,NO,Grei tjeneste totalt sett
+SV00845,C00845,2024-11-14,9,4,NO,Veldig fornøyd med tjenesten
+SV00846,C00860,2024-11-17,10,4,NO,Veldig fornøyd med tjenesten
+SV00847,C01338,2024-12-14,2,1,NO,Skuffet over responstiden
+SV00848,C01197,2024-12-07,10,4,NO,Veldig fornøyd med tjenesten
+SV00849,C01088,2024-12-18,7,3,NO,Grei tjeneste totalt sett
+SV00850,C01256,2024-12-02,10,4,NO,Veldig fornøyd med tjenesten
+SV00851,C01486,2024-12-07,0,3,NO,Skuffet over responstiden
+SV00852,C01572,2024-12-15,7,4,NO,Grei tjeneste totalt sett
+SV00853,C01420,2024-12-07,9,4,NO,Veldig fornøyd med tjenesten
+SV00854,C00844,2024-12-01,9,4,NO,Veldig fornøyd med tjenesten
+SV00855,C01189,2024-12-11,8,3,NO,Grei tjeneste totalt sett
+SV00856,C00794,2024-12-26,9,5,NO,Veldig fornøyd med tjenesten
+SV00857,C01292,2024-12-21,9,5,NO,Veldig fornøyd med tjenesten
+SV00858,C01432,2024-12-10,10,5,NO,Veldig fornøyd med tjenesten
+SV00859,C01330,2024-12-17,5,3,NO,Skuffet over responstiden
+SV00860,C01032,2024-12-20,9,4,NO,Veldig fornøyd med tjenesten
+SV00861,C01327,2024-12-06,10,4,NO,Veldig fornøyd med tjenesten
+SV00862,C00958,2024-12-04,10,4,NO,Veldig fornøyd med tjenesten
+SV00863,C00930,2024-12-20,7,3,NO,Grei tjeneste totalt sett
+SV00864,C01123,2024-12-19,8,3,NO,Grei tjeneste totalt sett
+SV00865,C01848,2023-01-15,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00866,C01798,2023-01-27,7,4,SE,Helt ok men kan förbättras
+SV00867,C01868,2023-01-07,3,2,SE,"Inte nöjd, för långsam respons"
+SV00868,C01777,2023-01-08,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00869,C01726,2023-01-21,8,3,SE,Helt ok men kan förbättras
+SV00870,C01864,2023-01-27,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00871,C01602,2023-01-16,8,3,SE,Helt ok men kan förbättras
+SV00872,C01585,2023-01-28,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00873,C01643,2023-01-20,7,3,SE,Helt ok men kan förbättras
+SV00874,C01649,2023-01-15,6,1,SE,"Inte nöjd, för långsam respons"
+SV00875,C01768,2023-01-21,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00876,C01684,2023-01-19,7,4,SE,Helt ok men kan förbättras
+SV00877,C01776,2023-01-07,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00878,C01792,2023-01-22,3,3,SE,"Inte nöjd, för långsam respons"
+SV00879,C01616,2023-01-09,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00880,C01595,2023-01-03,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00881,C01743,2023-01-03,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00882,C01658,2023-01-06,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00883,C01645,2023-02-18,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00884,C01614,2023-02-01,7,4,SE,Helt ok men kan förbättras
+SV00885,C01871,2023-02-23,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00886,C01703,2023-02-10,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00887,C01768,2023-02-02,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00888,C01605,2023-02-01,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00889,C01814,2023-02-27,8,4,SE,Helt ok men kan förbättras
+SV00890,C01671,2023-02-26,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00891,C01775,2023-02-26,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00892,C01826,2023-02-20,8,3,SE,Helt ok men kan förbättras
+SV00893,C01768,2023-02-26,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00894,C01707,2023-02-06,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00895,C01687,2023-02-21,0,1,SE,"Inte nöjd, för långsam respons"
+SV00896,C01636,2023-02-26,8,4,SE,Helt ok men kan förbättras
+SV00897,C01743,2023-02-02,8,4,SE,Helt ok men kan förbättras
+SV00898,C01663,2023-02-24,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00899,C01782,2023-02-10,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00900,C01737,2023-02-15,3,2,SE,"Inte nöjd, för långsam respons"
+SV00901,C01742,2023-03-06,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00902,C01789,2023-03-17,8,3,SE,Helt ok men kan förbättras
+SV00903,C01847,2023-03-27,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00904,C01641,2023-03-04,2,1,SE,"Inte nöjd, för långsam respons"
+SV00905,C01731,2023-03-03,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00906,C01842,2023-03-04,7,4,SE,Helt ok men kan förbättras
+SV00907,C01788,2023-03-10,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00908,C01683,2023-03-15,7,3,SE,Helt ok men kan förbättras
+SV00909,C01735,2023-03-15,7,4,SE,Helt ok men kan förbättras
+SV00910,C01789,2023-03-03,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00911,C01757,2023-03-20,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00912,C01848,2023-03-21,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00913,C01702,2023-03-24,7,3,SE,Helt ok men kan förbättras
+SV00914,C01846,2023-03-01,7,3,SE,Helt ok men kan förbättras
+SV00915,C01586,2023-03-13,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00916,C01598,2023-03-13,0,1,SE,"Inte nöjd, för långsam respons"
+SV00917,C01820,2023-03-04,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00918,C01640,2023-03-07,4,1,SE,"Inte nöjd, för långsam respons"
+SV00919,C01719,2023-04-19,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00920,C01615,2023-04-28,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00921,C01860,2023-04-23,6,2,SE,"Inte nöjd, för långsam respons"
+SV00922,C01620,2023-04-27,7,4,SE,Helt ok men kan förbättras
+SV00923,C01686,2023-04-04,8,4,SE,Helt ok men kan förbättras
+SV00924,C01627,2023-04-09,7,4,SE,Helt ok men kan förbättras
+SV00925,C01829,2023-04-27,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00926,C01784,2023-04-11,2,3,SE,"Inte nöjd, för långsam respons"
+SV00927,C01865,2023-04-14,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00928,C01619,2023-04-05,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00929,C01633,2023-04-21,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00930,C01794,2023-04-24,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00931,C01624,2023-04-17,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00932,C01894,2023-04-08,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00933,C01715,2023-04-23,8,3,SE,Helt ok men kan förbättras
+SV00934,C01751,2023-04-09,8,4,SE,Helt ok men kan förbättras
+SV00935,C01724,2023-04-05,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00936,C01680,2023-04-14,8,4,SE,Helt ok men kan förbättras
+SV00937,C01910,2023-05-16,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00938,C01710,2023-05-22,8,4,SE,Helt ok men kan förbättras
+SV00939,C01835,2023-05-21,7,3,SE,Helt ok men kan förbättras
+SV00940,C01870,2023-05-18,7,4,SE,Helt ok men kan förbättras
+SV00941,C01760,2023-05-14,4,3,SE,"Inte nöjd, för långsam respons"
+SV00942,C01638,2023-05-15,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00943,C01718,2023-05-18,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00944,C01749,2023-05-04,5,3,SE,"Inte nöjd, för långsam respons"
+SV00945,C01841,2023-05-21,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00946,C01715,2023-05-10,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00947,C01924,2023-05-09,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00948,C01811,2023-05-27,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00949,C01649,2023-05-25,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00950,C01665,2023-05-22,8,4,SE,Helt ok men kan förbättras
+SV00951,C01621,2023-05-27,8,3,SE,Helt ok men kan förbättras
+SV00952,C01616,2023-05-22,8,4,SE,Helt ok men kan förbättras
+SV00953,C01829,2023-05-09,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00954,C01850,2023-05-01,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00955,C01858,2023-06-16,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00956,C01793,2023-06-09,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00957,C01686,2023-06-13,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00958,C01621,2023-06-24,7,4,SE,Helt ok men kan förbättras
+SV00959,C01876,2023-06-14,7,3,SE,Helt ok men kan förbättras
+SV00960,C01955,2023-06-12,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00961,C01971,2023-06-24,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00962,C01796,2023-06-16,7,3,SE,Helt ok men kan förbättras
+SV00963,C01631,2023-06-17,7,3,SE,Helt ok men kan förbättras
+SV00964,C01871,2023-06-05,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00965,C01660,2023-06-11,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00966,C01679,2023-06-07,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00967,C01840,2023-06-11,3,2,SE,"Inte nöjd, för långsam respons"
+SV00968,C01955,2023-06-05,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00969,C01850,2023-06-23,6,1,SE,"Inte nöjd, för långsam respons"
+SV00970,C01639,2023-06-28,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00971,C01949,2023-06-14,7,4,SE,Helt ok men kan förbättras
+SV00972,C01690,2023-06-04,2,1,SE,"Inte nöjd, för långsam respons"
+SV00973,C01900,2023-07-24,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00974,C01822,2023-07-09,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00975,C01717,2023-07-20,1,2,SE,"Inte nöjd, för långsam respons"
+SV00976,C01608,2023-07-04,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00977,C01754,2023-07-20,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00978,C01932,2023-07-02,8,3,SE,Helt ok men kan förbättras
+SV00979,C01910,2023-07-28,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00980,C01774,2023-07-26,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00981,C01930,2023-07-23,6,3,SE,"Inte nöjd, för långsam respons"
+SV00982,C01900,2023-07-18,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00983,C01700,2023-07-26,5,3,SE,"Inte nöjd, för långsam respons"
+SV00984,C01841,2023-07-13,8,3,SE,Helt ok men kan förbättras
+SV00985,C01813,2023-07-07,8,4,SE,Helt ok men kan förbättras
+SV00986,C01794,2023-07-05,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00987,C01871,2023-07-22,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00988,C01760,2023-07-05,7,3,SE,Helt ok men kan förbättras
+SV00989,C01707,2023-07-04,7,3,SE,Helt ok men kan förbättras
+SV00990,C01632,2023-07-21,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00991,C01695,2023-08-27,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00992,C01851,2023-08-28,7,3,SE,Helt ok men kan förbättras
+SV00993,C01951,2023-08-16,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00994,C01969,2023-08-28,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV00995,C01883,2023-08-25,8,3,SE,Helt ok men kan förbättras
+SV00996,C01711,2023-08-27,6,1,SE,"Inte nöjd, för långsam respons"
+SV00997,C01890,2023-08-16,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00998,C01914,2023-08-15,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV00999,C01638,2023-08-06,7,3,SE,Helt ok men kan förbättras
+SV01000,C01779,2023-08-14,7,3,SE,Helt ok men kan förbättras
+SV01001,C01914,2023-08-21,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01002,C01617,2023-08-26,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01003,C01620,2023-08-12,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01004,C01957,2023-08-15,8,4,SE,Helt ok men kan förbättras
+SV01005,C01689,2023-08-20,7,3,SE,Helt ok men kan förbättras
+SV01006,C01917,2023-08-15,5,2,SE,"Inte nöjd, för långsam respons"
+SV01007,C01630,2023-08-15,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01008,C01810,2023-08-08,6,1,SE,"Inte nöjd, för långsam respons"
+SV01009,C01662,2023-09-21,4,3,SE,"Inte nöjd, för långsam respons"
+SV01010,C01857,2023-09-28,1,2,SE,"Inte nöjd, för långsam respons"
+SV01011,C01984,2023-09-24,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01012,C01878,2023-09-17,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01013,C01615,2023-09-21,7,4,SE,Helt ok men kan förbättras
+SV01014,C01836,2023-09-26,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01015,C01973,2023-09-16,4,3,SE,"Inte nöjd, för långsam respons"
+SV01016,C01959,2023-09-06,8,4,SE,Helt ok men kan förbättras
+SV01017,C01627,2023-09-12,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01018,C01634,2023-09-12,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01019,C01960,2023-09-11,7,3,SE,Helt ok men kan förbättras
+SV01020,C01763,2023-09-02,8,3,SE,Helt ok men kan förbättras
+SV01021,C01619,2023-09-14,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01022,C01973,2023-09-21,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01023,C01892,2023-09-08,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01024,C01946,2023-09-26,7,4,SE,Helt ok men kan förbättras
+SV01025,C01759,2023-09-03,7,4,SE,Helt ok men kan förbättras
+SV01026,C01881,2023-09-24,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01027,C02025,2023-10-04,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01028,C01855,2023-10-01,8,4,SE,Helt ok men kan förbättras
+SV01029,C01652,2023-10-05,7,4,SE,Helt ok men kan förbättras
+SV01030,C01694,2023-10-26,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01031,C01956,2023-10-27,2,2,SE,"Inte nöjd, för långsam respons"
+SV01032,C01816,2023-10-10,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01033,C01712,2023-10-18,2,2,SE,"Inte nöjd, för långsam respons"
+SV01034,C01619,2023-10-05,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01035,C02010,2023-10-25,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01036,C01952,2023-10-05,7,4,SE,Helt ok men kan förbättras
+SV01037,C01897,2023-10-08,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01038,C01594,2023-10-21,7,3,SE,Helt ok men kan förbättras
+SV01039,C02065,2023-10-27,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01040,C01905,2023-10-24,5,1,SE,"Inte nöjd, för långsam respons"
+SV01041,C02016,2023-10-12,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01042,C01589,2023-10-08,8,4,SE,Helt ok men kan förbättras
+SV01043,C01864,2023-10-18,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01044,C01760,2023-10-28,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01045,C01643,2023-11-01,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01046,C01985,2023-11-24,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01047,C02052,2023-11-11,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01048,C02035,2023-11-01,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01049,C02032,2023-11-09,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01050,C01912,2023-11-02,2,3,SE,"Inte nöjd, för långsam respons"
+SV01051,C01912,2023-11-18,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01052,C01609,2023-11-16,0,3,SE,"Inte nöjd, för långsam respons"
+SV01053,C02088,2023-11-27,2,2,SE,"Inte nöjd, för långsam respons"
+SV01054,C01850,2023-11-14,8,4,SE,Helt ok men kan förbättras
+SV01055,C01602,2023-11-09,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01056,C01606,2023-11-02,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01057,C02007,2023-11-10,8,4,SE,Helt ok men kan förbättras
+SV01058,C01770,2023-11-12,8,4,SE,Helt ok men kan förbättras
+SV01059,C01972,2023-11-17,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01060,C01666,2023-11-18,8,4,SE,Helt ok men kan förbättras
+SV01061,C01730,2023-11-12,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01062,C01784,2023-11-18,7,4,SE,Helt ok men kan förbättras
+SV01063,C01944,2023-12-26,6,2,SE,"Inte nöjd, för långsam respons"
+SV01064,C01963,2023-12-06,5,3,SE,"Inte nöjd, för långsam respons"
+SV01065,C01878,2023-12-02,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01066,C01838,2023-12-11,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01067,C02028,2023-12-04,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01068,C01845,2023-12-28,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01069,C01838,2023-12-03,8,4,SE,Helt ok men kan förbättras
+SV01070,C01780,2023-12-26,8,4,SE,Helt ok men kan förbättras
+SV01071,C01809,2023-12-27,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01072,C01712,2023-12-25,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01073,C02056,2023-12-19,8,4,SE,Helt ok men kan förbättras
+SV01074,C01758,2023-12-02,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01075,C01837,2023-12-13,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01076,C02017,2023-12-10,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01077,C01828,2023-12-10,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01078,C01805,2023-12-22,8,3,SE,Helt ok men kan förbättras
+SV01079,C01831,2023-12-06,7,3,SE,Helt ok men kan förbättras
+SV01080,C01702,2023-12-28,3,3,SE,"Inte nöjd, för långsam respons"
+SV01081,C01915,2024-01-19,8,4,SE,Helt ok men kan förbättras
+SV01082,C01806,2024-01-28,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01083,C02112,2024-01-26,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01084,C02088,2024-01-16,4,1,SE,"Inte nöjd, för långsam respons"
+SV01085,C01993,2024-01-25,7,4,SE,Helt ok men kan förbättras
+SV01086,C01837,2024-01-22,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01087,C02051,2024-01-28,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01088,C01835,2024-01-17,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01089,C01700,2024-01-09,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01090,C01713,2024-01-19,7,4,SE,Helt ok men kan förbättras
+SV01091,C01893,2024-01-14,7,4,SE,Helt ok men kan förbättras
+SV01092,C02045,2024-01-15,3,2,SE,"Inte nöjd, för långsam respons"
+SV01093,C01667,2024-01-14,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01094,C01953,2024-01-19,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01095,C01705,2024-01-06,3,2,SE,"Inte nöjd, för långsam respons"
+SV01096,C02029,2024-01-11,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01097,C01942,2024-01-14,8,3,SE,Helt ok men kan förbättras
+SV01098,C01701,2024-01-14,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01099,C01617,2024-02-27,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01100,C01629,2024-02-12,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01101,C01666,2024-02-05,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01102,C01845,2024-02-12,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01103,C02138,2024-02-20,8,3,SE,Helt ok men kan förbättras
+SV01104,C01735,2024-02-11,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01105,C02073,2024-02-12,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01106,C01957,2024-02-09,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01107,C01992,2024-02-11,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01108,C01831,2024-02-27,8,3,SE,Helt ok men kan förbättras
+SV01109,C01765,2024-02-27,8,4,SE,Helt ok men kan förbättras
+SV01110,C01610,2024-02-01,5,2,SE,"Inte nöjd, för långsam respons"
+SV01111,C01599,2024-02-19,2,1,SE,"Inte nöjd, för långsam respons"
+SV01112,C02058,2024-02-22,8,3,SE,Helt ok men kan förbättras
+SV01113,C02117,2024-02-24,8,3,SE,Helt ok men kan förbättras
+SV01114,C01984,2024-02-21,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01115,C01637,2024-02-19,8,4,SE,Helt ok men kan förbättras
+SV01116,C01856,2024-02-23,4,3,SE,"Inte nöjd, för långsam respons"
+SV01117,C01958,2024-03-21,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01118,C02001,2024-03-02,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01119,C01942,2024-03-26,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01120,C02062,2024-03-08,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01121,C01869,2024-03-22,8,3,SE,Helt ok men kan förbättras
+SV01122,C01875,2024-03-16,7,4,SE,Helt ok men kan förbättras
+SV01123,C01700,2024-03-19,0,3,SE,"Inte nöjd, för långsam respons"
+SV01124,C01933,2024-03-13,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01125,C01925,2024-03-01,8,3,SE,Helt ok men kan förbättras
+SV01126,C01609,2024-03-20,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01127,C01948,2024-03-04,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01128,C02085,2024-03-14,8,3,SE,Helt ok men kan förbättras
+SV01129,C01632,2024-03-20,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01130,C02120,2024-03-16,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01131,C01904,2024-03-03,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01132,C01598,2024-03-27,5,3,SE,"Inte nöjd, för långsam respons"
+SV01133,C01882,2024-03-05,7,4,SE,Helt ok men kan förbättras
+SV01134,C01762,2024-03-08,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01135,C01674,2024-04-02,1,1,SE,"Inte nöjd, för långsam respons"
+SV01136,C01680,2024-04-18,7,4,SE,Helt ok men kan förbättras
+SV01137,C02199,2024-04-09,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01138,C01719,2024-04-12,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01139,C02173,2024-04-01,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01140,C01965,2024-04-27,7,4,SE,Helt ok men kan förbättras
+SV01141,C01758,2024-04-14,8,4,SE,Helt ok men kan förbättras
+SV01142,C02140,2024-04-07,8,3,SE,Helt ok men kan förbättras
+SV01143,C01957,2024-04-22,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01144,C02119,2024-04-28,8,3,SE,Helt ok men kan förbättras
+SV01145,C01832,2024-04-17,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01146,C01831,2024-04-16,5,2,SE,"Inte nöjd, för långsam respons"
+SV01147,C01839,2024-04-10,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01148,C02078,2024-04-01,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01149,C02065,2024-04-26,7,3,SE,Helt ok men kan förbättras
+SV01150,C02000,2024-04-19,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01151,C01923,2024-04-06,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01152,C02007,2024-04-12,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01153,C01754,2024-05-24,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01154,C01746,2024-05-28,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01155,C01830,2024-05-17,8,4,SE,Helt ok men kan förbättras
+SV01156,C01645,2024-05-16,8,3,SE,Helt ok men kan förbättras
+SV01157,C01964,2024-05-10,7,4,SE,Helt ok men kan förbättras
+SV01158,C02213,2024-05-23,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01159,C01782,2024-05-26,8,4,SE,Helt ok men kan förbättras
+SV01160,C01907,2024-05-27,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01161,C02092,2024-05-16,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01162,C01891,2024-05-02,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01163,C01600,2024-05-01,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01164,C01727,2024-05-15,7,3,SE,Helt ok men kan förbättras
+SV01165,C01840,2024-05-20,6,2,SE,"Inte nöjd, för långsam respons"
+SV01166,C02060,2024-05-26,5,1,SE,"Inte nöjd, för långsam respons"
+SV01167,C01953,2024-05-02,1,2,SE,"Inte nöjd, för långsam respons"
+SV01168,C01987,2024-05-15,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01169,C01612,2024-05-08,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01170,C01801,2024-05-03,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01171,C01859,2024-06-24,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01172,C02038,2024-06-19,7,3,SE,Helt ok men kan förbättras
+SV01173,C02111,2024-06-12,8,3,SE,Helt ok men kan förbättras
+SV01174,C01673,2024-06-08,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01175,C01785,2024-06-23,5,2,SE,"Inte nöjd, för långsam respons"
+SV01176,C02187,2024-06-15,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01177,C01589,2024-06-16,7,3,SE,Helt ok men kan förbättras
+SV01178,C02014,2024-06-04,8,3,SE,Helt ok men kan förbättras
+SV01179,C01751,2024-06-06,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01180,C01592,2024-06-24,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01181,C02120,2024-06-14,7,3,SE,Helt ok men kan förbättras
+SV01182,C02195,2024-06-13,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01183,C01754,2024-06-14,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01184,C01866,2024-06-21,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01185,C01611,2024-06-08,2,3,SE,"Inte nöjd, för långsam respons"
+SV01186,C01658,2024-06-27,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01187,C01913,2024-06-03,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01188,C01898,2024-06-11,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01189,C01845,2024-07-14,7,4,SE,Helt ok men kan förbättras
+SV01190,C01732,2024-07-17,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01191,C01600,2024-07-11,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01192,C01774,2024-07-27,8,3,SE,Helt ok men kan förbättras
+SV01193,C01644,2024-07-10,8,4,SE,Helt ok men kan förbättras
+SV01194,C01716,2024-07-13,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01195,C01855,2024-07-25,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01196,C01751,2024-07-04,5,3,SE,"Inte nöjd, för långsam respons"
+SV01197,C01709,2024-07-16,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01198,C01629,2024-07-10,7,4,SE,Helt ok men kan förbättras
+SV01199,C02163,2024-07-12,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01200,C02079,2024-07-16,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01201,C02069,2024-07-02,7,4,SE,Helt ok men kan förbättras
+SV01202,C01641,2024-07-24,8,4,SE,Helt ok men kan förbättras
+SV01203,C01694,2024-07-09,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01204,C01718,2024-07-10,2,3,SE,"Inte nöjd, för långsam respons"
+SV01205,C02002,2024-07-20,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01206,C01956,2024-07-16,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01207,C02021,2024-08-05,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01208,C01732,2024-08-24,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01209,C01973,2024-08-28,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01210,C02247,2024-08-22,7,4,SE,Helt ok men kan förbättras
+SV01211,C02114,2024-08-01,7,4,SE,Helt ok men kan förbättras
+SV01212,C02008,2024-08-03,2,1,SE,"Inte nöjd, för långsam respons"
+SV01213,C02273,2024-08-12,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01214,C02021,2024-08-08,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01215,C01896,2024-08-24,7,3,SE,Helt ok men kan förbättras
+SV01216,C01658,2024-08-09,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01217,C02095,2024-08-11,0,1,SE,"Inte nöjd, för långsam respons"
+SV01218,C02047,2024-08-14,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01219,C01589,2024-08-12,7,3,SE,Helt ok men kan förbättras
+SV01220,C01774,2024-08-15,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01221,C01945,2024-08-17,8,4,SE,Helt ok men kan förbättras
+SV01222,C02119,2024-08-15,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01223,C02089,2024-08-21,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01224,C02005,2024-08-26,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01225,C01947,2024-09-06,8,3,SE,Helt ok men kan förbättras
+SV01226,C01800,2024-09-20,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01227,C02302,2024-09-14,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01228,C02166,2024-09-02,4,3,SE,"Inte nöjd, för långsam respons"
+SV01229,C01955,2024-09-04,7,3,SE,Helt ok men kan förbättras
+SV01230,C02302,2024-09-19,8,4,SE,Helt ok men kan förbättras
+SV01231,C01681,2024-09-15,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01232,C02002,2024-09-06,7,4,SE,Helt ok men kan förbättras
+SV01233,C02133,2024-09-26,1,1,SE,"Inte nöjd, för långsam respons"
+SV01234,C01586,2024-09-07,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01235,C01952,2024-09-28,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01236,C01997,2024-09-16,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01237,C02247,2024-09-28,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01238,C02047,2024-09-13,5,1,SE,"Inte nöjd, för långsam respons"
+SV01239,C01927,2024-09-02,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01240,C01906,2024-09-20,8,3,SE,Helt ok men kan förbättras
+SV01241,C01967,2024-09-04,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01242,C02014,2024-09-25,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01243,C01723,2024-10-26,0,3,SE,"Inte nöjd, för långsam respons"
+SV01244,C01943,2024-10-06,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01245,C02205,2024-10-02,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01246,C02174,2024-10-09,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01247,C02262,2024-10-26,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01248,C02118,2024-10-28,8,3,SE,Helt ok men kan förbättras
+SV01249,C01638,2024-10-07,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01250,C01984,2024-10-02,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01251,C01838,2024-10-11,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01252,C01589,2024-10-28,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01253,C01807,2024-10-09,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01254,C01593,2024-10-23,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01255,C01969,2024-10-23,8,3,SE,Helt ok men kan förbättras
+SV01256,C01963,2024-10-09,7,4,SE,Helt ok men kan förbättras
+SV01257,C01878,2024-10-20,7,4,SE,Helt ok men kan förbättras
+SV01258,C02150,2024-10-15,7,4,SE,Helt ok men kan förbättras
+SV01259,C01854,2024-10-27,1,1,SE,"Inte nöjd, för långsam respons"
+SV01260,C02077,2024-10-16,0,1,SE,"Inte nöjd, för långsam respons"
+SV01261,C02135,2024-11-10,8,3,SE,Helt ok men kan förbättras
+SV01262,C02139,2024-11-17,6,1,SE,"Inte nöjd, för långsam respons"
+SV01263,C01895,2024-11-10,1,2,SE,"Inte nöjd, för långsam respons"
+SV01264,C02109,2024-11-01,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01265,C02026,2024-11-06,8,3,SE,Helt ok men kan förbättras
+SV01266,C01823,2024-11-06,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01267,C02301,2024-11-06,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01268,C01899,2024-11-05,8,3,SE,Helt ok men kan förbättras
+SV01269,C01701,2024-11-27,10,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01270,C01834,2024-11-07,8,3,SE,Helt ok men kan förbättras
+SV01271,C02042,2024-11-15,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01272,C01603,2024-11-18,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01273,C01788,2024-11-24,8,3,SE,Helt ok men kan förbättras
+SV01274,C01692,2024-11-28,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01275,C01679,2024-11-17,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01276,C01702,2024-11-27,8,3,SE,Helt ok men kan förbättras
+SV01277,C01855,2024-11-01,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01278,C02341,2024-11-21,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01279,C01787,2024-12-17,3,3,SE,"Inte nöjd, för långsam respons"
+SV01280,C01766,2024-12-02,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01281,C01975,2024-12-28,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01282,C01786,2024-12-02,8,4,SE,Helt ok men kan förbättras
+SV01283,C01660,2024-12-14,9,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01284,C01790,2024-12-05,2,1,SE,"Inte nöjd, för långsam respons"
+SV01285,C01881,2024-12-16,1,3,SE,"Inte nöjd, för långsam respons"
+SV01286,C02266,2024-12-20,7,3,SE,Helt ok men kan förbättras
+SV01287,C02163,2024-12-11,4,1,SE,"Inte nöjd, för långsam respons"
+SV01288,C02165,2024-12-08,3,2,SE,"Inte nöjd, för långsam respons"
+SV01289,C01881,2024-12-10,7,4,SE,Helt ok men kan förbättras
+SV01290,C02281,2024-12-07,3,2,SE,"Inte nöjd, för långsam respons"
+SV01291,C02245,2024-12-23,9,4,SE,"Utmärkt service, rekommenderar starkt"
+SV01292,C01963,2024-12-10,8,4,SE,Helt ok men kan förbättras
+SV01293,C01959,2024-12-14,4,1,SE,"Inte nöjd, för långsam respons"
+SV01294,C01886,2024-12-02,8,3,SE,Helt ok men kan förbättras
+SV01295,C02246,2024-12-13,5,1,SE,"Inte nöjd, för långsam respons"
+SV01296,C02021,2024-12-04,10,5,SE,"Utmärkt service, rekommenderar starkt"
+SV01297,C02637,2023-01-11,7,3,DE,Insgesamt zufriedenstellender Service
+SV01298,C02394,2023-01-01,2,1,DE,Zu langsam und unzuverlässig
+SV01299,C02643,2023-01-25,10,4,DE,Hervorragende Qualität und Service
+SV01300,C02635,2023-01-14,8,4,DE,Insgesamt zufriedenstellender Service
+SV01301,C02631,2023-01-10,8,3,DE,Insgesamt zufriedenstellender Service
+SV01302,C02377,2023-01-21,9,5,DE,Hervorragende Qualität und Service
+SV01303,C02545,2023-01-24,7,4,DE,Insgesamt zufriedenstellender Service
+SV01304,C02474,2023-01-16,10,5,DE,Hervorragende Qualität und Service
+SV01305,C02469,2023-01-14,9,5,DE,Hervorragende Qualität und Service
+SV01306,C02418,2023-01-16,1,3,DE,Zu langsam und unzuverlässig
+SV01307,C02471,2023-01-27,7,3,DE,Insgesamt zufriedenstellender Service
+SV01308,C02398,2023-01-28,9,5,DE,Hervorragende Qualität und Service
+SV01309,C02598,2023-01-03,7,4,DE,Insgesamt zufriedenstellender Service
+SV01310,C02558,2023-01-16,9,5,DE,Hervorragende Qualität und Service
+SV01311,C02442,2023-01-04,10,4,DE,Hervorragende Qualität und Service
+SV01312,C02575,2023-01-01,10,4,DE,Hervorragende Qualität und Service
+SV01313,C02595,2023-01-15,9,4,DE,Hervorragende Qualität und Service
+SV01314,C02387,2023-01-18,10,4,DE,Hervorragende Qualität und Service
+SV01315,C02452,2023-02-14,7,4,DE,Insgesamt zufriedenstellender Service
+SV01316,C02423,2023-02-06,5,2,DE,Zu langsam und unzuverlässig
+SV01317,C02378,2023-02-22,10,5,DE,Hervorragende Qualität und Service
+SV01318,C02648,2023-02-07,9,4,DE,Hervorragende Qualität und Service
+SV01319,C02672,2023-02-02,9,5,DE,Hervorragende Qualität und Service
+SV01320,C02643,2023-02-24,0,3,DE,Zu langsam und unzuverlässig
+SV01321,C02497,2023-02-28,10,5,DE,Hervorragende Qualität und Service
+SV01322,C02526,2023-02-17,10,4,DE,Hervorragende Qualität und Service
+SV01323,C02508,2023-02-18,7,3,DE,Insgesamt zufriedenstellender Service
+SV01324,C02617,2023-02-14,10,5,DE,Hervorragende Qualität und Service
+SV01325,C02405,2023-02-24,9,5,DE,Hervorragende Qualität und Service
+SV01326,C02401,2023-02-06,9,4,DE,Hervorragende Qualität und Service
+SV01327,C02595,2023-02-22,9,5,DE,Hervorragende Qualität und Service
+SV01328,C02408,2023-02-24,8,4,DE,Insgesamt zufriedenstellender Service
+SV01329,C02499,2023-02-11,8,4,DE,Insgesamt zufriedenstellender Service
+SV01330,C02645,2023-02-21,9,5,DE,Hervorragende Qualität und Service
+SV01331,C02662,2023-02-01,7,4,DE,Insgesamt zufriedenstellender Service
+SV01332,C02502,2023-02-06,5,2,DE,Zu langsam und unzuverlässig
+SV01333,C02630,2023-03-10,7,3,DE,Insgesamt zufriedenstellender Service
+SV01334,C02448,2023-03-22,8,4,DE,Insgesamt zufriedenstellender Service
+SV01335,C02505,2023-03-09,10,5,DE,Hervorragende Qualität und Service
+SV01336,C02622,2023-03-08,9,4,DE,Hervorragende Qualität und Service
+SV01337,C02494,2023-03-18,9,5,DE,Hervorragende Qualität und Service
+SV01338,C02563,2023-03-24,6,1,DE,Zu langsam und unzuverlässig
+SV01339,C02600,2023-03-21,10,5,DE,Hervorragende Qualität und Service
+SV01340,C02534,2023-03-05,0,3,DE,Zu langsam und unzuverlässig
+SV01341,C02659,2023-03-27,9,5,DE,Hervorragende Qualität und Service
+SV01342,C02389,2023-03-09,10,5,DE,Hervorragende Qualität und Service
+SV01343,C02614,2023-03-25,0,2,DE,Zu langsam und unzuverlässig
+SV01344,C02569,2023-03-15,10,5,DE,Hervorragende Qualität und Service
+SV01345,C02619,2023-03-05,9,5,DE,Hervorragende Qualität und Service
+SV01346,C02544,2023-03-22,8,4,DE,Insgesamt zufriedenstellender Service
+SV01347,C02544,2023-03-21,9,5,DE,Hervorragende Qualität und Service
+SV01348,C02520,2023-03-22,8,3,DE,Insgesamt zufriedenstellender Service
+SV01349,C02616,2023-03-11,8,4,DE,Insgesamt zufriedenstellender Service
+SV01350,C02598,2023-03-06,9,4,DE,Hervorragende Qualität und Service
+SV01351,C02504,2023-04-18,10,4,DE,Hervorragende Qualität und Service
+SV01352,C02657,2023-04-20,1,1,DE,Zu langsam und unzuverlässig
+SV01353,C02457,2023-04-22,10,4,DE,Hervorragende Qualität und Service
+SV01354,C02723,2023-04-12,10,5,DE,Hervorragende Qualität und Service
+SV01355,C02681,2023-04-17,8,3,DE,Insgesamt zufriedenstellender Service
+SV01356,C02405,2023-04-14,8,3,DE,Insgesamt zufriedenstellender Service
+SV01357,C02565,2023-04-08,10,5,DE,Hervorragende Qualität und Service
+SV01358,C02655,2023-04-16,2,3,DE,Zu langsam und unzuverlässig
+SV01359,C02626,2023-04-02,10,4,DE,Hervorragende Qualität und Service
+SV01360,C02683,2023-04-21,9,5,DE,Hervorragende Qualität und Service
+SV01361,C02634,2023-04-06,10,4,DE,Hervorragende Qualität und Service
+SV01362,C02721,2023-04-08,8,3,DE,Insgesamt zufriedenstellender Service
+SV01363,C02404,2023-04-13,0,1,DE,Zu langsam und unzuverlässig
+SV01364,C02518,2023-04-05,10,5,DE,Hervorragende Qualität und Service
+SV01365,C02680,2023-04-28,10,4,DE,Hervorragende Qualität und Service
+SV01366,C02527,2023-04-26,10,4,DE,Hervorragende Qualität und Service
+SV01367,C02388,2023-04-20,7,3,DE,Insgesamt zufriedenstellender Service
+SV01368,C02594,2023-04-02,7,4,DE,Insgesamt zufriedenstellender Service
+SV01369,C02721,2023-05-28,7,3,DE,Insgesamt zufriedenstellender Service
+SV01370,C02551,2023-05-11,9,4,DE,Hervorragende Qualität und Service
+SV01371,C02408,2023-05-22,10,4,DE,Hervorragende Qualität und Service
+SV01372,C02422,2023-05-16,9,4,DE,Hervorragende Qualität und Service
+SV01373,C02585,2023-05-14,8,4,DE,Insgesamt zufriedenstellender Service
+SV01374,C02607,2023-05-19,0,1,DE,Zu langsam und unzuverlässig
+SV01375,C02441,2023-05-02,10,4,DE,Hervorragende Qualität und Service
+SV01376,C02479,2023-05-27,8,3,DE,Insgesamt zufriedenstellender Service
+SV01377,C02688,2023-05-22,10,4,DE,Hervorragende Qualität und Service
+SV01378,C02385,2023-05-05,10,4,DE,Hervorragende Qualität und Service
+SV01379,C02462,2023-05-14,8,3,DE,Insgesamt zufriedenstellender Service
+SV01380,C02501,2023-05-15,10,5,DE,Hervorragende Qualität und Service
+SV01381,C02546,2023-05-10,10,5,DE,Hervorragende Qualität und Service
+SV01382,C02720,2023-05-05,3,3,DE,Zu langsam und unzuverlässig
+SV01383,C02481,2023-05-12,9,5,DE,Hervorragende Qualität und Service
+SV01384,C02719,2023-05-10,8,4,DE,Insgesamt zufriedenstellender Service
+SV01385,C02410,2023-05-28,10,4,DE,Hervorragende Qualität und Service
+SV01386,C02625,2023-05-14,0,1,DE,Zu langsam und unzuverlässig
+SV01387,C02413,2023-06-26,9,4,DE,Hervorragende Qualität und Service
+SV01388,C02514,2023-06-26,9,5,DE,Hervorragende Qualität und Service
+SV01389,C02707,2023-06-24,9,4,DE,Hervorragende Qualität und Service
+SV01390,C02617,2023-06-08,7,4,DE,Insgesamt zufriedenstellender Service
+SV01391,C02698,2023-06-23,8,4,DE,Insgesamt zufriedenstellender Service
+SV01392,C02503,2023-06-25,2,1,DE,Zu langsam und unzuverlässig
+SV01393,C02557,2023-06-25,9,5,DE,Hervorragende Qualität und Service
+SV01394,C02631,2023-06-22,10,5,DE,Hervorragende Qualität und Service
+SV01395,C02510,2023-06-23,8,3,DE,Insgesamt zufriedenstellender Service
+SV01396,C02450,2023-06-28,10,5,DE,Hervorragende Qualität und Service
+SV01397,C02699,2023-06-09,10,5,DE,Hervorragende Qualität und Service
+SV01398,C02619,2023-06-16,1,3,DE,Zu langsam und unzuverlässig
+SV01399,C02681,2023-06-07,10,4,DE,Hervorragende Qualität und Service
+SV01400,C02612,2023-06-26,7,4,DE,Insgesamt zufriedenstellender Service
+SV01401,C02392,2023-06-21,9,4,DE,Hervorragende Qualität und Service
+SV01402,C02513,2023-06-20,8,4,DE,Insgesamt zufriedenstellender Service
+SV01403,C02417,2023-06-06,9,4,DE,Hervorragende Qualität und Service
+SV01404,C02451,2023-06-13,5,2,DE,Zu langsam und unzuverlässig
+SV01405,C02763,2023-07-16,9,5,DE,Hervorragende Qualität und Service
+SV01406,C02522,2023-07-28,8,3,DE,Insgesamt zufriedenstellender Service
+SV01407,C02556,2023-07-22,10,5,DE,Hervorragende Qualität und Service
+SV01408,C02753,2023-07-04,5,1,DE,Zu langsam und unzuverlässig
+SV01409,C02522,2023-07-08,2,1,DE,Zu langsam und unzuverlässig
+SV01410,C02745,2023-07-09,9,5,DE,Hervorragende Qualität und Service
+SV01411,C02586,2023-07-01,4,1,DE,Zu langsam und unzuverlässig
+SV01412,C02764,2023-07-28,7,3,DE,Insgesamt zufriedenstellender Service
+SV01413,C02491,2023-07-08,10,5,DE,Hervorragende Qualität und Service
+SV01414,C02537,2023-07-11,10,5,DE,Hervorragende Qualität und Service
+SV01415,C02486,2023-07-20,9,5,DE,Hervorragende Qualität und Service
+SV01416,C02654,2023-07-23,9,4,DE,Hervorragende Qualität und Service
+SV01417,C02415,2023-07-06,7,3,DE,Insgesamt zufriedenstellender Service
+SV01418,C02686,2023-07-06,10,5,DE,Hervorragende Qualität und Service
+SV01419,C02543,2023-07-05,9,4,DE,Hervorragende Qualität und Service
+SV01420,C02655,2023-07-09,8,4,DE,Insgesamt zufriedenstellender Service
+SV01421,C02703,2023-07-17,9,5,DE,Hervorragende Qualität und Service
+SV01422,C02418,2023-07-15,7,4,DE,Insgesamt zufriedenstellender Service
+SV01423,C02596,2023-08-09,9,4,DE,Hervorragende Qualität und Service
+SV01424,C02390,2023-08-11,3,1,DE,Zu langsam und unzuverlässig
+SV01425,C02508,2023-08-25,10,4,DE,Hervorragende Qualität und Service
+SV01426,C02634,2023-08-24,10,4,DE,Hervorragende Qualität und Service
+SV01427,C02701,2023-08-17,9,5,DE,Hervorragende Qualität und Service
+SV01428,C02728,2023-08-17,10,5,DE,Hervorragende Qualität und Service
+SV01429,C02699,2023-08-11,7,3,DE,Insgesamt zufriedenstellender Service
+SV01430,C02579,2023-08-19,8,3,DE,Insgesamt zufriedenstellender Service
+SV01431,C02558,2023-08-19,9,5,DE,Hervorragende Qualität und Service
+SV01432,C02726,2023-08-09,10,4,DE,Hervorragende Qualität und Service
+SV01433,C02609,2023-08-26,7,4,DE,Insgesamt zufriedenstellender Service
+SV01434,C02653,2023-08-23,4,1,DE,Zu langsam und unzuverlässig
+SV01435,C02755,2023-08-06,3,1,DE,Zu langsam und unzuverlässig
+SV01436,C02591,2023-08-20,9,4,DE,Hervorragende Qualität und Service
+SV01437,C02545,2023-08-26,10,4,DE,Hervorragende Qualität und Service
+SV01438,C02634,2023-08-20,8,3,DE,Insgesamt zufriedenstellender Service
+SV01439,C02421,2023-08-10,8,4,DE,Insgesamt zufriedenstellender Service
+SV01440,C02481,2023-08-12,10,4,DE,Hervorragende Qualität und Service
+SV01441,C02573,2023-09-28,8,4,DE,Insgesamt zufriedenstellender Service
+SV01442,C02430,2023-09-21,9,4,DE,Hervorragende Qualität und Service
+SV01443,C02788,2023-09-26,7,3,DE,Insgesamt zufriedenstellender Service
+SV01444,C02661,2023-09-02,9,5,DE,Hervorragende Qualität und Service
+SV01445,C02795,2023-09-14,10,5,DE,Hervorragende Qualität und Service
+SV01446,C02765,2023-09-27,10,4,DE,Hervorragende Qualität und Service
+SV01447,C02703,2023-09-01,2,1,DE,Zu langsam und unzuverlässig
+SV01448,C02623,2023-09-05,10,4,DE,Hervorragende Qualität und Service
+SV01449,C02481,2023-09-21,7,4,DE,Insgesamt zufriedenstellender Service
+SV01450,C02507,2023-09-04,9,5,DE,Hervorragende Qualität und Service
+SV01451,C02460,2023-09-16,8,3,DE,Insgesamt zufriedenstellender Service
+SV01452,C02749,2023-09-24,10,4,DE,Hervorragende Qualität und Service
+SV01453,C02714,2023-09-28,10,5,DE,Hervorragende Qualität und Service
+SV01454,C02780,2023-09-27,6,2,DE,Zu langsam und unzuverlässig
+SV01455,C02635,2023-09-06,9,5,DE,Hervorragende Qualität und Service
+SV01456,C02470,2023-09-22,10,5,DE,Hervorragende Qualität und Service
+SV01457,C02461,2023-09-03,7,4,DE,Insgesamt zufriedenstellender Service
+SV01458,C02660,2023-09-22,10,4,DE,Hervorragende Qualität und Service
+SV01459,C02726,2023-10-22,2,2,DE,Zu langsam und unzuverlässig
+SV01460,C02693,2023-10-19,8,3,DE,Insgesamt zufriedenstellender Service
+SV01461,C02388,2023-10-09,9,5,DE,Hervorragende Qualität und Service
+SV01462,C02601,2023-10-19,7,4,DE,Insgesamt zufriedenstellender Service
+SV01463,C02612,2023-10-22,9,5,DE,Hervorragende Qualität und Service
+SV01464,C02661,2023-10-28,7,4,DE,Insgesamt zufriedenstellender Service
+SV01465,C02405,2023-10-11,9,5,DE,Hervorragende Qualität und Service
+SV01466,C02560,2023-10-11,9,4,DE,Hervorragende Qualität und Service
+SV01467,C02481,2023-10-03,7,3,DE,Insgesamt zufriedenstellender Service
+SV01468,C02450,2023-10-03,10,5,DE,Hervorragende Qualität und Service
+SV01469,C02683,2023-10-01,10,5,DE,Hervorragende Qualität und Service
+SV01470,C02808,2023-10-04,2,2,DE,Zu langsam und unzuverlässig
+SV01471,C02587,2023-10-24,10,5,DE,Hervorragende Qualität und Service
+SV01472,C02742,2023-10-03,10,5,DE,Hervorragende Qualität und Service
+SV01473,C02440,2023-10-15,10,4,DE,Hervorragende Qualität und Service
+SV01474,C02737,2023-10-24,2,1,DE,Zu langsam und unzuverlässig
+SV01475,C02396,2023-10-09,7,4,DE,Insgesamt zufriedenstellender Service
+SV01476,C02472,2023-10-25,9,4,DE,Hervorragende Qualität und Service
+SV01477,C02751,2023-11-16,10,4,DE,Hervorragende Qualität und Service
+SV01478,C02618,2023-11-02,10,4,DE,Hervorragende Qualität und Service
+SV01479,C02783,2023-11-17,10,4,DE,Hervorragende Qualität und Service
+SV01480,C02455,2023-11-25,6,3,DE,Zu langsam und unzuverlässig
+SV01481,C02695,2023-11-08,9,4,DE,Hervorragende Qualität und Service
+SV01482,C02759,2023-11-26,10,5,DE,Hervorragende Qualität und Service
+SV01483,C02531,2023-11-23,7,3,DE,Insgesamt zufriedenstellender Service
+SV01484,C02824,2023-11-23,8,3,DE,Insgesamt zufriedenstellender Service
+SV01485,C02875,2023-11-14,9,5,DE,Hervorragende Qualität und Service
+SV01486,C02797,2023-11-27,8,3,DE,Insgesamt zufriedenstellender Service
+SV01487,C02813,2023-11-27,10,4,DE,Hervorragende Qualität und Service
+SV01488,C02484,2023-11-27,9,5,DE,Hervorragende Qualität und Service
+SV01489,C02646,2023-11-25,10,4,DE,Hervorragende Qualität und Service
+SV01490,C02735,2023-11-20,7,4,DE,Insgesamt zufriedenstellender Service
+SV01491,C02443,2023-11-17,9,5,DE,Hervorragende Qualität und Service
+SV01492,C02860,2023-11-19,7,3,DE,Insgesamt zufriedenstellender Service
+SV01493,C02553,2023-11-19,6,3,DE,Zu langsam und unzuverlässig
+SV01494,C02640,2023-11-04,2,1,DE,Zu langsam und unzuverlässig
+SV01495,C02825,2023-12-15,8,4,DE,Insgesamt zufriedenstellender Service
+SV01496,C02675,2023-12-22,1,1,DE,Zu langsam und unzuverlässig
+SV01497,C02780,2023-12-14,10,4,DE,Hervorragende Qualität und Service
+SV01498,C02658,2023-12-22,7,4,DE,Insgesamt zufriedenstellender Service
+SV01499,C02524,2023-12-20,10,4,DE,Hervorragende Qualität und Service
+SV01500,C02877,2023-12-05,9,4,DE,Hervorragende Qualität und Service
+SV01501,C02854,2023-12-18,10,5,DE,Hervorragende Qualität und Service
+SV01502,C02904,2023-12-28,4,3,DE,Zu langsam und unzuverlässig
+SV01503,C02618,2023-12-17,9,5,DE,Hervorragende Qualität und Service
+SV01504,C02790,2023-12-15,8,4,DE,Insgesamt zufriedenstellender Service
+SV01505,C02828,2023-12-18,10,4,DE,Hervorragende Qualität und Service
+SV01506,C02394,2023-12-09,9,4,DE,Hervorragende Qualität und Service
+SV01507,C02450,2023-12-28,9,5,DE,Hervorragende Qualität und Service
+SV01508,C02711,2023-12-11,10,5,DE,Hervorragende Qualität und Service
+SV01509,C02495,2023-12-19,8,3,DE,Insgesamt zufriedenstellender Service
+SV01510,C02765,2023-12-26,1,1,DE,Zu langsam und unzuverlässig
+SV01511,C02451,2023-12-15,7,3,DE,Insgesamt zufriedenstellender Service
+SV01512,C02823,2023-12-27,10,5,DE,Hervorragende Qualität und Service
+SV01513,C02430,2024-01-14,6,2,DE,Zu langsam und unzuverlässig
+SV01514,C02533,2024-01-19,2,3,DE,Zu langsam und unzuverlässig
+SV01515,C02769,2024-01-22,9,4,DE,Hervorragende Qualität und Service
+SV01516,C02856,2024-01-19,10,4,DE,Hervorragende Qualität und Service
+SV01517,C02498,2024-01-18,7,3,DE,Insgesamt zufriedenstellender Service
+SV01518,C02475,2024-01-21,9,5,DE,Hervorragende Qualität und Service
+SV01519,C02760,2024-01-17,9,4,DE,Hervorragende Qualität und Service
+SV01520,C02656,2024-01-26,9,4,DE,Hervorragende Qualität und Service
+SV01521,C02824,2024-01-15,9,5,DE,Hervorragende Qualität und Service
+SV01522,C02662,2024-01-24,10,5,DE,Hervorragende Qualität und Service
+SV01523,C02727,2024-01-02,8,3,DE,Insgesamt zufriedenstellender Service
+SV01524,C02531,2024-01-04,7,4,DE,Insgesamt zufriedenstellender Service
+SV01525,C02541,2024-01-16,7,3,DE,Insgesamt zufriedenstellender Service
+SV01526,C02885,2024-01-14,7,3,DE,Insgesamt zufriedenstellender Service
+SV01527,C02806,2024-01-28,10,4,DE,Hervorragende Qualität und Service
+SV01528,C02694,2024-01-27,9,5,DE,Hervorragende Qualität und Service
+SV01529,C02798,2024-01-28,9,5,DE,Hervorragende Qualität und Service
+SV01530,C02469,2024-01-28,8,3,DE,Insgesamt zufriedenstellender Service
+SV01531,C02880,2024-02-09,4,3,DE,Zu langsam und unzuverlässig
+SV01532,C02563,2024-02-16,10,5,DE,Hervorragende Qualität und Service
+SV01533,C02615,2024-02-10,9,4,DE,Hervorragende Qualität und Service
+SV01534,C02768,2024-02-02,9,4,DE,Hervorragende Qualität und Service
+SV01535,C02829,2024-02-03,8,3,DE,Insgesamt zufriedenstellender Service
+SV01536,C02540,2024-02-12,8,3,DE,Insgesamt zufriedenstellender Service
+SV01537,C02690,2024-02-22,2,3,DE,Zu langsam und unzuverlässig
+SV01538,C02661,2024-02-21,10,5,DE,Hervorragende Qualität und Service
+SV01539,C02650,2024-02-21,0,3,DE,Zu langsam und unzuverlässig
+SV01540,C02558,2024-02-19,8,3,DE,Insgesamt zufriedenstellender Service
+SV01541,C02453,2024-02-12,7,3,DE,Insgesamt zufriedenstellender Service
+SV01542,C02598,2024-02-01,9,5,DE,Hervorragende Qualität und Service
+SV01543,C02509,2024-02-07,10,4,DE,Hervorragende Qualität und Service
+SV01544,C02439,2024-02-15,10,5,DE,Hervorragende Qualität und Service
+SV01545,C02548,2024-02-18,10,5,DE,Hervorragende Qualität und Service
+SV01546,C02729,2024-02-14,9,4,DE,Hervorragende Qualität und Service
+SV01547,C02590,2024-02-24,10,5,DE,Hervorragende Qualität und Service
+SV01548,C02945,2024-02-23,8,4,DE,Insgesamt zufriedenstellender Service
+SV01549,C02582,2024-03-12,9,4,DE,Hervorragende Qualität und Service
+SV01550,C02899,2024-03-16,8,3,DE,Insgesamt zufriedenstellender Service
+SV01551,C02636,2024-03-25,9,5,DE,Hervorragende Qualität und Service
+SV01552,C02552,2024-03-04,3,2,DE,Zu langsam und unzuverlässig
+SV01553,C02597,2024-03-27,8,3,DE,Insgesamt zufriedenstellender Service
+SV01554,C02638,2024-03-05,8,3,DE,Insgesamt zufriedenstellender Service
+SV01555,C02582,2024-03-23,9,4,DE,Hervorragende Qualität und Service
+SV01556,C02957,2024-03-19,10,5,DE,Hervorragende Qualität und Service
+SV01557,C02548,2024-03-14,10,5,DE,Hervorragende Qualität und Service
+SV01558,C02577,2024-03-18,7,4,DE,Insgesamt zufriedenstellender Service
+SV01559,C02394,2024-03-08,8,3,DE,Insgesamt zufriedenstellender Service
+SV01560,C02709,2024-03-14,5,2,DE,Zu langsam und unzuverlässig
+SV01561,C02705,2024-03-25,10,4,DE,Hervorragende Qualität und Service
+SV01562,C02412,2024-03-26,7,4,DE,Insgesamt zufriedenstellender Service
+SV01563,C02566,2024-03-16,9,5,DE,Hervorragende Qualität und Service
+SV01564,C02573,2024-03-12,10,5,DE,Hervorragende Qualität und Service
+SV01565,C02414,2024-03-19,9,5,DE,Hervorragende Qualität und Service
+SV01566,C02729,2024-03-25,10,4,DE,Hervorragende Qualität und Service
+SV01567,C02444,2024-04-12,7,3,DE,Insgesamt zufriedenstellender Service
+SV01568,C02818,2024-04-12,9,4,DE,Hervorragende Qualität und Service
+SV01569,C02667,2024-04-24,9,4,DE,Hervorragende Qualität und Service
+SV01570,C02831,2024-04-25,7,4,DE,Insgesamt zufriedenstellender Service
+SV01571,C02946,2024-04-16,10,5,DE,Hervorragende Qualität und Service
+SV01572,C02881,2024-04-17,10,4,DE,Hervorragende Qualität und Service
+SV01573,C02944,2024-04-03,9,5,DE,Hervorragende Qualität und Service
+SV01574,C02711,2024-04-16,9,4,DE,Hervorragende Qualität und Service
+SV01575,C02563,2024-04-08,9,4,DE,Hervorragende Qualität und Service
+SV01576,C02791,2024-04-23,7,3,DE,Insgesamt zufriedenstellender Service
+SV01577,C02854,2024-04-26,6,2,DE,Zu langsam und unzuverlässig
+SV01578,C02862,2024-04-23,10,4,DE,Hervorragende Qualität und Service
+SV01579,C02670,2024-04-26,8,4,DE,Insgesamt zufriedenstellender Service
+SV01580,C02718,2024-04-11,9,4,DE,Hervorragende Qualität und Service
+SV01581,C02549,2024-04-13,9,4,DE,Hervorragende Qualität und Service
+SV01582,C02583,2024-04-01,4,3,DE,Zu langsam und unzuverlässig
+SV01583,C02623,2024-04-26,10,5,DE,Hervorragende Qualität und Service
+SV01584,C02980,2024-04-22,8,3,DE,Insgesamt zufriedenstellender Service
+SV01585,C02911,2024-05-02,8,3,DE,Insgesamt zufriedenstellender Service
+SV01586,C02523,2024-05-24,1,3,DE,Zu langsam und unzuverlässig
+SV01587,C02977,2024-05-03,10,4,DE,Hervorragende Qualität und Service
+SV01588,C02695,2024-05-17,10,4,DE,Hervorragende Qualität und Service
+SV01589,C02903,2024-05-23,1,2,DE,Zu langsam und unzuverlässig
+SV01590,C02424,2024-05-12,8,3,DE,Insgesamt zufriedenstellender Service
+SV01591,C02394,2024-05-08,10,4,DE,Hervorragende Qualität und Service
+SV01592,C02809,2024-05-12,10,5,DE,Hervorragende Qualität und Service
+SV01593,C02988,2024-05-06,8,3,DE,Insgesamt zufriedenstellender Service
+SV01594,C02512,2024-05-13,8,3,DE,Insgesamt zufriedenstellender Service
+SV01595,C02940,2024-05-07,8,3,DE,Insgesamt zufriedenstellender Service
+SV01596,C02419,2024-05-17,9,5,DE,Hervorragende Qualität und Service
+SV01597,C02388,2024-05-17,9,4,DE,Hervorragende Qualität und Service
+SV01598,C02982,2024-05-15,9,5,DE,Hervorragende Qualität und Service
+SV01599,C02779,2024-05-24,9,4,DE,Hervorragende Qualität und Service
+SV01600,C02886,2024-05-01,9,5,DE,Hervorragende Qualität und Service
+SV01601,C02654,2024-05-01,10,5,DE,Hervorragende Qualität und Service
+SV01602,C02881,2024-05-26,8,3,DE,Insgesamt zufriedenstellender Service
+SV01603,C02599,2024-06-22,7,4,DE,Insgesamt zufriedenstellender Service
+SV01604,C02440,2024-06-17,10,4,DE,Hervorragende Qualität und Service
+SV01605,C02707,2024-06-25,10,5,DE,Hervorragende Qualität und Service
+SV01606,C02563,2024-06-25,10,5,DE,Hervorragende Qualität und Service
+SV01607,C02451,2024-06-04,9,4,DE,Hervorragende Qualität und Service
+SV01608,C02849,2024-06-26,10,5,DE,Hervorragende Qualität und Service
+SV01609,C02486,2024-06-06,9,4,DE,Hervorragende Qualität und Service
+SV01610,C02744,2024-06-04,7,4,DE,Insgesamt zufriedenstellender Service
+SV01611,C02780,2024-06-20,8,4,DE,Insgesamt zufriedenstellender Service
+SV01612,C02520,2024-06-01,1,1,DE,Zu langsam und unzuverlässig
+SV01613,C02521,2024-06-22,9,4,DE,Hervorragende Qualität und Service
+SV01614,C02503,2024-06-03,3,3,DE,Zu langsam und unzuverlässig
+SV01615,C02694,2024-06-15,6,1,DE,Zu langsam und unzuverlässig
+SV01616,C02870,2024-06-06,7,3,DE,Insgesamt zufriedenstellender Service
+SV01617,C02445,2024-06-28,8,3,DE,Insgesamt zufriedenstellender Service
+SV01618,C02402,2024-06-18,10,4,DE,Hervorragende Qualität und Service
+SV01619,C02654,2024-06-14,9,4,DE,Hervorragende Qualität und Service
+SV01620,C02516,2024-06-04,10,5,DE,Hervorragende Qualität und Service
+SV01621,C02612,2024-07-25,10,4,DE,Hervorragende Qualität und Service
+SV01622,C02579,2024-07-13,9,4,DE,Hervorragende Qualität und Service
+SV01623,C02603,2024-07-18,7,3,DE,Insgesamt zufriedenstellender Service
+SV01624,C02563,2024-07-22,8,3,DE,Insgesamt zufriedenstellender Service
+SV01625,C02393,2024-07-01,9,5,DE,Hervorragende Qualität und Service
+SV01626,C03007,2024-07-03,10,5,DE,Hervorragende Qualität und Service
+SV01627,C02613,2024-07-13,0,3,DE,Zu langsam und unzuverlässig
+SV01628,C02843,2024-07-27,8,3,DE,Insgesamt zufriedenstellender Service
+SV01629,C02542,2024-07-16,9,5,DE,Hervorragende Qualität und Service
+SV01630,C02438,2024-07-02,8,4,DE,Insgesamt zufriedenstellender Service
+SV01631,C02582,2024-07-23,7,4,DE,Insgesamt zufriedenstellender Service
+SV01632,C02634,2024-07-23,10,4,DE,Hervorragende Qualität und Service
+SV01633,C02493,2024-07-07,10,4,DE,Hervorragende Qualität und Service
+SV01634,C02522,2024-07-13,9,5,DE,Hervorragende Qualität und Service
+SV01635,C02706,2024-07-11,9,4,DE,Hervorragende Qualität und Service
+SV01636,C02491,2024-07-27,10,5,DE,Hervorragende Qualität und Service
+SV01637,C02740,2024-07-16,1,1,DE,Zu langsam und unzuverlässig
+SV01638,C02477,2024-07-22,9,5,DE,Hervorragende Qualität und Service
+SV01639,C02627,2024-08-14,10,4,DE,Hervorragende Qualität und Service
+SV01640,C02765,2024-08-19,0,1,DE,Zu langsam und unzuverlässig
+SV01641,C02645,2024-08-08,8,4,DE,Insgesamt zufriedenstellender Service
+SV01642,C02980,2024-08-07,9,4,DE,Hervorragende Qualität und Service
+SV01643,C02408,2024-08-11,9,4,DE,Hervorragende Qualität und Service
+SV01644,C02790,2024-08-26,10,4,DE,Hervorragende Qualität und Service
+SV01645,C02881,2024-08-05,5,2,DE,Zu langsam und unzuverlässig
+SV01646,C02699,2024-08-12,7,3,DE,Insgesamt zufriedenstellender Service
+SV01647,C02657,2024-08-14,7,3,DE,Insgesamt zufriedenstellender Service
+SV01648,C02395,2024-08-13,8,3,DE,Insgesamt zufriedenstellender Service
+SV01649,C02729,2024-08-08,10,5,DE,Hervorragende Qualität und Service
+SV01650,C02664,2024-08-17,10,5,DE,Hervorragende Qualität und Service
+SV01651,C02478,2024-08-21,7,3,DE,Insgesamt zufriedenstellender Service
+SV01652,C02512,2024-08-17,9,4,DE,Hervorragende Qualität und Service
+SV01653,C02471,2024-08-07,9,4,DE,Hervorragende Qualität und Service
+SV01654,C02992,2024-08-13,2,1,DE,Zu langsam und unzuverlässig
+SV01655,C02392,2024-08-17,9,5,DE,Hervorragende Qualität und Service
+SV01656,C02733,2024-08-27,9,5,DE,Hervorragende Qualität und Service
+SV01657,C03023,2024-09-22,5,3,DE,Zu langsam und unzuverlässig
+SV01658,C03006,2024-09-10,1,3,DE,Zu langsam und unzuverlässig
+SV01659,C02797,2024-09-22,10,5,DE,Hervorragende Qualität und Service
+SV01660,C02379,2024-09-18,10,4,DE,Hervorragende Qualität und Service
+SV01661,C02933,2024-09-05,7,4,DE,Insgesamt zufriedenstellender Service
+SV01662,C02616,2024-09-16,9,4,DE,Hervorragende Qualität und Service
+SV01663,C02675,2024-09-13,8,3,DE,Insgesamt zufriedenstellender Service
+SV01664,C02466,2024-09-16,10,5,DE,Hervorragende Qualität und Service
+SV01665,C02856,2024-09-09,10,4,DE,Hervorragende Qualität und Service
+SV01666,C02714,2024-09-04,8,4,DE,Insgesamt zufriedenstellender Service
+SV01667,C02742,2024-09-07,7,4,DE,Insgesamt zufriedenstellender Service
+SV01668,C02398,2024-09-19,8,4,DE,Insgesamt zufriedenstellender Service
+SV01669,C02509,2024-09-18,9,4,DE,Hervorragende Qualität und Service
+SV01670,C02977,2024-09-21,7,4,DE,Insgesamt zufriedenstellender Service
+SV01671,C02594,2024-09-12,10,5,DE,Hervorragende Qualität und Service
+SV01672,C02511,2024-09-11,10,5,DE,Hervorragende Qualität und Service
+SV01673,C02978,2024-09-26,10,4,DE,Hervorragende Qualität und Service
+SV01674,C03034,2024-09-09,1,2,DE,Zu langsam und unzuverlässig
+SV01675,C02666,2024-10-14,0,2,DE,Zu langsam und unzuverlässig
+SV01676,C02796,2024-10-04,10,4,DE,Hervorragende Qualität und Service
+SV01677,C02740,2024-10-01,1,1,DE,Zu langsam und unzuverlässig
+SV01678,C02578,2024-10-06,8,4,DE,Insgesamt zufriedenstellender Service
+SV01679,C02625,2024-10-22,9,4,DE,Hervorragende Qualität und Service
+SV01680,C02816,2024-10-24,9,5,DE,Hervorragende Qualität und Service
+SV01681,C02957,2024-10-06,7,3,DE,Insgesamt zufriedenstellender Service
+SV01682,C02871,2024-10-12,10,4,DE,Hervorragende Qualität und Service
+SV01683,C02481,2024-10-12,8,3,DE,Insgesamt zufriedenstellender Service
+SV01684,C03008,2024-10-13,9,5,DE,Hervorragende Qualität und Service
+SV01685,C02927,2024-10-02,10,5,DE,Hervorragende Qualität und Service
+SV01686,C02823,2024-10-06,4,1,DE,Zu langsam und unzuverlässig
+SV01687,C03005,2024-10-07,7,3,DE,Insgesamt zufriedenstellender Service
+SV01688,C02411,2024-10-24,8,3,DE,Insgesamt zufriedenstellender Service
+SV01689,C03048,2024-10-25,9,5,DE,Hervorragende Qualität und Service
+SV01690,C02488,2024-10-22,10,5,DE,Hervorragende Qualität und Service
+SV01691,C02675,2024-10-05,7,4,DE,Insgesamt zufriedenstellender Service
+SV01692,C02880,2024-10-13,10,5,DE,Hervorragende Qualität und Service
+SV01693,C02491,2024-11-01,7,4,DE,Insgesamt zufriedenstellender Service
+SV01694,C03031,2024-11-01,9,5,DE,Hervorragende Qualität und Service
+SV01695,C02630,2024-11-11,9,5,DE,Hervorragende Qualität und Service
+SV01696,C02710,2024-11-17,5,1,DE,Zu langsam und unzuverlässig
+SV01697,C02385,2024-11-22,10,4,DE,Hervorragende Qualität und Service
+SV01698,C02714,2024-11-08,7,4,DE,Insgesamt zufriedenstellender Service
+SV01699,C02958,2024-11-27,9,4,DE,Hervorragende Qualität und Service
+SV01700,C02565,2024-11-26,9,5,DE,Hervorragende Qualität und Service
+SV01701,C02715,2024-11-17,7,3,DE,Insgesamt zufriedenstellender Service
+SV01702,C02874,2024-11-07,7,4,DE,Insgesamt zufriedenstellender Service
+SV01703,C02427,2024-11-08,9,4,DE,Hervorragende Qualität und Service
+SV01704,C02486,2024-11-08,10,4,DE,Hervorragende Qualität und Service
+SV01705,C02842,2024-11-24,10,5,DE,Hervorragende Qualität und Service
+SV01706,C03092,2024-11-26,10,4,DE,Hervorragende Qualität und Service
+SV01707,C03138,2024-11-23,9,4,DE,Hervorragende Qualität und Service
+SV01708,C02877,2024-11-01,2,1,DE,Zu langsam und unzuverlässig
+SV01709,C02401,2024-11-04,4,2,DE,Zu langsam und unzuverlässig
+SV01710,C02673,2024-11-20,8,4,DE,Insgesamt zufriedenstellender Service
+SV01711,C03127,2024-12-08,7,4,DE,Insgesamt zufriedenstellender Service
+SV01712,C02898,2024-12-26,8,4,DE,Insgesamt zufriedenstellender Service
+SV01713,C03017,2024-12-14,10,5,DE,Hervorragende Qualität und Service
+SV01714,C03144,2024-12-06,10,4,DE,Hervorragende Qualität und Service
+SV01715,C03107,2024-12-14,9,4,DE,Hervorragende Qualität und Service
+SV01716,C02661,2024-12-16,7,3,DE,Insgesamt zufriedenstellender Service
+SV01717,C02561,2024-12-08,3,1,DE,Zu langsam und unzuverlässig
+SV01718,C02713,2024-12-22,9,4,DE,Hervorragende Qualität und Service
+SV01719,C03062,2024-12-14,10,5,DE,Hervorragende Qualität und Service
+SV01720,C02429,2024-12-26,9,5,DE,Hervorragende Qualität und Service
+SV01721,C02561,2024-12-22,9,5,DE,Hervorragende Qualität und Service
+SV01722,C02920,2024-12-01,8,4,DE,Insgesamt zufriedenstellender Service
+SV01723,C02953,2024-12-21,9,4,DE,Hervorragende Qualität und Service
+SV01724,C03083,2024-12-25,8,4,DE,Insgesamt zufriedenstellender Service
+SV01725,C02406,2024-12-18,9,5,DE,Hervorragende Qualität und Service
+SV01726,C02848,2024-12-12,9,4,DE,Hervorragende Qualität und Service
+SV01727,C03076,2024-12-26,0,1,DE,Zu langsam und unzuverlässig
+SV01728,C02796,2024-12-09,9,4,DE,Hervorragende Qualität und Service
+SV01729,C03242,2023-01-23,7,4,NL,Gemiddeld tevreden over het geheel
+SV01730,C03213,2023-01-14,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01731,C03354,2023-01-24,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01732,C03273,2023-01-06,7,4,NL,Gemiddeld tevreden over het geheel
+SV01733,C03417,2023-01-09,3,3,NL,Teleurgesteld in de kwaliteit
+SV01734,C03344,2023-01-26,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01735,C03352,2023-01-04,8,4,NL,Gemiddeld tevreden over het geheel
+SV01736,C03392,2023-01-26,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01737,C03232,2023-01-07,0,3,NL,Teleurgesteld in de kwaliteit
+SV01738,C03257,2023-01-25,8,4,NL,Gemiddeld tevreden over het geheel
+SV01739,C03420,2023-01-13,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01740,C03440,2023-01-21,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01741,C03437,2023-01-28,8,3,NL,Gemiddeld tevreden over het geheel
+SV01742,C03322,2023-01-07,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01743,C03414,2023-01-18,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01744,C03359,2023-01-24,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01745,C03309,2023-01-14,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01746,C03313,2023-01-03,7,3,NL,Gemiddeld tevreden over het geheel
+SV01747,C03258,2023-02-23,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01748,C03278,2023-02-15,7,3,NL,Gemiddeld tevreden over het geheel
+SV01749,C03324,2023-02-17,5,1,NL,Teleurgesteld in de kwaliteit
+SV01750,C03179,2023-02-11,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01751,C03469,2023-02-25,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01752,C03382,2023-02-04,5,1,NL,Teleurgesteld in de kwaliteit
+SV01753,C03299,2023-02-10,8,4,NL,Gemiddeld tevreden over het geheel
+SV01754,C03268,2023-02-19,7,4,NL,Gemiddeld tevreden over het geheel
+SV01755,C03273,2023-02-18,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01756,C03248,2023-02-08,8,3,NL,Gemiddeld tevreden over het geheel
+SV01757,C03434,2023-02-21,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01758,C03274,2023-02-03,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01759,C03413,2023-02-22,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01760,C03272,2023-02-18,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01761,C03429,2023-02-03,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01762,C03280,2023-02-03,8,3,NL,Gemiddeld tevreden over het geheel
+SV01763,C03420,2023-02-08,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01764,C03371,2023-02-25,4,2,NL,Teleurgesteld in de kwaliteit
+SV01765,C03261,2023-03-14,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01766,C03493,2023-03-17,7,4,NL,Gemiddeld tevreden over het geheel
+SV01767,C03482,2023-03-21,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01768,C03450,2023-03-19,7,3,NL,Gemiddeld tevreden over het geheel
+SV01769,C03407,2023-03-05,6,1,NL,Teleurgesteld in de kwaliteit
+SV01770,C03302,2023-03-21,4,1,NL,Teleurgesteld in de kwaliteit
+SV01771,C03474,2023-03-14,8,3,NL,Gemiddeld tevreden over het geheel
+SV01772,C03456,2023-03-11,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01773,C03272,2023-03-17,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01774,C03307,2023-03-02,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01775,C03192,2023-03-27,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01776,C03282,2023-03-11,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01777,C03441,2023-03-02,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01778,C03346,2023-03-01,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01779,C03314,2023-03-16,7,3,NL,Gemiddeld tevreden over het geheel
+SV01780,C03471,2023-03-23,0,1,NL,Teleurgesteld in de kwaliteit
+SV01781,C03398,2023-03-01,8,4,NL,Gemiddeld tevreden over het geheel
+SV01782,C03471,2023-03-04,7,3,NL,Gemiddeld tevreden over het geheel
+SV01783,C03392,2023-04-16,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01784,C03381,2023-04-15,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01785,C03518,2023-04-25,1,3,NL,Teleurgesteld in de kwaliteit
+SV01786,C03194,2023-04-22,2,3,NL,Teleurgesteld in de kwaliteit
+SV01787,C03434,2023-04-23,1,2,NL,Teleurgesteld in de kwaliteit
+SV01788,C03356,2023-04-19,7,4,NL,Gemiddeld tevreden over het geheel
+SV01789,C03207,2023-04-25,8,4,NL,Gemiddeld tevreden over het geheel
+SV01790,C03498,2023-04-23,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01791,C03289,2023-04-08,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01792,C03349,2023-04-22,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01793,C03357,2023-04-14,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01794,C03392,2023-04-08,8,4,NL,Gemiddeld tevreden over het geheel
+SV01795,C03473,2023-04-16,8,4,NL,Gemiddeld tevreden over het geheel
+SV01796,C03418,2023-04-05,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01797,C03449,2023-04-08,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01798,C03301,2023-04-22,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01799,C03483,2023-04-10,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01800,C03250,2023-04-13,7,4,NL,Gemiddeld tevreden over het geheel
+SV01801,C03291,2023-05-13,7,3,NL,Gemiddeld tevreden over het geheel
+SV01802,C03248,2023-05-15,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01803,C03292,2023-05-19,2,1,NL,Teleurgesteld in de kwaliteit
+SV01804,C03263,2023-05-27,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01805,C03484,2023-05-16,2,1,NL,Teleurgesteld in de kwaliteit
+SV01806,C03431,2023-05-06,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01807,C03323,2023-05-24,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01808,C03438,2023-05-28,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01809,C03179,2023-05-14,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01810,C03495,2023-05-28,8,3,NL,Gemiddeld tevreden over het geheel
+SV01811,C03286,2023-05-26,7,3,NL,Gemiddeld tevreden over het geheel
+SV01812,C03235,2023-05-05,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01813,C03465,2023-05-22,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01814,C03171,2023-05-10,7,4,NL,Gemiddeld tevreden over het geheel
+SV01815,C03407,2023-05-03,8,4,NL,Gemiddeld tevreden over het geheel
+SV01816,C03426,2023-05-12,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01817,C03482,2023-05-10,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01818,C03180,2023-05-05,4,1,NL,Teleurgesteld in de kwaliteit
+SV01819,C03224,2023-06-24,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01820,C03265,2023-06-14,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01821,C03379,2023-06-03,3,2,NL,Teleurgesteld in de kwaliteit
+SV01822,C03301,2023-06-01,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01823,C03457,2023-06-23,8,4,NL,Gemiddeld tevreden over het geheel
+SV01824,C03311,2023-06-15,7,3,NL,Gemiddeld tevreden over het geheel
+SV01825,C03483,2023-06-07,7,4,NL,Gemiddeld tevreden over het geheel
+SV01826,C03343,2023-06-15,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01827,C03375,2023-06-28,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01828,C03450,2023-06-26,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01829,C03384,2023-06-07,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01830,C03286,2023-06-01,8,3,NL,Gemiddeld tevreden over het geheel
+SV01831,C03492,2023-06-28,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01832,C03361,2023-06-23,8,4,NL,Gemiddeld tevreden over het geheel
+SV01833,C03430,2023-06-24,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01834,C03439,2023-06-15,6,2,NL,Teleurgesteld in de kwaliteit
+SV01835,C03213,2023-06-18,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01836,C03370,2023-06-10,7,3,NL,Gemiddeld tevreden over het geheel
+SV01837,C03285,2023-07-01,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01838,C03268,2023-07-03,7,3,NL,Gemiddeld tevreden over het geheel
+SV01839,C03339,2023-07-09,6,3,NL,Teleurgesteld in de kwaliteit
+SV01840,C03186,2023-07-11,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01841,C03382,2023-07-16,7,4,NL,Gemiddeld tevreden over het geheel
+SV01842,C03284,2023-07-13,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01843,C03370,2023-07-02,8,3,NL,Gemiddeld tevreden over het geheel
+SV01844,C03389,2023-07-12,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01845,C03213,2023-07-23,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01846,C03232,2023-07-26,0,2,NL,Teleurgesteld in de kwaliteit
+SV01847,C03399,2023-07-08,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01848,C03481,2023-07-16,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01849,C03536,2023-07-12,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01850,C03432,2023-07-05,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01851,C03465,2023-07-07,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01852,C03330,2023-07-14,8,4,NL,Gemiddeld tevreden over het geheel
+SV01853,C03567,2023-07-25,8,3,NL,Gemiddeld tevreden over het geheel
+SV01854,C03335,2023-07-05,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01855,C03555,2023-08-13,8,4,NL,Gemiddeld tevreden over het geheel
+SV01856,C03497,2023-08-18,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01857,C03555,2023-08-28,0,3,NL,Teleurgesteld in de kwaliteit
+SV01858,C03476,2023-08-16,8,3,NL,Gemiddeld tevreden over het geheel
+SV01859,C03452,2023-08-03,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01860,C03462,2023-08-23,7,4,NL,Gemiddeld tevreden over het geheel
+SV01861,C03495,2023-08-02,5,3,NL,Teleurgesteld in de kwaliteit
+SV01862,C03580,2023-08-10,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01863,C03316,2023-08-10,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01864,C03392,2023-08-06,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01865,C03305,2023-08-05,2,2,NL,Teleurgesteld in de kwaliteit
+SV01866,C03471,2023-08-11,7,4,NL,Gemiddeld tevreden over het geheel
+SV01867,C03497,2023-08-14,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01868,C03604,2023-08-11,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01869,C03314,2023-08-21,7,4,NL,Gemiddeld tevreden over het geheel
+SV01870,C03217,2023-08-02,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01871,C03297,2023-08-28,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01872,C03407,2023-08-13,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01873,C03258,2023-09-12,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01874,C03495,2023-09-19,5,3,NL,Teleurgesteld in de kwaliteit
+SV01875,C03375,2023-09-07,7,4,NL,Gemiddeld tevreden over het geheel
+SV01876,C03558,2023-09-15,8,4,NL,Gemiddeld tevreden over het geheel
+SV01877,C03234,2023-09-22,8,3,NL,Gemiddeld tevreden over het geheel
+SV01878,C03197,2023-09-25,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01879,C03386,2023-09-17,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01880,C03199,2023-09-14,8,4,NL,Gemiddeld tevreden over het geheel
+SV01881,C03562,2023-09-13,7,3,NL,Gemiddeld tevreden over het geheel
+SV01882,C03581,2023-09-18,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01883,C03180,2023-09-18,0,1,NL,Teleurgesteld in de kwaliteit
+SV01884,C03250,2023-09-07,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01885,C03188,2023-09-10,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01886,C03377,2023-09-20,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01887,C03392,2023-09-12,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01888,C03375,2023-09-01,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01889,C03587,2023-09-10,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01890,C03216,2023-09-09,8,4,NL,Gemiddeld tevreden over het geheel
+SV01891,C03298,2023-10-27,7,4,NL,Gemiddeld tevreden over het geheel
+SV01892,C03188,2023-10-28,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01893,C03438,2023-10-10,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01894,C03466,2023-10-14,4,2,NL,Teleurgesteld in de kwaliteit
+SV01895,C03457,2023-10-02,7,3,NL,Gemiddeld tevreden over het geheel
+SV01896,C03222,2023-10-06,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01897,C03583,2023-10-26,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01898,C03623,2023-10-10,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01899,C03326,2023-10-04,8,4,NL,Gemiddeld tevreden over het geheel
+SV01900,C03396,2023-10-17,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01901,C03508,2023-10-14,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01902,C03407,2023-10-26,7,4,NL,Gemiddeld tevreden over het geheel
+SV01903,C03546,2023-10-27,5,3,NL,Teleurgesteld in de kwaliteit
+SV01904,C03300,2023-10-28,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01905,C03605,2023-10-08,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01906,C03172,2023-10-20,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01907,C03281,2023-10-03,4,2,NL,Teleurgesteld in de kwaliteit
+SV01908,C03375,2023-10-26,8,4,NL,Gemiddeld tevreden over het geheel
+SV01909,C03364,2023-11-08,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01910,C03299,2023-11-27,1,1,NL,Teleurgesteld in de kwaliteit
+SV01911,C03542,2023-11-21,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01912,C03559,2023-11-12,8,4,NL,Gemiddeld tevreden over het geheel
+SV01913,C03294,2023-11-03,7,3,NL,Gemiddeld tevreden over het geheel
+SV01914,C03393,2023-11-25,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01915,C03308,2023-11-22,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01916,C03611,2023-11-10,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01917,C03626,2023-11-20,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01918,C03269,2023-11-10,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01919,C03328,2023-11-11,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01920,C03593,2023-11-21,8,3,NL,Gemiddeld tevreden over het geheel
+SV01921,C03583,2023-11-18,5,2,NL,Teleurgesteld in de kwaliteit
+SV01922,C03539,2023-11-24,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01923,C03573,2023-11-17,7,3,NL,Gemiddeld tevreden over het geheel
+SV01924,C03585,2023-11-17,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01925,C03554,2023-11-11,7,3,NL,Gemiddeld tevreden over het geheel
+SV01926,C03410,2023-11-25,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01927,C03382,2023-12-03,7,3,NL,Gemiddeld tevreden over het geheel
+SV01928,C03288,2023-12-20,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01929,C03288,2023-12-04,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01930,C03504,2023-12-21,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01931,C03290,2023-12-08,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01932,C03487,2023-12-11,8,4,NL,Gemiddeld tevreden over het geheel
+SV01933,C03299,2023-12-08,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01934,C03416,2023-12-18,7,4,NL,Gemiddeld tevreden over het geheel
+SV01935,C03330,2023-12-22,7,3,NL,Gemiddeld tevreden over het geheel
+SV01936,C03522,2023-12-25,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01937,C03289,2023-12-02,8,4,NL,Gemiddeld tevreden over het geheel
+SV01938,C03467,2023-12-01,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01939,C03280,2023-12-01,6,1,NL,Teleurgesteld in de kwaliteit
+SV01940,C03349,2023-12-25,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01941,C03310,2023-12-24,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01942,C03358,2023-12-01,2,3,NL,Teleurgesteld in de kwaliteit
+SV01943,C03562,2023-12-25,8,4,NL,Gemiddeld tevreden over het geheel
+SV01944,C03686,2023-12-27,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01945,C03700,2024-01-25,8,4,NL,Gemiddeld tevreden over het geheel
+SV01946,C03659,2024-01-06,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01947,C03377,2024-01-06,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01948,C03527,2024-01-01,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01949,C03175,2024-01-21,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01950,C03519,2024-01-27,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01951,C03480,2024-01-28,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01952,C03648,2024-01-22,5,2,NL,Teleurgesteld in de kwaliteit
+SV01953,C03629,2024-01-01,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01954,C03643,2024-01-04,8,4,NL,Gemiddeld tevreden over het geheel
+SV01955,C03200,2024-01-27,8,3,NL,Gemiddeld tevreden over het geheel
+SV01956,C03655,2024-01-22,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01957,C03418,2024-01-11,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01958,C03230,2024-01-13,6,3,NL,Teleurgesteld in de kwaliteit
+SV01959,C03171,2024-01-15,8,3,NL,Gemiddeld tevreden over het geheel
+SV01960,C03413,2024-01-21,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01961,C03335,2024-01-16,8,3,NL,Gemiddeld tevreden over het geheel
+SV01962,C03412,2024-01-02,1,2,NL,Teleurgesteld in de kwaliteit
+SV01963,C03580,2024-02-16,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01964,C03617,2024-02-20,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01965,C03605,2024-02-03,8,4,NL,Gemiddeld tevreden over het geheel
+SV01966,C03198,2024-02-09,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01967,C03390,2024-02-16,5,3,NL,Teleurgesteld in de kwaliteit
+SV01968,C03519,2024-02-12,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01969,C03201,2024-02-14,8,3,NL,Gemiddeld tevreden over het geheel
+SV01970,C03346,2024-02-18,7,3,NL,Gemiddeld tevreden over het geheel
+SV01971,C03558,2024-02-01,7,3,NL,Gemiddeld tevreden over het geheel
+SV01972,C03389,2024-02-03,5,3,NL,Teleurgesteld in de kwaliteit
+SV01973,C03333,2024-02-06,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01974,C03667,2024-02-19,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01975,C03563,2024-02-10,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01976,C03207,2024-02-23,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01977,C03474,2024-02-18,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01978,C03585,2024-02-05,7,3,NL,Gemiddeld tevreden over het geheel
+SV01979,C03308,2024-02-16,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01980,C03418,2024-02-28,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01981,C03219,2024-03-04,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01982,C03696,2024-03-15,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01983,C03697,2024-03-22,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01984,C03258,2024-03-24,7,3,NL,Gemiddeld tevreden over het geheel
+SV01985,C03573,2024-03-15,9,5,NL,"Uitstekende service, zeer tevreden"
+SV01986,C03514,2024-03-09,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01987,C03528,2024-03-18,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01988,C03406,2024-03-15,7,3,NL,Gemiddeld tevreden over het geheel
+SV01989,C03459,2024-03-13,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01990,C03235,2024-03-25,3,3,NL,Teleurgesteld in de kwaliteit
+SV01991,C03665,2024-03-27,7,3,NL,Gemiddeld tevreden over het geheel
+SV01992,C03478,2024-03-17,8,4,NL,Gemiddeld tevreden over het geheel
+SV01993,C03728,2024-03-06,1,1,NL,Teleurgesteld in de kwaliteit
+SV01994,C03367,2024-03-01,10,5,NL,"Uitstekende service, zeer tevreden"
+SV01995,C03201,2024-03-07,10,4,NL,"Uitstekende service, zeer tevreden"
+SV01996,C03644,2024-03-09,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01997,C03196,2024-03-28,9,4,NL,"Uitstekende service, zeer tevreden"
+SV01998,C03521,2024-03-05,8,4,NL,Gemiddeld tevreden over het geheel
+SV01999,C03229,2024-04-16,9,4,NL,"Uitstekende service, zeer tevreden"
+SV02000,C03264,2024-04-07,10,4,NL,"Uitstekende service, zeer tevreden"
+SV02001,C03406,2024-04-16,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02002,C03730,2024-04-22,9,4,NL,"Uitstekende service, zeer tevreden"
+SV02003,C03726,2024-04-25,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02004,C03237,2024-04-27,7,4,NL,Gemiddeld tevreden over het geheel
+SV02005,C03695,2024-04-04,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02006,C03410,2024-04-01,2,2,NL,Teleurgesteld in de kwaliteit
+SV02007,C03647,2024-04-02,10,5,NL,"Uitstekende service, zeer tevreden"
+SV02008,C03275,2024-04-16,9,4,NL,"Uitstekende service, zeer tevreden"
+SV02009,C03567,2024-04-05,8,3,NL,Gemiddeld tevreden over het geheel
+SV02010,C03741,2024-04-17,9,4,NL,"Uitstekende service, zeer tevreden"
+SV02011,C03592,2024-04-17,7,4,NL,Gemiddeld tevreden over het geheel
+SV02012,C03281,2024-04-14,7,4,NL,Gemiddeld tevreden over het geheel
+SV02013,C03602,2024-04-03,2,1,NL,Teleurgesteld in de kwaliteit
+SV02014,C03287,2024-04-16,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02015,C03176,2024-04-03,0,2,NL,Teleurgesteld in de kwaliteit
+SV02016,C03437,2024-04-13,8,4,NL,Gemiddeld tevreden over het geheel
+SV02017,C03616,2024-05-06,2,2,NL,Teleurgesteld in de kwaliteit
+SV02018,C03754,2024-05-13,4,3,NL,Teleurgesteld in de kwaliteit
+SV02019,C03389,2024-05-21,10,5,NL,"Uitstekende service, zeer tevreden"
+SV02020,C03568,2024-05-22,10,4,NL,"Uitstekende service, zeer tevreden"
+SV02021,C03407,2024-05-21,8,3,NL,Gemiddeld tevreden over het geheel
+SV02022,C03671,2024-05-24,7,3,NL,Gemiddeld tevreden over het geheel
+SV02023,C03444,2024-05-24,9,4,NL,"Uitstekende service, zeer tevreden"
+SV02024,C03802,2024-05-22,5,1,NL,Teleurgesteld in de kwaliteit
+SV02025,C03255,2024-05-12,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02026,C03391,2024-05-12,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02027,C03477,2024-05-05,9,4,NL,"Uitstekende service, zeer tevreden"
+SV02028,C03503,2024-05-16,8,3,NL,Gemiddeld tevreden over het geheel
+SV02029,C03266,2024-05-23,10,4,NL,"Uitstekende service, zeer tevreden"
+SV02030,C03404,2024-05-12,8,3,NL,Gemiddeld tevreden over het geheel
+SV02031,C03571,2024-05-26,10,4,NL,"Uitstekende service, zeer tevreden"
+SV02032,C03345,2024-05-05,7,4,NL,Gemiddeld tevreden over het geheel
+SV02033,C03587,2024-05-18,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02034,C03193,2024-05-13,9,4,NL,"Uitstekende service, zeer tevreden"
+SV02035,C03803,2024-06-23,10,5,NL,"Uitstekende service, zeer tevreden"
+SV02036,C03656,2024-06-21,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02037,C03433,2024-06-05,2,3,NL,Teleurgesteld in de kwaliteit
+SV02038,C03586,2024-06-04,10,5,NL,"Uitstekende service, zeer tevreden"
+SV02039,C03467,2024-06-05,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02040,C03455,2024-06-08,7,4,NL,Gemiddeld tevreden over het geheel
+SV02041,C03805,2024-06-16,10,4,NL,"Uitstekende service, zeer tevreden"
+SV02042,C03573,2024-06-21,9,4,NL,"Uitstekende service, zeer tevreden"
+SV02043,C03718,2024-06-17,7,4,NL,Gemiddeld tevreden over het geheel
+SV02044,C03779,2024-06-16,7,3,NL,Gemiddeld tevreden over het geheel
+SV02045,C03605,2024-06-28,10,4,NL,"Uitstekende service, zeer tevreden"
+SV02046,C03735,2024-06-22,9,4,NL,"Uitstekende service, zeer tevreden"
+SV02047,C03708,2024-06-10,10,5,NL,"Uitstekende service, zeer tevreden"
+SV02048,C03303,2024-06-26,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02049,C03405,2024-06-15,8,3,NL,Gemiddeld tevreden over het geheel
+SV02050,C03502,2024-06-04,6,1,NL,Teleurgesteld in de kwaliteit
+SV02051,C03746,2024-06-17,9,4,NL,"Uitstekende service, zeer tevreden"
+SV02052,C03405,2024-06-15,8,4,NL,Gemiddeld tevreden over het geheel
+SV02053,C03601,2024-07-17,10,4,NL,"Uitstekende service, zeer tevreden"
+SV02054,C03663,2024-07-19,7,3,NL,Gemiddeld tevreden over het geheel
+SV02055,C03274,2024-07-12,7,4,NL,Gemiddeld tevreden over het geheel
+SV02056,C03825,2024-07-08,8,3,NL,Gemiddeld tevreden over het geheel
+SV02057,C03433,2024-07-18,2,2,NL,Teleurgesteld in de kwaliteit
+SV02058,C03818,2024-07-21,10,4,NL,"Uitstekende service, zeer tevreden"
+SV02059,C03812,2024-07-27,10,4,NL,"Uitstekende service, zeer tevreden"
+SV02060,C03433,2024-07-01,10,5,NL,"Uitstekende service, zeer tevreden"
+SV02061,C03654,2024-07-22,10,4,NL,"Uitstekende service, zeer tevreden"
+SV02062,C03706,2024-07-14,10,5,NL,"Uitstekende service, zeer tevreden"
+SV02063,C03392,2024-07-15,10,4,NL,"Uitstekende service, zeer tevreden"
+SV02064,C03290,2024-07-18,5,1,NL,Teleurgesteld in de kwaliteit
+SV02065,C03234,2024-07-06,10,5,NL,"Uitstekende service, zeer tevreden"
+SV02066,C03375,2024-07-16,4,1,NL,Teleurgesteld in de kwaliteit
+SV02067,C03823,2024-07-12,8,3,NL,Gemiddeld tevreden over het geheel
+SV02068,C03541,2024-07-28,7,4,NL,Gemiddeld tevreden over het geheel
+SV02069,C03586,2024-07-05,10,4,NL,"Uitstekende service, zeer tevreden"
+SV02070,C03528,2024-07-28,9,4,NL,"Uitstekende service, zeer tevreden"
+SV02071,C03753,2024-08-10,10,4,NL,"Uitstekende service, zeer tevreden"
+SV02072,C03745,2024-08-21,9,4,NL,"Uitstekende service, zeer tevreden"
+SV02073,C03707,2024-08-17,7,4,NL,Gemiddeld tevreden over het geheel
+SV02074,C03268,2024-08-09,10,4,NL,"Uitstekende service, zeer tevreden"
+SV02075,C03249,2024-08-05,10,5,NL,"Uitstekende service, zeer tevreden"
+SV02076,C03277,2024-08-05,3,2,NL,Teleurgesteld in de kwaliteit
+SV02077,C03374,2024-08-11,10,5,NL,"Uitstekende service, zeer tevreden"
+SV02078,C03859,2024-08-27,7,3,NL,Gemiddeld tevreden over het geheel
+SV02079,C03657,2024-08-15,8,4,NL,Gemiddeld tevreden over het geheel
+SV02080,C03708,2024-08-19,10,4,NL,"Uitstekende service, zeer tevreden"
+SV02081,C03728,2024-08-01,7,3,NL,Gemiddeld tevreden over het geheel
+SV02082,C03743,2024-08-20,9,4,NL,"Uitstekende service, zeer tevreden"
+SV02083,C03446,2024-08-21,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02084,C03788,2024-08-27,0,3,NL,Teleurgesteld in de kwaliteit
+SV02085,C03735,2024-08-25,10,5,NL,"Uitstekende service, zeer tevreden"
+SV02086,C03329,2024-08-24,8,3,NL,Gemiddeld tevreden over het geheel
+SV02087,C03605,2024-08-23,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02088,C03592,2024-08-09,10,4,NL,"Uitstekende service, zeer tevreden"
+SV02089,C03708,2024-09-12,9,4,NL,"Uitstekende service, zeer tevreden"
+SV02090,C03188,2024-09-25,4,3,NL,Teleurgesteld in de kwaliteit
+SV02091,C03170,2024-09-01,7,3,NL,Gemiddeld tevreden over het geheel
+SV02092,C03728,2024-09-11,7,4,NL,Gemiddeld tevreden over het geheel
+SV02093,C03825,2024-09-05,8,4,NL,Gemiddeld tevreden over het geheel
+SV02094,C03829,2024-09-06,6,3,NL,Teleurgesteld in de kwaliteit
+SV02095,C03354,2024-09-28,9,4,NL,"Uitstekende service, zeer tevreden"
+SV02096,C03221,2024-09-01,10,4,NL,"Uitstekende service, zeer tevreden"
+SV02097,C03757,2024-09-28,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02098,C03373,2024-09-24,9,4,NL,"Uitstekende service, zeer tevreden"
+SV02099,C03833,2024-09-28,8,4,NL,Gemiddeld tevreden over het geheel
+SV02100,C03550,2024-09-13,9,4,NL,"Uitstekende service, zeer tevreden"
+SV02101,C03238,2024-09-09,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02102,C03177,2024-09-19,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02103,C03320,2024-09-27,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02104,C03329,2024-09-20,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02105,C03507,2024-09-22,8,3,NL,Gemiddeld tevreden over het geheel
+SV02106,C03779,2024-09-18,7,4,NL,Gemiddeld tevreden over het geheel
+SV02107,C03322,2024-10-28,10,5,NL,"Uitstekende service, zeer tevreden"
+SV02108,C03577,2024-10-17,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02109,C03610,2024-10-21,9,4,NL,"Uitstekende service, zeer tevreden"
+SV02110,C03489,2024-10-03,7,4,NL,Gemiddeld tevreden over het geheel
+SV02111,C03381,2024-10-18,3,2,NL,Teleurgesteld in de kwaliteit
+SV02112,C03261,2024-10-01,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02113,C03250,2024-10-09,7,4,NL,Gemiddeld tevreden over het geheel
+SV02114,C03826,2024-10-14,10,5,NL,"Uitstekende service, zeer tevreden"
+SV02115,C03359,2024-10-22,9,4,NL,"Uitstekende service, zeer tevreden"
+SV02116,C03504,2024-10-15,7,4,NL,Gemiddeld tevreden over het geheel
+SV02117,C03251,2024-10-28,10,4,NL,"Uitstekende service, zeer tevreden"
+SV02118,C03818,2024-10-18,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02119,C03705,2024-10-06,10,5,NL,"Uitstekende service, zeer tevreden"
+SV02120,C03770,2024-10-10,8,4,NL,Gemiddeld tevreden over het geheel
+SV02121,C03745,2024-10-09,0,1,NL,Teleurgesteld in de kwaliteit
+SV02122,C03364,2024-10-28,7,4,NL,Gemiddeld tevreden over het geheel
+SV02123,C03736,2024-10-18,10,5,NL,"Uitstekende service, zeer tevreden"
+SV02124,C03847,2024-10-27,0,2,NL,Teleurgesteld in de kwaliteit
+SV02125,C03533,2024-11-22,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02126,C03817,2024-11-27,5,2,NL,Teleurgesteld in de kwaliteit
+SV02127,C03598,2024-11-14,7,4,NL,Gemiddeld tevreden over het geheel
+SV02128,C03274,2024-11-27,9,4,NL,"Uitstekende service, zeer tevreden"
+SV02129,C03376,2024-11-11,9,4,NL,"Uitstekende service, zeer tevreden"
+SV02130,C03440,2024-11-13,6,1,NL,Teleurgesteld in de kwaliteit
+SV02131,C03794,2024-11-23,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02132,C03864,2024-11-21,10,5,NL,"Uitstekende service, zeer tevreden"
+SV02133,C03535,2024-11-02,7,3,NL,Gemiddeld tevreden over het geheel
+SV02134,C03842,2024-11-04,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02135,C03887,2024-11-15,7,4,NL,Gemiddeld tevreden over het geheel
+SV02136,C03806,2024-11-09,8,3,NL,Gemiddeld tevreden over het geheel
+SV02137,C03886,2024-11-12,6,2,NL,Teleurgesteld in de kwaliteit
+SV02138,C03697,2024-11-16,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02139,C03642,2024-11-16,10,5,NL,"Uitstekende service, zeer tevreden"
+SV02140,C03869,2024-11-13,7,3,NL,Gemiddeld tevreden over het geheel
+SV02141,C03622,2024-11-18,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02142,C03851,2024-11-05,9,4,NL,"Uitstekende service, zeer tevreden"
+SV02143,C03490,2024-12-06,7,3,NL,Gemiddeld tevreden over het geheel
+SV02144,C03650,2024-12-25,10,5,NL,"Uitstekende service, zeer tevreden"
+SV02145,C03727,2024-12-08,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02146,C03543,2024-12-25,7,4,NL,Gemiddeld tevreden over het geheel
+SV02147,C03909,2024-12-12,3,2,NL,Teleurgesteld in de kwaliteit
+SV02148,C03500,2024-12-12,10,4,NL,"Uitstekende service, zeer tevreden"
+SV02149,C03556,2024-12-17,10,5,NL,"Uitstekende service, zeer tevreden"
+SV02150,C03911,2024-12-18,10,4,NL,"Uitstekende service, zeer tevreden"
+SV02151,C03685,2024-12-14,8,4,NL,Gemiddeld tevreden over het geheel
+SV02152,C03483,2024-12-16,9,5,NL,"Uitstekende service, zeer tevreden"
+SV02153,C03292,2024-12-28,4,2,NL,Teleurgesteld in de kwaliteit
+SV02154,C03213,2024-12-08,7,3,NL,Gemiddeld tevreden over het geheel
+SV02155,C03446,2024-12-06,10,5,NL,"Uitstekende service, zeer tevreden"
+SV02156,C03415,2024-12-13,8,4,NL,Gemiddeld tevreden over het geheel
+SV02157,C03806,2024-12-08,2,2,NL,Teleurgesteld in de kwaliteit
+SV02158,C03767,2024-12-17,10,4,NL,"Uitstekende service, zeer tevreden"
+SV02159,C03636,2024-12-09,10,5,NL,"Uitstekende service, zeer tevreden"
+SV02160,C03886,2024-12-01,8,3,NL,Gemiddeld tevreden over het geheel
+SV02161,C04060,2023-01-19,8,3,US,"Decent, but room for improvement"
+SV02162,C04155,2023-01-18,8,4,US,"Decent, but room for improvement"
+SV02163,C04068,2023-01-11,10,4,US,"Excellent support team, very happy"
+SV02164,C04090,2023-01-19,9,4,US,"Excellent support team, very happy"
+SV02165,C04003,2023-01-21,9,5,US,"Excellent support team, very happy"
+SV02166,C04009,2023-01-20,10,5,US,"Excellent support team, very happy"
+SV02167,C04146,2023-01-03,9,4,US,"Excellent support team, very happy"
+SV02168,C04061,2023-01-15,8,4,US,"Decent, but room for improvement"
+SV02169,C03962,2023-01-13,9,5,US,"Excellent support team, very happy"
+SV02170,C04181,2023-01-28,10,4,US,"Excellent support team, very happy"
+SV02171,C04167,2023-01-04,8,3,US,"Decent, but room for improvement"
+SV02172,C04082,2023-01-19,10,5,US,"Excellent support team, very happy"
+SV02173,C04223,2023-01-20,9,5,US,"Excellent support team, very happy"
+SV02174,C03984,2023-01-13,7,4,US,"Decent, but room for improvement"
+SV02175,C04190,2023-01-13,7,4,US,"Decent, but room for improvement"
+SV02176,C04131,2023-01-13,2,3,US,Not satisfied with the service level
+SV02177,C04052,2023-01-17,9,5,US,"Excellent support team, very happy"
+SV02178,C04167,2023-01-03,6,3,US,Not satisfied with the service level
+SV02179,C03983,2023-02-11,8,4,US,"Decent, but room for improvement"
+SV02180,C04138,2023-02-05,10,5,US,"Excellent support team, very happy"
+SV02181,C04268,2023-02-18,10,5,US,"Excellent support team, very happy"
+SV02182,C04027,2023-02-11,10,4,US,"Excellent support team, very happy"
+SV02183,C03977,2023-02-14,9,4,US,"Excellent support team, very happy"
+SV02184,C04055,2023-02-16,7,4,US,"Decent, but room for improvement"
+SV02185,C04136,2023-02-04,9,5,US,"Excellent support team, very happy"
+SV02186,C04102,2023-02-04,9,4,US,"Excellent support team, very happy"
+SV02187,C04063,2023-02-11,7,3,US,"Decent, but room for improvement"
+SV02188,C04062,2023-02-26,8,3,US,"Decent, but room for improvement"
+SV02189,C04212,2023-02-10,2,2,US,Not satisfied with the service level
+SV02190,C04068,2023-02-03,9,5,US,"Excellent support team, very happy"
+SV02191,C04104,2023-02-26,5,2,US,Not satisfied with the service level
+SV02192,C04020,2023-02-25,9,5,US,"Excellent support team, very happy"
+SV02193,C04220,2023-02-26,8,3,US,"Decent, but room for improvement"
+SV02194,C04045,2023-02-27,8,3,US,"Decent, but room for improvement"
+SV02195,C04058,2023-02-16,9,4,US,"Excellent support team, very happy"
+SV02196,C03977,2023-02-04,10,5,US,"Excellent support team, very happy"
+SV02197,C04071,2023-03-21,10,4,US,"Excellent support team, very happy"
+SV02198,C04093,2023-03-24,2,2,US,Not satisfied with the service level
+SV02199,C04260,2023-03-03,8,3,US,"Decent, but room for improvement"
+SV02200,C04027,2023-03-26,10,4,US,"Excellent support team, very happy"
+SV02201,C04149,2023-03-11,7,3,US,"Decent, but room for improvement"
+SV02202,C04080,2023-03-24,7,4,US,"Decent, but room for improvement"
+SV02203,C04044,2023-03-12,7,4,US,"Decent, but room for improvement"
+SV02204,C04218,2023-03-21,9,5,US,"Excellent support team, very happy"
+SV02205,C04119,2023-03-12,9,5,US,"Excellent support team, very happy"
+SV02206,C04170,2023-03-18,10,4,US,"Excellent support team, very happy"
+SV02207,C04129,2023-03-02,9,4,US,"Excellent support team, very happy"
+SV02208,C04031,2023-03-10,10,4,US,"Excellent support team, very happy"
+SV02209,C04149,2023-03-09,0,2,US,Not satisfied with the service level
+SV02210,C04171,2023-03-26,7,3,US,"Decent, but room for improvement"
+SV02211,C03980,2023-03-03,9,4,US,"Excellent support team, very happy"
+SV02212,C04245,2023-03-01,2,2,US,Not satisfied with the service level
+SV02213,C04151,2023-03-20,9,5,US,"Excellent support team, very happy"
+SV02214,C04098,2023-03-28,9,4,US,"Excellent support team, very happy"
+SV02215,C04055,2023-04-17,9,5,US,"Excellent support team, very happy"
+SV02216,C04245,2023-04-20,10,5,US,"Excellent support team, very happy"
+SV02217,C03994,2023-04-26,10,4,US,"Excellent support team, very happy"
+SV02218,C04203,2023-04-28,8,4,US,"Decent, but room for improvement"
+SV02219,C04233,2023-04-23,7,3,US,"Decent, but room for improvement"
+SV02220,C04013,2023-04-01,3,3,US,Not satisfied with the service level
+SV02221,C04249,2023-04-13,10,4,US,"Excellent support team, very happy"
+SV02222,C04122,2023-04-22,8,3,US,"Decent, but room for improvement"
+SV02223,C03968,2023-04-09,10,5,US,"Excellent support team, very happy"
+SV02224,C03971,2023-04-04,8,4,US,"Decent, but room for improvement"
+SV02225,C04158,2023-04-11,10,5,US,"Excellent support team, very happy"
+SV02226,C04247,2023-04-26,2,3,US,Not satisfied with the service level
+SV02227,C04125,2023-04-25,7,4,US,"Decent, but room for improvement"
+SV02228,C04045,2023-04-18,10,5,US,"Excellent support team, very happy"
+SV02229,C04100,2023-04-06,9,4,US,"Excellent support team, very happy"
+SV02230,C04079,2023-04-06,0,2,US,Not satisfied with the service level
+SV02231,C04079,2023-04-01,9,5,US,"Excellent support team, very happy"
+SV02232,C03978,2023-04-23,7,3,US,"Decent, but room for improvement"
+SV02233,C04091,2023-05-04,7,3,US,"Decent, but room for improvement"
+SV02234,C04104,2023-05-06,8,3,US,"Decent, but room for improvement"
+SV02235,C04130,2023-05-01,9,5,US,"Excellent support team, very happy"
+SV02236,C04102,2023-05-10,7,3,US,"Decent, but room for improvement"
+SV02237,C04099,2023-05-24,9,4,US,"Excellent support team, very happy"
+SV02238,C04077,2023-05-08,9,4,US,"Excellent support team, very happy"
+SV02239,C03995,2023-05-23,1,3,US,Not satisfied with the service level
+SV02240,C04053,2023-05-01,9,4,US,"Excellent support team, very happy"
+SV02241,C04235,2023-05-05,10,4,US,"Excellent support team, very happy"
+SV02242,C04293,2023-05-22,9,5,US,"Excellent support team, very happy"
+SV02243,C04280,2023-05-08,10,4,US,"Excellent support team, very happy"
+SV02244,C04333,2023-05-19,10,4,US,"Excellent support team, very happy"
+SV02245,C04042,2023-05-08,8,3,US,"Decent, but room for improvement"
+SV02246,C04019,2023-05-20,2,2,US,Not satisfied with the service level
+SV02247,C04057,2023-05-21,10,5,US,"Excellent support team, very happy"
+SV02248,C04161,2023-05-19,10,5,US,"Excellent support team, very happy"
+SV02249,C04105,2023-05-24,10,5,US,"Excellent support team, very happy"
+SV02250,C04265,2023-05-02,8,4,US,"Decent, but room for improvement"
+SV02251,C04052,2023-06-02,7,4,US,"Decent, but room for improvement"
+SV02252,C04194,2023-06-04,8,4,US,"Decent, but room for improvement"
+SV02253,C03987,2023-06-27,9,5,US,"Excellent support team, very happy"
+SV02254,C04054,2023-06-16,9,5,US,"Excellent support team, very happy"
+SV02255,C04124,2023-06-19,9,5,US,"Excellent support team, very happy"
+SV02256,C04226,2023-06-26,4,3,US,Not satisfied with the service level
+SV02257,C04198,2023-06-19,8,4,US,"Decent, but room for improvement"
+SV02258,C04061,2023-06-07,9,5,US,"Excellent support team, very happy"
+SV02259,C04110,2023-06-17,9,4,US,"Excellent support team, very happy"
+SV02260,C04030,2023-06-14,7,3,US,"Decent, but room for improvement"
+SV02261,C04056,2023-06-06,9,4,US,"Excellent support team, very happy"
+SV02262,C04206,2023-06-17,9,4,US,"Excellent support team, very happy"
+SV02263,C04073,2023-06-11,9,4,US,"Excellent support team, very happy"
+SV02264,C04035,2023-06-11,9,5,US,"Excellent support team, very happy"
+SV02265,C03965,2023-06-16,7,4,US,"Decent, but room for improvement"
+SV02266,C04114,2023-06-24,9,5,US,"Excellent support team, very happy"
+SV02267,C04127,2023-06-03,1,2,US,Not satisfied with the service level
+SV02268,C04084,2023-06-06,9,4,US,"Excellent support team, very happy"
+SV02269,C04008,2023-07-07,10,5,US,"Excellent support team, very happy"
+SV02270,C04246,2023-07-12,9,5,US,"Excellent support team, very happy"
+SV02271,C04330,2023-07-27,9,4,US,"Excellent support team, very happy"
+SV02272,C04362,2023-07-17,10,5,US,"Excellent support team, very happy"
+SV02273,C04132,2023-07-20,7,3,US,"Decent, but room for improvement"
+SV02274,C04132,2023-07-08,9,5,US,"Excellent support team, very happy"
+SV02275,C04263,2023-07-18,8,4,US,"Decent, but room for improvement"
+SV02276,C04139,2023-07-12,9,4,US,"Excellent support team, very happy"
+SV02277,C04074,2023-07-26,8,3,US,"Decent, but room for improvement"
+SV02278,C04294,2023-07-06,5,3,US,Not satisfied with the service level
+SV02279,C04214,2023-07-07,9,4,US,"Excellent support team, very happy"
+SV02280,C04234,2023-07-01,10,4,US,"Excellent support team, very happy"
+SV02281,C04173,2023-07-14,8,4,US,"Decent, but room for improvement"
+SV02282,C04202,2023-07-22,10,5,US,"Excellent support team, very happy"
+SV02283,C04350,2023-07-24,10,4,US,"Excellent support team, very happy"
+SV02284,C04232,2023-07-20,9,5,US,"Excellent support team, very happy"
+SV02285,C04157,2023-07-08,8,4,US,"Decent, but room for improvement"
+SV02286,C04336,2023-07-02,4,3,US,Not satisfied with the service level
+SV02287,C04353,2023-08-25,10,5,US,"Excellent support team, very happy"
+SV02288,C04002,2023-08-14,7,4,US,"Decent, but room for improvement"
+SV02289,C04195,2023-08-05,10,5,US,"Excellent support team, very happy"
+SV02290,C03968,2023-08-14,5,3,US,Not satisfied with the service level
+SV02291,C04353,2023-08-26,10,4,US,"Excellent support team, very happy"
+SV02292,C04213,2023-08-11,10,5,US,"Excellent support team, very happy"
+SV02293,C04178,2023-08-02,9,4,US,"Excellent support team, very happy"
+SV02294,C04382,2023-08-27,10,4,US,"Excellent support team, very happy"
+SV02295,C04345,2023-08-10,6,2,US,Not satisfied with the service level
+SV02296,C04192,2023-08-07,9,4,US,"Excellent support team, very happy"
+SV02297,C04028,2023-08-11,10,4,US,"Excellent support team, very happy"
+SV02298,C04083,2023-08-14,9,5,US,"Excellent support team, very happy"
+SV02299,C04314,2023-08-10,6,1,US,Not satisfied with the service level
+SV02300,C04002,2023-08-22,7,4,US,"Decent, but room for improvement"
+SV02301,C04053,2023-08-12,7,4,US,"Decent, but room for improvement"
+SV02302,C04274,2023-08-26,7,3,US,"Decent, but room for improvement"
+SV02303,C04240,2023-08-03,8,4,US,"Decent, but room for improvement"
+SV02304,C04088,2023-08-08,9,5,US,"Excellent support team, very happy"
+SV02305,C04101,2023-09-21,8,4,US,"Decent, but room for improvement"
+SV02306,C03975,2023-09-06,8,3,US,"Decent, but room for improvement"
+SV02307,C04233,2023-09-15,9,5,US,"Excellent support team, very happy"
+SV02308,C04347,2023-09-03,9,4,US,"Excellent support team, very happy"
+SV02309,C04113,2023-09-02,7,3,US,"Decent, but room for improvement"
+SV02310,C04137,2023-09-27,10,4,US,"Excellent support team, very happy"
+SV02311,C04010,2023-09-13,10,4,US,"Excellent support team, very happy"
+SV02312,C04214,2023-09-04,5,3,US,Not satisfied with the service level
+SV02313,C04110,2023-09-10,9,4,US,"Excellent support team, very happy"
+SV02314,C04311,2023-09-09,9,4,US,"Excellent support team, very happy"
+SV02315,C04031,2023-09-25,9,5,US,"Excellent support team, very happy"
+SV02316,C04338,2023-09-23,9,4,US,"Excellent support team, very happy"
+SV02317,C04257,2023-09-27,6,2,US,Not satisfied with the service level
+SV02318,C04257,2023-09-06,7,4,US,"Decent, but room for improvement"
+SV02319,C04333,2023-09-20,7,3,US,"Decent, but room for improvement"
+SV02320,C04097,2023-09-14,8,3,US,"Decent, but room for improvement"
+SV02321,C03997,2023-09-03,9,4,US,"Excellent support team, very happy"
+SV02322,C04297,2023-09-15,9,5,US,"Excellent support team, very happy"
+SV02323,C04378,2023-10-25,10,5,US,"Excellent support team, very happy"
+SV02324,C04019,2023-10-12,9,5,US,"Excellent support team, very happy"
+SV02325,C04002,2023-10-09,9,5,US,"Excellent support team, very happy"
+SV02326,C04261,2023-10-11,8,3,US,"Decent, but room for improvement"
+SV02327,C04327,2023-10-12,7,4,US,"Decent, but room for improvement"
+SV02328,C03993,2023-10-05,8,4,US,"Decent, but room for improvement"
+SV02329,C04134,2023-10-22,9,4,US,"Excellent support team, very happy"
+SV02330,C04018,2023-10-25,9,5,US,"Excellent support team, very happy"
+SV02331,C04014,2023-10-04,10,4,US,"Excellent support team, very happy"
+SV02332,C04404,2023-10-03,8,3,US,"Decent, but room for improvement"
+SV02333,C04081,2023-10-24,10,4,US,"Excellent support team, very happy"
+SV02334,C04094,2023-10-07,10,4,US,"Excellent support team, very happy"
+SV02335,C04010,2023-10-04,7,4,US,"Decent, but room for improvement"
+SV02336,C04118,2023-10-21,6,2,US,Not satisfied with the service level
+SV02337,C04054,2023-10-01,10,5,US,"Excellent support team, very happy"
+SV02338,C04005,2023-10-11,2,1,US,Not satisfied with the service level
+SV02339,C04049,2023-10-28,9,5,US,"Excellent support team, very happy"
+SV02340,C04035,2023-10-16,9,4,US,"Excellent support team, very happy"
+SV02341,C04161,2023-11-11,7,3,US,"Decent, but room for improvement"
+SV02342,C04433,2023-11-02,9,4,US,"Excellent support team, very happy"
+SV02343,C04386,2023-11-19,7,3,US,"Decent, but room for improvement"
+SV02344,C04356,2023-11-28,9,5,US,"Excellent support team, very happy"
+SV02345,C04273,2023-11-02,0,3,US,Not satisfied with the service level
+SV02346,C04393,2023-11-22,7,3,US,"Decent, but room for improvement"
+SV02347,C04191,2023-11-24,6,3,US,Not satisfied with the service level
+SV02348,C04291,2023-11-23,9,4,US,"Excellent support team, very happy"
+SV02349,C04389,2023-11-23,9,5,US,"Excellent support team, very happy"
+SV02350,C04326,2023-11-10,7,4,US,"Decent, but room for improvement"
+SV02351,C04372,2023-11-19,10,4,US,"Excellent support team, very happy"
+SV02352,C04108,2023-11-12,10,4,US,"Excellent support team, very happy"
+SV02353,C04036,2023-11-23,8,3,US,"Decent, but room for improvement"
+SV02354,C04299,2023-11-13,8,4,US,"Decent, but room for improvement"
+SV02355,C04230,2023-11-06,10,4,US,"Excellent support team, very happy"
+SV02356,C04382,2023-11-23,10,5,US,"Excellent support team, very happy"
+SV02357,C04001,2023-11-14,2,3,US,Not satisfied with the service level
+SV02358,C03987,2023-11-03,9,5,US,"Excellent support team, very happy"
+SV02359,C03966,2023-12-15,10,4,US,"Excellent support team, very happy"
+SV02360,C04210,2023-12-16,9,4,US,"Excellent support team, very happy"
+SV02361,C03986,2023-12-02,7,4,US,"Decent, but room for improvement"
+SV02362,C04061,2023-12-23,9,4,US,"Excellent support team, very happy"
+SV02363,C04017,2023-12-12,8,3,US,"Decent, but room for improvement"
+SV02364,C04217,2023-12-18,1,3,US,Not satisfied with the service level
+SV02365,C04033,2023-12-26,3,2,US,Not satisfied with the service level
+SV02366,C03974,2023-12-27,10,4,US,"Excellent support team, very happy"
+SV02367,C04254,2023-12-03,10,4,US,"Excellent support team, very happy"
+SV02368,C04110,2023-12-26,10,4,US,"Excellent support team, very happy"
+SV02369,C04397,2023-12-13,10,4,US,"Excellent support team, very happy"
+SV02370,C04067,2023-12-19,10,4,US,"Excellent support team, very happy"
+SV02371,C03962,2023-12-28,7,4,US,"Decent, but room for improvement"
+SV02372,C04149,2023-12-22,7,3,US,"Decent, but room for improvement"
+SV02373,C04460,2023-12-22,10,5,US,"Excellent support team, very happy"
+SV02374,C04393,2023-12-07,8,3,US,"Decent, but room for improvement"
+SV02375,C04331,2023-12-08,9,4,US,"Excellent support team, very happy"
+SV02376,C04322,2023-12-02,10,5,US,"Excellent support team, very happy"
+SV02377,C04334,2024-01-02,10,4,US,"Excellent support team, very happy"
+SV02378,C04351,2024-01-02,9,5,US,"Excellent support team, very happy"
+SV02379,C04032,2024-01-14,10,5,US,"Excellent support team, very happy"
+SV02380,C04082,2024-01-19,8,3,US,"Decent, but room for improvement"
+SV02381,C04043,2024-01-09,9,5,US,"Excellent support team, very happy"
+SV02382,C03968,2024-01-13,9,5,US,"Excellent support team, very happy"
+SV02383,C04410,2024-01-23,9,4,US,"Excellent support team, very happy"
+SV02384,C04470,2024-01-13,9,4,US,"Excellent support team, very happy"
+SV02385,C04162,2024-01-04,5,2,US,Not satisfied with the service level
+SV02386,C03972,2024-01-14,10,5,US,"Excellent support team, very happy"
+SV02387,C04401,2024-01-08,7,3,US,"Decent, but room for improvement"
+SV02388,C04089,2024-01-15,8,3,US,"Decent, but room for improvement"
+SV02389,C04409,2024-01-25,10,5,US,"Excellent support team, very happy"
+SV02390,C03984,2024-01-11,2,1,US,Not satisfied with the service level
+SV02391,C04306,2024-01-09,1,2,US,Not satisfied with the service level
+SV02392,C04304,2024-01-21,9,4,US,"Excellent support team, very happy"
+SV02393,C04097,2024-01-27,8,4,US,"Decent, but room for improvement"
+SV02394,C04221,2024-01-06,8,3,US,"Decent, but room for improvement"
+SV02395,C04288,2024-02-25,10,4,US,"Excellent support team, very happy"
+SV02396,C04257,2024-02-08,8,4,US,"Decent, but room for improvement"
+SV02397,C03962,2024-02-07,7,4,US,"Decent, but room for improvement"
+SV02398,C04018,2024-02-17,7,3,US,"Decent, but room for improvement"
+SV02399,C04167,2024-02-15,9,4,US,"Excellent support team, very happy"
+SV02400,C04077,2024-02-16,9,4,US,"Excellent support team, very happy"
+SV02401,C03970,2024-02-01,7,3,US,"Decent, but room for improvement"
+SV02402,C04220,2024-02-17,1,1,US,Not satisfied with the service level
+SV02403,C03998,2024-02-04,10,4,US,"Excellent support team, very happy"
+SV02404,C04454,2024-02-19,10,5,US,"Excellent support team, very happy"
+SV02405,C04373,2024-02-23,10,4,US,"Excellent support team, very happy"
+SV02406,C04474,2024-02-13,7,3,US,"Decent, but room for improvement"
+SV02407,C04230,2024-02-13,10,5,US,"Excellent support team, very happy"
+SV02408,C04195,2024-02-20,9,5,US,"Excellent support team, very happy"
+SV02409,C04036,2024-02-26,10,5,US,"Excellent support team, very happy"
+SV02410,C04126,2024-02-14,9,4,US,"Excellent support team, very happy"
+SV02411,C04408,2024-02-15,10,4,US,"Excellent support team, very happy"
+SV02412,C04231,2024-02-04,0,2,US,Not satisfied with the service level
+SV02413,C04196,2024-03-13,8,4,US,"Decent, but room for improvement"
+SV02414,C04242,2024-03-28,9,5,US,"Excellent support team, very happy"
+SV02415,C04498,2024-03-12,7,3,US,"Decent, but room for improvement"
+SV02416,C04531,2024-03-02,7,3,US,"Decent, but room for improvement"
+SV02417,C04031,2024-03-10,10,5,US,"Excellent support team, very happy"
+SV02418,C04216,2024-03-26,8,4,US,"Decent, but room for improvement"
+SV02419,C04201,2024-03-08,9,5,US,"Excellent support team, very happy"
+SV02420,C04476,2024-03-13,7,3,US,"Decent, but room for improvement"
+SV02421,C04195,2024-03-11,10,5,US,"Excellent support team, very happy"
+SV02422,C04403,2024-03-25,10,5,US,"Excellent support team, very happy"
+SV02423,C04055,2024-03-13,6,1,US,Not satisfied with the service level
+SV02424,C04149,2024-03-17,9,5,US,"Excellent support team, very happy"
+SV02425,C04116,2024-03-23,9,4,US,"Excellent support team, very happy"
+SV02426,C04448,2024-03-10,4,1,US,Not satisfied with the service level
+SV02427,C04171,2024-03-18,10,4,US,"Excellent support team, very happy"
+SV02428,C04270,2024-03-10,8,3,US,"Decent, but room for improvement"
+SV02429,C04400,2024-03-03,9,4,US,"Excellent support team, very happy"
+SV02430,C04501,2024-03-16,10,4,US,"Excellent support team, very happy"
+SV02431,C04516,2024-04-18,7,3,US,"Decent, but room for improvement"
+SV02432,C03986,2024-04-27,10,5,US,"Excellent support team, very happy"
+SV02433,C04312,2024-04-21,10,5,US,"Excellent support team, very happy"
+SV02434,C04550,2024-04-01,5,1,US,Not satisfied with the service level
+SV02435,C04505,2024-04-18,8,3,US,"Decent, but room for improvement"
+SV02436,C04364,2024-04-07,10,5,US,"Excellent support team, very happy"
+SV02437,C04501,2024-04-20,6,1,US,Not satisfied with the service level
+SV02438,C04496,2024-04-04,8,4,US,"Decent, but room for improvement"
+SV02439,C04378,2024-04-13,9,4,US,"Excellent support team, very happy"
+SV02440,C04153,2024-04-26,10,4,US,"Excellent support team, very happy"
+SV02441,C04324,2024-04-22,9,4,US,"Excellent support team, very happy"
+SV02442,C04464,2024-04-22,9,4,US,"Excellent support team, very happy"
+SV02443,C04004,2024-04-01,8,3,US,"Decent, but room for improvement"
+SV02444,C04509,2024-04-26,10,5,US,"Excellent support team, very happy"
+SV02445,C04317,2024-04-14,9,4,US,"Excellent support team, very happy"
+SV02446,C04246,2024-04-02,9,4,US,"Excellent support team, very happy"
+SV02447,C04144,2024-04-26,10,4,US,"Excellent support team, very happy"
+SV02448,C04329,2024-04-20,7,4,US,"Decent, but room for improvement"
+SV02449,C04186,2024-05-15,6,2,US,Not satisfied with the service level
+SV02450,C04174,2024-05-17,9,4,US,"Excellent support team, very happy"
+SV02451,C04017,2024-05-20,8,3,US,"Decent, but room for improvement"
+SV02452,C04414,2024-05-15,10,5,US,"Excellent support team, very happy"
+SV02453,C03969,2024-05-28,8,4,US,"Decent, but room for improvement"
+SV02454,C04282,2024-05-02,10,4,US,"Excellent support team, very happy"
+SV02455,C04199,2024-05-16,8,3,US,"Decent, but room for improvement"
+SV02456,C04196,2024-05-13,8,3,US,"Decent, but room for improvement"
+SV02457,C04157,2024-05-13,9,5,US,"Excellent support team, very happy"
+SV02458,C04031,2024-05-09,10,5,US,"Excellent support team, very happy"
+SV02459,C04405,2024-05-12,6,1,US,Not satisfied with the service level
+SV02460,C04577,2024-05-24,9,4,US,"Excellent support team, very happy"
+SV02461,C04021,2024-05-11,10,5,US,"Excellent support team, very happy"
+SV02462,C04133,2024-05-21,2,3,US,Not satisfied with the service level
+SV02463,C04386,2024-05-23,10,4,US,"Excellent support team, very happy"
+SV02464,C04411,2024-05-10,10,4,US,"Excellent support team, very happy"
+SV02465,C04323,2024-05-17,7,4,US,"Decent, but room for improvement"
+SV02466,C04171,2024-05-24,10,5,US,"Excellent support team, very happy"
+SV02467,C04307,2024-06-11,8,3,US,"Decent, but room for improvement"
+SV02468,C04416,2024-06-20,10,4,US,"Excellent support team, very happy"
+SV02469,C04516,2024-06-17,1,3,US,Not satisfied with the service level
+SV02470,C04344,2024-06-16,3,2,US,Not satisfied with the service level
+SV02471,C04098,2024-06-11,10,4,US,"Excellent support team, very happy"
+SV02472,C04076,2024-06-08,8,4,US,"Decent, but room for improvement"
+SV02473,C04152,2024-06-10,8,3,US,"Decent, but room for improvement"
+SV02474,C04087,2024-06-15,8,3,US,"Decent, but room for improvement"
+SV02475,C04397,2024-06-18,5,1,US,Not satisfied with the service level
+SV02476,C04297,2024-06-27,10,5,US,"Excellent support team, very happy"
+SV02477,C04464,2024-06-06,9,5,US,"Excellent support team, very happy"
+SV02478,C04430,2024-06-12,10,4,US,"Excellent support team, very happy"
+SV02479,C04238,2024-06-12,10,5,US,"Excellent support team, very happy"
+SV02480,C04572,2024-06-01,9,5,US,"Excellent support team, very happy"
+SV02481,C04334,2024-06-21,7,4,US,"Decent, but room for improvement"
+SV02482,C04208,2024-06-20,10,5,US,"Excellent support team, very happy"
+SV02483,C04157,2024-06-13,10,4,US,"Excellent support team, very happy"
+SV02484,C04418,2024-06-22,7,4,US,"Decent, but room for improvement"
+SV02485,C04226,2024-07-27,10,4,US,"Excellent support team, very happy"
+SV02486,C04518,2024-07-28,1,3,US,Not satisfied with the service level
+SV02487,C04013,2024-07-11,9,5,US,"Excellent support team, very happy"
+SV02488,C04239,2024-07-28,8,3,US,"Decent, but room for improvement"
+SV02489,C04182,2024-07-21,5,2,US,Not satisfied with the service level
+SV02490,C04223,2024-07-01,7,4,US,"Decent, but room for improvement"
+SV02491,C04236,2024-07-18,10,5,US,"Excellent support team, very happy"
+SV02492,C04005,2024-07-28,9,5,US,"Excellent support team, very happy"
+SV02493,C04281,2024-07-05,10,4,US,"Excellent support team, very happy"
+SV02494,C04499,2024-07-23,3,3,US,Not satisfied with the service level
+SV02495,C04373,2024-07-13,9,5,US,"Excellent support team, very happy"
+SV02496,C04457,2024-07-07,8,3,US,"Decent, but room for improvement"
+SV02497,C04441,2024-07-06,10,5,US,"Excellent support team, very happy"
+SV02498,C04416,2024-07-04,9,5,US,"Excellent support team, very happy"
+SV02499,C04453,2024-07-18,8,3,US,"Decent, but room for improvement"
+SV02500,C04368,2024-07-26,7,4,US,"Decent, but room for improvement"
+SV02501,C04044,2024-07-04,8,3,US,"Decent, but room for improvement"
+SV02502,C04343,2024-07-24,10,4,US,"Excellent support team, very happy"
+SV02503,C04453,2024-08-10,8,4,US,"Decent, but room for improvement"
+SV02504,C04040,2024-08-13,1,3,US,Not satisfied with the service level
+SV02505,C04277,2024-08-17,7,3,US,"Decent, but room for improvement"
+SV02506,C04613,2024-08-15,4,3,US,Not satisfied with the service level
+SV02507,C04449,2024-08-06,9,5,US,"Excellent support team, very happy"
+SV02508,C04004,2024-08-13,10,5,US,"Excellent support team, very happy"
+SV02509,C04369,2024-08-22,10,4,US,"Excellent support team, very happy"
+SV02510,C04616,2024-08-27,10,4,US,"Excellent support team, very happy"
+SV02511,C04579,2024-08-09,8,4,US,"Decent, but room for improvement"
+SV02512,C04495,2024-08-05,8,4,US,"Decent, but room for improvement"
+SV02513,C04288,2024-08-12,9,4,US,"Excellent support team, very happy"
+SV02514,C04592,2024-08-05,9,4,US,"Excellent support team, very happy"
+SV02515,C04195,2024-08-07,10,4,US,"Excellent support team, very happy"
+SV02516,C04210,2024-08-25,10,4,US,"Excellent support team, very happy"
+SV02517,C04263,2024-08-11,10,4,US,"Excellent support team, very happy"
+SV02518,C04331,2024-08-16,7,3,US,"Decent, but room for improvement"
+SV02519,C04043,2024-08-11,9,4,US,"Excellent support team, very happy"
+SV02520,C04031,2024-08-18,9,5,US,"Excellent support team, very happy"
+SV02521,C04372,2024-09-18,9,4,US,"Excellent support team, very happy"
+SV02522,C04299,2024-09-10,9,5,US,"Excellent support team, very happy"
+SV02523,C04334,2024-09-01,6,1,US,Not satisfied with the service level
+SV02524,C04063,2024-09-08,9,4,US,"Excellent support team, very happy"
+SV02525,C04302,2024-09-02,9,4,US,"Excellent support team, very happy"
+SV02526,C04303,2024-09-10,8,4,US,"Decent, but room for improvement"
+SV02527,C04047,2024-09-25,6,3,US,Not satisfied with the service level
+SV02528,C04424,2024-09-10,10,5,US,"Excellent support team, very happy"
+SV02529,C04453,2024-09-02,9,4,US,"Excellent support team, very happy"
+SV02530,C04498,2024-09-01,10,5,US,"Excellent support team, very happy"
+SV02531,C04527,2024-09-22,7,4,US,"Decent, but room for improvement"
+SV02532,C04045,2024-09-07,1,1,US,Not satisfied with the service level
+SV02533,C04285,2024-09-09,7,4,US,"Decent, but room for improvement"
+SV02534,C04359,2024-09-12,10,4,US,"Excellent support team, very happy"
+SV02535,C04402,2024-09-28,10,4,US,"Excellent support team, very happy"
+SV02536,C04395,2024-09-17,8,3,US,"Decent, but room for improvement"
+SV02537,C04275,2024-09-21,8,4,US,"Decent, but room for improvement"
+SV02538,C04623,2024-09-19,9,4,US,"Excellent support team, very happy"
+SV02539,C04110,2024-10-05,4,3,US,Not satisfied with the service level
+SV02540,C04593,2024-10-25,9,4,US,"Excellent support team, very happy"
+SV02541,C04414,2024-10-27,7,4,US,"Decent, but room for improvement"
+SV02542,C04613,2024-10-09,1,3,US,Not satisfied with the service level
+SV02543,C04586,2024-10-11,9,5,US,"Excellent support team, very happy"
+SV02544,C04016,2024-10-22,10,4,US,"Excellent support team, very happy"
+SV02545,C04098,2024-10-19,7,4,US,"Decent, but room for improvement"
+SV02546,C04112,2024-10-28,7,3,US,"Decent, but room for improvement"
+SV02547,C04563,2024-10-01,9,4,US,"Excellent support team, very happy"
+SV02548,C04055,2024-10-20,9,4,US,"Excellent support team, very happy"
+SV02549,C04597,2024-10-12,9,5,US,"Excellent support team, very happy"
+SV02550,C04400,2024-10-12,10,5,US,"Excellent support team, very happy"
+SV02551,C04005,2024-10-03,3,3,US,Not satisfied with the service level
+SV02552,C04215,2024-10-24,10,4,US,"Excellent support team, very happy"
+SV02553,C03981,2024-10-02,8,3,US,"Decent, but room for improvement"
+SV02554,C04382,2024-10-28,8,4,US,"Decent, but room for improvement"
+SV02555,C04678,2024-10-17,9,4,US,"Excellent support team, very happy"
+SV02556,C04232,2024-10-25,9,4,US,"Excellent support team, very happy"
+SV02557,C04447,2024-11-19,0,3,US,Not satisfied with the service level
+SV02558,C04597,2024-11-20,9,5,US,"Excellent support team, very happy"
+SV02559,C04586,2024-11-26,5,1,US,Not satisfied with the service level
+SV02560,C04345,2024-11-28,0,1,US,Not satisfied with the service level
+SV02561,C04604,2024-11-10,7,4,US,"Decent, but room for improvement"
+SV02562,C03975,2024-11-14,10,4,US,"Excellent support team, very happy"
+SV02563,C04525,2024-11-27,8,4,US,"Decent, but room for improvement"
+SV02564,C03998,2024-11-21,9,5,US,"Excellent support team, very happy"
+SV02565,C04382,2024-11-19,9,4,US,"Excellent support team, very happy"
+SV02566,C04030,2024-11-27,9,4,US,"Excellent support team, very happy"
+SV02567,C03975,2024-11-11,9,5,US,"Excellent support team, very happy"
+SV02568,C04162,2024-11-20,10,5,US,"Excellent support team, very happy"
+SV02569,C04611,2024-11-20,8,4,US,"Decent, but room for improvement"
+SV02570,C04581,2024-11-28,9,5,US,"Excellent support team, very happy"
+SV02571,C04014,2024-11-16,7,3,US,"Decent, but room for improvement"
+SV02572,C04086,2024-11-01,10,4,US,"Excellent support team, very happy"
+SV02573,C04168,2024-11-12,7,4,US,"Decent, but room for improvement"
+SV02574,C04199,2024-11-26,9,5,US,"Excellent support team, very happy"
+SV02575,C04299,2024-12-14,8,4,US,"Decent, but room for improvement"
+SV02576,C04535,2024-12-12,9,5,US,"Excellent support team, very happy"
+SV02577,C04688,2024-12-24,9,4,US,"Excellent support team, very happy"
+SV02578,C04616,2024-12-10,9,5,US,"Excellent support team, very happy"
+SV02579,C04042,2024-12-15,8,3,US,"Decent, but room for improvement"
+SV02580,C04169,2024-12-21,9,5,US,"Excellent support team, very happy"
+SV02581,C04194,2024-12-19,9,4,US,"Excellent support team, very happy"
+SV02582,C04372,2024-12-17,9,5,US,"Excellent support team, very happy"
+SV02583,C04618,2024-12-16,10,4,US,"Excellent support team, very happy"
+SV02584,C04117,2024-12-28,5,2,US,Not satisfied with the service level
+SV02585,C04496,2024-12-03,8,4,US,"Decent, but room for improvement"
+SV02586,C04677,2024-12-23,9,5,US,"Excellent support team, very happy"
+SV02587,C04099,2024-12-07,4,2,US,Not satisfied with the service level
+SV02588,C04485,2024-12-19,9,4,US,"Excellent support team, very happy"
+SV02589,C04523,2024-12-22,7,4,US,"Decent, but room for improvement"
+SV02590,C04471,2024-12-27,10,5,US,"Excellent support team, very happy"
+SV02591,C04156,2024-12-26,7,3,US,"Decent, but room for improvement"
+SV02592,C04440,2024-12-16,0,1,US,Not satisfied with the service level

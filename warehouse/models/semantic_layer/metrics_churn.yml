@@ -1,0 +1,117 @@
+version: 2
+
+# Churn KPI metrics — the agent's query surface for the "Churn Prevention"
+# domain. Every metric carries a `meta` block (level, owner, target,
+# source_mart, definition_version) — this is what the Explanation Agent cites
+# back to the user, making each answer audit-ready.
+
+metrics:
+  - name: total_subscriptions
+    label: "Total Subscriptions"
+    description: "Count of all subscription records in scope."
+    type: simple
+    type_params:
+      measure: subscriptions_count
+    config:
+      meta:
+        level: business
+        owner: "BI / Vibe"
+        source_mart: mart_churn
+
+  - name: churned_subscriptions
+    label: "Churned Subscriptions"
+    description: "Count of subscriptions with a recorded churn_date."
+    type: simple
+    type_params:
+      measure: churned_subscriptions
+    config:
+      meta:
+        level: business
+        owner: "BI / Vibe"
+        source_mart: mart_churn
+
+  - name: churn_rate
+    label: "Churn Rate"
+    description: >
+      Percentage of subscriptions that have churned:
+      churned_subscriptions / total_subscriptions * 100. Cut by country,
+      plan_type or churn_reason for the decision-useful views.
+      Ageras target: < 2% monthly.
+      NOTE (v1): population-based rate. Filtering by churned_at gives an
+      approximate monthly rate because the denominator is not yet a true
+      "active at start of period" point-in-time count — that is the planned v2
+      refinement (accumulating snapshot on subscriptions).
+    type: derived
+    type_params:
+      expr: "churned / nullif(total, 0) * 100"
+      metrics:
+        - name: churned_subscriptions
+          alias: churned
+        - name: total_subscriptions
+          alias: total
+    config:
+      meta:
+        level: business
+        owner: "BI / Vibe"
+        target: "< 2% monthly"
+        source_mart: mart_churn
+        definition_version: "v1"
+
+  - name: churned_mrr
+    label: "Churned MRR"
+    description: "Total monthly recurring revenue lost to churn."
+    type: simple
+    type_params:
+      measure: churned_mrr_amount
+    config:
+      meta:
+        level: business
+        owner: "BI / Vibe"
+        source_mart: mart_churn
+
+  - name: active_mrr
+    label: "Active MRR"
+    description: "Total monthly recurring revenue from active subscriptions."
+    type: simple
+    type_params:
+      measure: active_mrr_amount
+    config:
+      meta:
+        level: business
+        owner: "BI / Vibe"
+        source_mart: mart_churn
+
+  - name: tenure_days_at_churn_total
+    label: "Total Tenure Days at Churn"
+    description: >
+      Sum of tenure days across churned subscriptions. Building block for
+      avg_tenure_at_churn — not decision-useful on its own.
+    type: simple
+    type_params:
+      measure: tenure_days_at_churn
+    config:
+      meta:
+        level: business
+        owner: "BI / Vibe"
+        source_mart: mart_churn
+
+  - name: avg_tenure_at_churn
+    label: "Average Tenure at Churn (days)"
+    description: >
+      Average number of days a customer stays subscribed before churning,
+      churned subscriptions only. Derived as
+      tenure_days_at_churn_total / churned_subscriptions.
+    type: derived
+    type_params:
+      expr: "tenure_total / nullif(churned, 0)"
+      metrics:
+        - name: tenure_days_at_churn_total
+          alias: tenure_total
+        - name: churned_subscriptions
+          alias: churned
+    config:
+      meta:
+        level: business
+        owner: "BI / Vibe"
+        source_mart: mart_churn
+        definition_version: "v1"

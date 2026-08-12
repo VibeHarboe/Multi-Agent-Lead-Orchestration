@@ -1,0 +1,48 @@
+version: 2
+
+models:
+  - name: mart_roi_partnerships
+    description: >
+      Partner ROI KPI mart. One row per partner. Calculates net monthly value,
+      ROI percentage, payback period, and cost per acquired customer for each
+      partner organisation. Used to inform partnership renewal decisions.
+      This is the one mart the semantic layer is built on directly — it is
+      already a clean one-row-per-partner grain (sem_partner_roi).
+    columns:
+      - name: partner_id
+        description: Primary key — partner identifier.
+        tests:
+          - unique
+          - not_null
+      - name: roi_pct
+        description: >
+          Net ROI = (active MRR - total monthly cost) / total monthly cost * 100.
+          Positive ROI = partner generates more than they cost.
+      - name: payback_period_months
+        description: >
+          Estimated months to recoup cumulative partner fees from MRR generated.
+      - name: cost_per_acquired_customer
+        description: >
+          Total fees paid to date divided by number of customers acquired via this partner.
+
+  - name: mart_referring_partner_roi
+    description: >
+      Ambassador-side ROI (Q20) — one row per referring partner.
+      referring_partner_net_value = LTV of converted leads (12 × converted
+      MRR, v1 proxy) minus fees paid (monthly fee × the 24-month simulation
+      window). Symmetrical to mart_roi_partnerships on the fulfillment side;
+      read by the Monitor's weekly report and the decision dashboard.
+    columns:
+      - name: referring_partner_id
+        description: Primary key — referring partner identifier.
+        tests:
+          - unique
+          - not_null
+      - name: conversion_rate_pct
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
+                max_value: 100
+      - name: referring_partner_net_value
+        description: LTV estimate minus fees — negative means the ambassador costs more than their referrals return.

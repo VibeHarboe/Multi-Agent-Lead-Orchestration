@@ -1,0 +1,131 @@
+version: 2
+
+# ROI on Partnerships KPI metrics — sourced from mart_roi_partnerships, a clean
+# one-row-per-partner model. ROI here is COMMISSION-INCLUSIVE
+# (total_monthly_cost = fixed fee + commission owed). Every metric groups
+# cleanly by partner__* (e.g. partner__partner_name) and by metric_time.
+# meta.level = partner (whiteboard taxonomy).
+
+metrics:
+  - name: partner_count
+    label: "Partner Count"
+    description: "Count of partner organisations in scope."
+    type: simple
+    type_params:
+      measure: partner_count
+    config:
+      meta:
+        level: partner
+        owner: "BI / Vibe"
+        source_mart: mart_roi_partnerships
+
+  - name: partner_active_mrr
+    label: "Partner Active MRR"
+    description: "Active MRR attributed to partners via their referred customers."
+    type: simple
+    type_params:
+      measure: partner_active_mrr_amount
+    config:
+      meta:
+        level: partner
+        owner: "BI / Vibe"
+        source_mart: mart_roi_partnerships
+
+  - name: partner_monthly_fee
+    label: "Partner Monthly Fee"
+    description: "Sum of fixed monthly fees paid to partners."
+    type: simple
+    type_params:
+      measure: partner_monthly_fee_amount
+    config:
+      meta:
+        level: partner
+        owner: "BI / Vibe"
+        source_mart: mart_roi_partnerships
+
+  - name: partner_total_monthly_cost
+    label: "Partner Total Monthly Cost"
+    description: "Total monthly partner cost — fixed fee plus commission owed."
+    type: simple
+    type_params:
+      measure: partner_total_cost_amount
+    config:
+      meta:
+        level: partner
+        owner: "BI / Vibe"
+        source_mart: mart_roi_partnerships
+
+  - name: partner_net_monthly_value
+    label: "Partner Net Monthly Value"
+    description: >
+      Net monthly value per partner — attributed active MRR minus total
+      monthly cost (commission-inclusive). Positive = the partner generates
+      more than they cost. Group by partner__partner_name for per-partner values.
+    type: simple
+    type_params:
+      measure: partner_net_value_amount
+    config:
+      meta:
+        level: partner
+        owner: "BI / Vibe"
+        source_mart: mart_roi_partnerships
+        definition_version: "v1"
+
+  - name: partner_roi_pct
+    label: "Partner ROI %"
+    description: >
+      Net ROI as a percentage of partner cost:
+      (active_mrr - total_monthly_cost) / total_monthly_cost * 100,
+      commission-inclusive. Group by partner__partner_name for per-partner ROI;
+      ungrouped it returns the average ROI across partners.
+    type: simple
+    type_params:
+      measure: partner_roi_pct_value
+    config:
+      meta:
+        level: partner
+        owner: "BI / Vibe"
+        source_mart: mart_roi_partnerships
+        definition_version: "v1"
+
+  - name: partner_payback_months
+    label: "Partner Payback Period (months)"
+    description: >
+      Estimated months to recoup cumulative partner fees from the MRR they
+      generate. Per-partner when grouped by partner; average otherwise.
+    type: simple
+    type_params:
+      measure: partner_payback_months_value
+    config:
+      meta:
+        level: partner
+        owner: "BI / Vibe"
+        source_mart: mart_roi_partnerships
+        definition_version: "v1"
+
+  - name: partner_cost_per_customer
+    label: "Partner Cost per Acquired Customer"
+    description: >
+      Total fees paid to a partner divided by the customers acquired via that
+      partner. Per-partner when grouped by partner; average otherwise.
+    type: simple
+    type_params:
+      measure: partner_cost_per_customer_value
+    config:
+      meta:
+        level: partner
+        owner: "BI / Vibe"
+        source_mart: mart_roi_partnerships
+        definition_version: "v1"
+
+  - name: avg_commission_rate
+    label: "Average Commission Rate"
+    description: "Partner commission rate (decimal 0-1). Per-partner when grouped, average otherwise."
+    type: simple
+    type_params:
+      measure: partner_commission_rate_value
+    config:
+      meta:
+        level: partner
+        owner: "BI / Vibe"
+        source_mart: mart_roi_partnerships

@@ -1,0 +1,48 @@
+name: nordledger_kpi
+version: '1.0.0'
+config-version: 2
+
+profile: nordledger_kpi
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+vars:
+  nordledger_kpi:
+    churn_lookback_days: 90
+    upsell_min_tenure_days: 30
+    debt_overdue_threshold_days: 30
+    nps_low_score: 6
+    nps_high_score: 9
+
+models:
+  nordledger_kpi:
+    staging:
+      +materialized: view
+      +schema: staging
+      +tags: ["staging"]
+    intermediate:
+      +materialized: ephemeral
+      +schema: intermediate
+      +tags: ["intermediate"]
+    marts:
+      +materialized: table
+      +schema: marts
+      +tags: ["marts"]
+      # Only roi_partnerships is kept — it is the one clean one-row-per-partner
+      # mart the semantic layer is built on (sem_partner_roi). The five
+      # record-type marts (churn / customer_satisfaction / debt_collection /
+      # supply_demand / upselling) were unused by the semantic layer — it sits
+      # on staging — and used a record_type union grain unsuitable for
+      # MetricFlow, so they are dropped from this runnable simulation.
+      roi_partnerships:
+        +tags: ["roi_partnerships"]

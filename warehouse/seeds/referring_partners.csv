@@ -1,0 +1,25 @@
+referring_partner_id,referring_partner_name,country,referring_partner_type,contract_start_date,monthly_fee_paid,status
+R001,Sørensen Bureau,DK,accounting_firm,2023-09-19,500,active
+R002,Jensen Firm,DK,bookkeeping_service,2020-08-04,1000,active
+R003,Sørensen Advisors,DK,tax_advisor,2023-12-03,0,active
+R004,Jensen Bureau,DK,bookkeeping_service,2023-01-18,0,active
+R005,Andersen Firm,NO,accounting_firm,2022-04-08,2000,active
+R006,Haugen Bureau,NO,tax_advisor,2023-03-20,1000,active
+R007,Olsen Advisors,NO,accounting_firm,2020-05-23,0,active
+R008,Bakke Advisors,NO,tax_advisor,2019-02-23,1000,active
+R009,Carlsson Bureau,SE,tax_advisor,2022-06-02,0,active
+R010,Carlsson Firm,SE,tax_advisor,2022-07-21,0,active
+R011,Johansson Firm,SE,accounting_firm,2023-05-23,0,inactive
+R012,Bergström Advisors,SE,accounting_firm,2019-01-13,500,active
+R013,Becker Bureau,DE,bookkeeping_service,2020-03-12,1000,active
+R014,Weber Firm,DE,accounting_firm,2020-03-07,500,active
+R015,Hoffmann Group,DE,accounting_firm,2019-06-26,0,active
+R016,Koch Group,DE,accounting_firm,2020-03-09,2000,active
+R017,Mulder Firm,NL,bookkeeping_service,2023-11-10,0,active
+R018,Hendriks Advisors,NL,accounting_firm,2023-06-19,0,active
+R019,Meijer Firm,NL,tax_advisor,2021-02-08,0,active
+R020,Mulder Bureau,NL,tax_advisor,2020-03-27,1000,active
+R021,Anderson Bureau,US,accounting_firm,2019-12-10,0,active
+R022,Williams Bureau,US,accounting_firm,2023-01-18,0,active
+R023,Miller Firm,US,tax_advisor,2020-06-11,0,active
+R024,Wilson Firm,US,bookkeeping_service,2022-11-28,2000,active

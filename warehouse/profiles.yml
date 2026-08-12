@@ -1,0 +1,18 @@
+# Local DuckDB profile for the NordLedger Marketplace simulation.
+#
+# The original ageras_kpi_dbt project targets Snowflake (credentials required).
+# This vendored copy runs entirely locally on DuckDB — no account, no warehouse,
+# no credentials — so the agent can be exercised end-to-end. The semantic_layer.py
+# seam means the planner never sees the difference.
+#
+# Kept project-local: `mf` and `dbt` are run with cwd = this directory, so this
+# profiles.yml is picked up without a DBT_PROFILES_DIR env var.
+
+nordledger_kpi:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: nordledger.duckdb   # relative to warehouse/ — gitignored build artifact
+      schema: main
+      threads: 4

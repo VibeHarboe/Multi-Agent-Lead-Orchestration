@@ -1,0 +1,82 @@
+version: 2
+
+semantic_models:
+  - name: leads
+    description: >
+      One row per inbound lead / service request. Source for the Supply &
+      Demand domain — lead volume, assignment SLA, and conversion. Joins to the
+      customers semantic model via the `customer` entity.
+    model: ref('stg_leads')
+
+    defaults:
+      agg_time_dimension: lead_received_at
+
+    entities:
+      - name: lead
+        type: primary
+        expr: lead_id
+      - name: customer
+        type: foreign
+        expr: customer_id
+
+    dimensions:
+      - name: lead_received_at
+        type: time
+        expr: lead_date
+        type_params:
+          time_granularity: day
+      - name: assigned_at
+        type: time
+        type_params:
+          time_granularity: day
+        description: "Date the lead was assigned to an accountant/advisor. Null if unassigned."
+      - name: converted_at
+        type: time
+        type_params:
+          time_granularity: day
+        description: "Date the lead converted to a customer. Null if not converted."
+      - name: country
+        type: categorical
+      - name: service_type
+        type: categorical
+        description: "Type of accounting/advisory service requested."
+      - name: lead_status
+        type: categorical
+        description: "Lifecycle status: converted, pending, unassigned, lost."
+      - name: lead_source
+        type: categorical
+        description: "Acquisition channel — e.g. 'partner' for partner-referred leads."
+
+    measures:
+      - name: total_leads
+        description: "Count of inbound leads."
+        agg: count
+        expr: lead_id
+      - name: converted_leads
+        description: "Count of leads that converted to a customer."
+        agg: sum
+        expr: "case when is_converted then 1 else 0 end"
+      - name: assigned_leads
+        description: "Count of leads that were assigned to an advisor."
+        agg: sum
+        expr: "case when assigned_at is not null then 1 else 0 end"
+      - name: unassigned_leads
+        description: "Count of leads still unassigned — the supply-gap signal."
+        agg: sum
+        expr: "case when lead_status = 'unassigned' then 1 else 0 end"
+      - name: lost_leads
+        description: "Count of leads marked lost."
+        agg: sum
+        expr: "case when lead_status = 'lost' then 1 else 0 end"
+      - name: sla_breaches
+        description: "Count of leads assigned more than 24h after creation — Ageras SLA target is 0 breaches."
+        agg: sum
+        expr: "case when hours_to_assign > 24 then 1 else 0 end"
+      - name: hours_to_assign_total
+        description: "Sum of hours-to-assign across assigned leads. Building block for avg_hours_to_assign."
+        agg: sum
+        expr: hours_to_assign
+      - name: days_to_convert_total
+        description: "Sum of days-to-convert across converted leads. Building block for avg_days_to_convert."
+        agg: sum
+        expr: days_to_convert

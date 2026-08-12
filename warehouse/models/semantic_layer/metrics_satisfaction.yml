@@ -1,0 +1,99 @@
+version: 2
+
+# Customer Satisfaction KPI metrics — the agent's query surface for the
+# "Kundetilfredshed" domain. NPS and CSAT are derived metrics so they can be
+# sliced by customer__country / customer__segment via the joined customers
+# semantic model.
+
+metrics:
+  - name: survey_responses
+    label: "Survey Responses"
+    description: "Count of NPS/CSAT survey responses received."
+    type: simple
+    type_params:
+      measure: survey_responses
+    config:
+      meta:
+        level: customer
+        owner: "BI / Vibe"
+        source_mart: mart_customer_satisfaction
+
+  - name: promoters
+    label: "Promoters"
+    description: "Survey responses with NPS score >= 9."
+    type: simple
+    type_params:
+      measure: promoters
+    config:
+      meta:
+        level: customer
+        owner: "BI / Vibe"
+        source_mart: mart_customer_satisfaction
+
+  - name: detractors
+    label: "Detractors"
+    description: "Survey responses with NPS score <= 6."
+    type: simple
+    type_params:
+      measure: detractors
+    config:
+      meta:
+        level: customer
+        owner: "BI / Vibe"
+        source_mart: mart_customer_satisfaction
+
+  - name: satisfied_responses_count
+    label: "Satisfied Responses"
+    description: "Count of responses rating satisfaction 4 or 5 of 5."
+    type: simple
+    type_params:
+      measure: satisfied_responses
+    config:
+      meta:
+        level: customer
+        owner: "BI / Vibe"
+        source_mart: mart_customer_satisfaction
+
+  - name: nps_score
+    label: "NPS Score"
+    description: >
+      Net Promoter Score = (promoters - detractors) / survey_responses * 100.
+      Ranges -100 to +100. Promoter = NPS >= 9, detractor = NPS <= 6
+      (thresholds from dbt vars nps_high_score / nps_low_score).
+      Ageras target: > 30.
+    type: derived
+    type_params:
+      expr: "(promoters - detractors) / nullif(responses, 0) * 100"
+      metrics:
+        - name: promoters
+        - name: detractors
+        - name: survey_responses
+          alias: responses
+    config:
+      meta:
+        level: customer
+        owner: "BI / Vibe"
+        target: "> 30"
+        source_mart: mart_customer_satisfaction
+        definition_version: "v1"
+
+  - name: csat_pct
+    label: "CSAT %"
+    description: >
+      Customer Satisfaction = share of survey responses rating satisfaction
+      4 or 5 of 5, as a percentage. Ageras target: > 75%.
+    type: derived
+    type_params:
+      expr: "satisfied / nullif(responses, 0) * 100"
+      metrics:
+        - name: satisfied_responses_count
+          alias: satisfied
+        - name: survey_responses
+          alias: responses
+    config:
+      meta:
+        level: customer
+        owner: "BI / Vibe"
+        target: "> 75%"
+        source_mart: mart_customer_satisfaction
+        definition_version: "v1"

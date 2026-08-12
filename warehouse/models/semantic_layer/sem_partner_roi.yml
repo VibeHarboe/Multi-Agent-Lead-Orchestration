@@ -1,0 +1,77 @@
+version: 2
+
+semantic_models:
+  - name: partner_roi
+    description: >
+      One row per partner organisation, sourced from mart_roi_partnerships.
+      Unlike the churn/satisfaction marts (record_type unions), this mart is a
+      clean partner-grain model, so it is a sound semantic source. ROI here is
+      COMMISSION-INCLUSIVE: total_monthly_cost already covers the fixed fee
+      plus commission owed. Provides the `partner` entity that the customers
+      semantic model joins to.
+    model: ref('mart_roi_partnerships')
+
+    defaults:
+      agg_time_dimension: contract_started_at
+
+    entities:
+      - name: partner
+        type: primary
+        expr: partner_id
+
+    dimensions:
+      - name: contract_started_at
+        type: time
+        expr: contract_start_date
+        type_params:
+          time_granularity: day
+      - name: partner_name
+        type: categorical
+        description: "Partner organisation name."
+      - name: country
+        type: categorical
+      - name: partner_type
+        type: categorical
+        description: "Partner category — e.g. accountant, auditor, bookkeeper."
+
+    measures:
+      - name: partner_count
+        description: "Count of partner organisations."
+        agg: count
+        expr: partner_id
+      - name: partner_active_customers
+        description: "Sum of active customers attributed to partners."
+        agg: sum
+        expr: active_customers
+      - name: partner_active_mrr_amount
+        description: "Active MRR attributed to partners via their referred customers."
+        agg: sum
+        expr: active_mrr
+      - name: partner_monthly_fee_amount
+        description: "Sum of fixed monthly fees paid to partners."
+        agg: sum
+        expr: monthly_fee
+      - name: partner_total_cost_amount
+        description: "Total monthly partner cost — fixed fee plus commission owed."
+        agg: sum
+        expr: total_monthly_cost
+      - name: partner_net_value_amount
+        description: "Net monthly value — attributed active MRR minus total monthly cost."
+        agg: sum
+        expr: net_monthly_value
+      - name: partner_roi_pct_value
+        description: "Per-partner ROI %. Averaged across partners when not grouped by partner."
+        agg: average
+        expr: roi_pct
+      - name: partner_payback_months_value
+        description: "Per-partner payback period in months. Averaged when not grouped by partner."
+        agg: average
+        expr: payback_period_months
+      - name: partner_cost_per_customer_value
+        description: "Per-partner cost per acquired customer. Averaged when not grouped by partner."
+        agg: average
+        expr: cost_per_acquired_customer
+      - name: partner_commission_rate_value
+        description: "Partner commission rate (decimal 0-1). Averaged when not grouped by partner."
+        agg: average
+        expr: commission_rate

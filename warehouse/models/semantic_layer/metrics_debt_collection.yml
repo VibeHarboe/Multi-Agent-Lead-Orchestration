@@ -1,0 +1,160 @@
+version: 2
+
+# Debt Collection KPI metrics — the agent's query surface for outstanding
+# debt, DSO and recovery. meta.level = finance (whiteboard taxonomy).
+
+metrics:
+  - name: total_invoices
+    label: "Total Invoices"
+    description: "Count of invoices in scope."
+    type: simple
+    type_params:
+      measure: total_invoices
+    config:
+      meta:
+        level: finance
+        owner: "BI / Vibe"
+        source_mart: mart_debt_collection
+
+  - name: total_invoiced
+    label: "Total Invoiced"
+    description: "Sum of all invoiced amounts."
+    type: simple
+    type_params:
+      measure: total_invoiced_amount
+    config:
+      meta:
+        level: finance
+        owner: "BI / Vibe"
+        source_mart: mart_debt_collection
+
+  - name: overdue_count
+    label: "Overdue Invoices"
+    description: "Count of currently-overdue invoices."
+    type: simple
+    type_params:
+      measure: overdue_invoice_count
+    config:
+      meta:
+        level: finance
+        owner: "BI / Vibe"
+        source_mart: mart_debt_collection
+
+  - name: overdue_amount
+    label: "Overdue Amount"
+    description: "Sum of amounts on currently-overdue invoices — outstanding debt."
+    type: simple
+    type_params:
+      measure: overdue_amount
+    config:
+      meta:
+        level: finance
+        owner: "BI / Vibe"
+        source_mart: mart_debt_collection
+
+  - name: paid_late_count
+    label: "Paid-Late Invoices"
+    description: "Count of invoices that were eventually paid, but late."
+    type: simple
+    type_params:
+      measure: paid_late_count
+    config:
+      meta:
+        level: finance
+        owner: "BI / Vibe"
+        source_mart: mart_debt_collection
+
+  - name: overdue_rate
+    label: "Overdue Rate"
+    description: >
+      Percentage of invoices that are currently overdue:
+      overdue_count / total_invoices * 100.
+    type: derived
+    type_params:
+      expr: "overdue / nullif(total, 0) * 100"
+      metrics:
+        - name: overdue_count
+          alias: overdue
+        - name: total_invoices
+          alias: total
+    config:
+      meta:
+        level: finance
+        owner: "BI / Vibe"
+        source_mart: mart_debt_collection
+        definition_version: "v1"
+
+  - name: recovery_rate
+    label: "Recovery Rate"
+    description: >
+      Percentage of at-risk invoices that were eventually recovered:
+      paid_late_count / (paid_late_count + overdue_count) * 100.
+      Ageras target: > 85%.
+    type: derived
+    type_params:
+      expr: "recovered / nullif(recovered + overdue, 0) * 100"
+      metrics:
+        - name: paid_late_count
+          alias: recovered
+        - name: overdue_count
+          alias: overdue
+    config:
+      meta:
+        level: finance
+        owner: "BI / Vibe"
+        target: "> 85%"
+        source_mart: mart_debt_collection
+        definition_version: "v1"
+
+  - name: dso_days
+    label: "Days Sales Outstanding (DSO)"
+    description: >
+      DSO approximation: overdue_amount / total_invoiced * 30. Matches the
+      pragmatic definition in mart_debt_collection. Ageras target: < 15 days.
+    type: derived
+    type_params:
+      expr: "overdue / nullif(invoiced, 0) * 30"
+      metrics:
+        - name: overdue_amount
+          alias: overdue
+        - name: total_invoiced
+          alias: invoiced
+    config:
+      meta:
+        level: finance
+        owner: "BI / Vibe"
+        target: "< 15 days"
+        source_mart: mart_debt_collection
+        definition_version: "v1"
+
+  - name: avg_days_overdue
+    label: "Average Days Overdue"
+    description: >
+      Average days overdue across currently-overdue invoices:
+      days_overdue_total / overdue_count.
+    type: derived
+    type_params:
+      expr: "days_total / nullif(overdue, 0)"
+      metrics:
+        - name: days_overdue_total
+          alias: days_total
+        - name: overdue_count
+          alias: overdue
+    config:
+      meta:
+        level: finance
+        owner: "BI / Vibe"
+        source_mart: mart_debt_collection
+        definition_version: "v1"
+
+  - name: days_overdue_total
+    label: "Total Days Overdue"
+    description: "Sum of days_overdue across overdue invoices. Building block for avg_days_overdue."
+    type: simple
+    type_params:
+      measure: days_overdue_total
+    config:
+      meta:
+        level: finance
+        owner: "BI / Vibe"
+        source_mart: mart_debt_collection
