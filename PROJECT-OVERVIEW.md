@@ -245,9 +245,8 @@ credentials beyond an Anthropic key for the live-LLM paths.
 
 ## 6. Why is this a strong portfolio project?
 
-- **It hits all three of 2026's hottest AI-engineering trends in one
-  project.** Multi-agent orchestration. Model Context Protocol. Human-in-the
-  loop governance. Not as three separate demos, but as a single system where
+- **It combines multi-agent orchestration, the Model Context Protocol and
+  human-in-the-loop governance in one project.** Not as three separate demos, but as a single system where
   each is load-bearing.
 - **It's a real story.** It builds on a genuine success Vibe delivered —
   an ambassador program that scaled across markets — not an invented
@@ -293,4 +292,4 @@ credentials beyond an Anthropic key for the live-LLM paths.
 HITL model, evaluation strategy — is in [`ARCHITECTURE.md`](ARCHITECTURE.md).
 This document is the easy-to-read version.*
 
-*Vibe Harboe Christensen — AI Automation Engineer | vibegroup.dk*
+*Vibe Harboe — AI & Automation Specialist | [vibeharboe.dk](https://www.vibeharboe.dk)*

@@ -1,6 +1,6 @@
 # Multi-Agent Lead Orchestration — Architecture
 
-**Author:** Vibe Harboe Christensen — AI Automation Engineer | vibegroup.dk
+**Author:** Vibe Harboe — AI & Automation Specialist | [vibeharboe.dk](https://www.vibeharboe.dk)
 **Date:** May 2026
 **Status:** Built — all six weeks complete. Data + simulation, LeadState +
 Intake/Matching, three MCP servers, the LangGraph with four HITL interrupts +
@@ -701,4 +701,4 @@ decision here, this table wins.
 
 ---
 
-*Vibe Harboe Christensen — AI Automation Engineer | vibegroup.dk*
+*Vibe Harboe — AI & Automation Specialist | [vibeharboe.dk](https://www.vibeharboe.dk)*

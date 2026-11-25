@@ -38,5 +38,4 @@ DuckDB-backed NordLedger simulation) lives in the parent repository.
 
 ---
 
-*VIBE Group · [vibegroup.dk](https://vibegroup.dk) — Not demos. Not theory.
-Production AI agents, grounded in 20+ years of operational experience.*
+*Vibe Harboe · [vibeharboe.dk](https://www.vibeharboe.dk)*

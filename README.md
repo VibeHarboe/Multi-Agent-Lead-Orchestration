@@ -9,7 +9,7 @@
 ![llm](https://img.shields.io/badge/LLM-Claude-blueviolet)
 
 **An autonomous multi-agent tool for cross-market partner-lead orchestration —
-inspired by [Business Case #7 (Ageras Ambassador Program)](https://sites.google.com/view/vibegroup-dk/business-cases).**
+inspired by Business Case #7 (Ageras Ambassador Program).**
 
 > **The problem I know inside-out (2023–2024):** I built the ambassador-referral
 > pipeline at Ageras — partner accountants (Billy et al.) saw SMB inquiries
@@ -28,10 +28,9 @@ inspired by [Business Case #7 (Ageras Ambassador Program)](https://sites.google.
 > every step is traced in **Langfuse**; every escalation carries its full
 > reasoning chain.
 
-This isn't another CRM agent demo. It's a production-shaped tool that
-demonstrates all three of 2026's hottest engineering trends in one system —
-**multi-agent orchestration + MCP tool-boundary + human-in-the-loop
-governance** — grounded in a real operational problem I've delivered against.
+This isn't another CRM agent demo. It combines **multi-agent orchestration**,
+an **MCP tool boundary** and **human-in-the-loop governance** in one system,
+grounded in an operational problem I have run myself.
 
 ---
 
@@ -248,13 +247,9 @@ Full design — architecture, failure modes, HITL model — is in
 
 ## About
 
-Built by **Vibe Harboe Christensen** — AI Automation Engineer, founder of
-VIBE Group. 20+ years of operational, data and process-engineering
-experience. This is one of a series of AI tools I've built for real
-operational problems — each grounded in years of running that kind of
-operation myself, and each engineered to hold in production, not just to
-demo.
+Built by **Vibe Harboe**, AI & Automation Specialist, with 20 years in business
+operations, data and LEAN. This project is one of a series of *then-vs-now* rebuilds
+of cases from my own career. It runs locally on simulated data and is grounded
+in an operational problem I have run myself.
 
-*Not demos. Not theory. Production AI agents, grounded in 20+ years of
-operational experience.* — [vibegroup.dk](https://vibegroup.dk) ·
-[LinkedIn](https://linkedin.com/in/v-h-c) · [GitHub](https://github.com/VibeHarboe)
+[vibeharboe.dk](https://www.vibeharboe.dk) · [LinkedIn](https://www.linkedin.com/in/v-h-c) · [GitHub](https://github.com/VibeHarboe) · vibeharboe@gmail.com

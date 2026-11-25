@@ -1604,7 +1604,7 @@ Week 6    STREAMLIT DEMO + HITL CONSOLE + DOCS        ✅ DONE
 
 ---
 
-*Vibe Harboe Christensen — AI Automation Engineer | vibegroup.dk*
+*Vibe Harboe — AI & Automation Specialist | [vibeharboe.dk](https://www.vibeharboe.dk)*
 
 *This document is generated as part of the Multi-Agent Lead Orchestration
 build. Update sections whenever the corresponding architecture changes;
